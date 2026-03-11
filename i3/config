@@ -1,0 +1,255 @@
+# i3 config
+
+# ===========================
+# Theme
+# ===========================
+
+# Load active theme FIRST — sets window colors, borders, etc. before anything else starts
+include ~/.config/i3/themes/current_theme.conf
+
+
+# ===========================
+# Autostart Applications
+# ===========================
+
+# Apply the last-used theme on every i3 reload/restart; falls back to blue-yellow if no saved theme
+exec_always --no-startup-id ~/.config/i3/apply-theme.sh "$(cat ~/.config/i3/themes/.last-theme 2>/dev/null || echo blue-yellow)"
+
+# Dunst (notification daemon): apply-theme.sh manages it during theme switches;
+# this just ensures it's running on a cold start
+exec --no-startup-id dunst &
+
+# Picom (compositor): kill any existing instance before relaunching to avoid duplicates
+exec_always --no-startup-id sh -c 'pkill -x picom; sleep 0.1; picom --config ~/.config/picom/picom.conf -b'
+
+# dex: launch any XDG autostart .desktop files (e.g. apps that add themselves to autostart)
+exec --no-startup-id dex --autostart --environment i3
+
+# xss-lock: automatically run lock.sh when the system suspends
+exec --no-startup-id xss-lock --transfer-sleep-lock -- ~/.config/i3/lock.sh
+
+# NetworkManager applet: system tray icon for managing network connections
+exec --no-startup-id nm-applet
+
+
+# ===========================
+# Core Settings
+# ===========================
+
+# Mod key set to the Super/Windows key
+set $mod Mod4
+
+# Font used for window title bars and the i3bar
+font pango:monospace 8
+
+
+# ===========================
+# Volume Controls
+# ===========================
+
+# Signal i3status to refresh immediately after a volume change
+set $refresh_i3status killall -SIGUSR1 i3status
+
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10% && $refresh_i3status
+bindsym XF86AudioMute        exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
+bindsym XF86AudioMicMute     exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
+
+
+# ===========================
+# Mouse Behavior
+# ===========================
+
+# Hold Mod and drag any part of a floating window to move it
+floating_modifier $mod
+
+# Allow tiling windows to be dragged and reordered by dragging their titlebar
+tiling_drag modifier titlebar
+
+
+# ===========================
+# Focus
+# ===========================
+
+# Vim-style focus movement
+bindsym $mod+j         focus left
+bindsym $mod+k         focus down
+bindsym $mod+l         focus up
+bindsym $mod+semicolon focus right
+
+# Arrow key focus movement
+bindsym $mod+Left  focus left
+bindsym $mod+Down  focus down
+bindsym $mod+Up    focus up
+bindsym $mod+Right focus right
+
+# Toggle focus between tiling and floating layers
+bindsym $mod+space focus mode_toggle
+
+# Move focus up to the parent container
+bindsym $mod+a focus parent
+
+
+# ===========================
+# Window Movement
+# ===========================
+
+# Vim-style window movement
+bindsym $mod+Shift+j         move left
+bindsym $mod+Shift+k         move down
+bindsym $mod+Shift+l         move up
+bindsym $mod+Shift+semicolon move right
+
+# Arrow key window movement
+bindsym $mod+Shift+Left  move left
+bindsym $mod+Shift+Down  move down
+bindsym $mod+Shift+Up    move up
+bindsym $mod+Shift+Right move right
+
+
+# ===========================
+# Layout
+# ===========================
+
+# Choose split direction before opening the next window
+bindsym $mod+h split h
+bindsym $mod+v split v
+
+# Toggle fullscreen for the focused window
+bindsym $mod+f fullscreen toggle
+
+# Switch container layout style
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# Toggle the focused window between tiling and floating
+bindsym $mod+Shift+space floating toggle
+
+
+# ===========================
+# Workspaces
+# ===========================
+
+# Workspace name definitions
+set $ws1  "1"
+set $ws2  "2"
+set $ws3  "3"
+set $ws4  "4"
+set $ws5  "5"
+set $ws6  "6"
+set $ws7  "7"
+set $ws8  "8"
+set $ws9  "9"
+set $ws10 "10"
+
+# Switch to workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+# Move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+
+
+# ===========================
+# i3 Session
+# ===========================
+
+# Reload the i3 config file in place
+bindsym $mod+Shift+c reload
+
+# Restart i3 in place (re-executes i3, preserving the session)
+bindsym $mod+Shift+r restart
+
+# Exit i3 (ends the X session) with a confirmation prompt
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'Exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+
+# ===========================
+# Resize Mode
+# ===========================
+
+mode "resize" {
+        # Vim-style resize
+        bindsym j         resize shrink width  10 px or 10 ppt
+        bindsym k         resize grow   height 10 px or 10 ppt
+        bindsym l         resize shrink height 10 px or 10 ppt
+        bindsym semicolon resize grow   width  10 px or 10 ppt
+
+        # Arrow key resize
+        bindsym Left  resize shrink width  10 px or 10 ppt
+        bindsym Down  resize grow   height 10 px or 10 ppt
+        bindsym Up    resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow   width  10 px or 10 ppt
+
+        # Exit resize mode
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+        bindsym $mod+r mode "default"
+}
+
+# Enter resize mode
+bindsym $mod+r mode "resize"
+
+
+# ===========================
+# Custom Keybindings
+# ===========================
+
+# Lock the screen
+bindsym $mod+Shift+q exec --no-startup-id ~/.config/i3/lock.sh
+
+# Screenshot: open Flameshot's interactive selection GUI
+bindsym $mod+Shift+p exec --no-startup-id flameshot gui
+
+# Launch Firefox
+bindsym $mod+b exec --no-startup-id firefox
+
+# Launch Thunar file manager
+bindsym $mod+m exec --no-startup-id thunar
+
+# Open the rofi theme switcher
+bindsym $mod+Shift+t exec --no-startup-id ~/.config/i3/switch-theme.sh
+
+# Close all open EWW widgets
+bindsym $mod+Shift+Escape exec --no-startup-id "eww close-all"
+
+# Open a terminal
+bindsym $mod+Return exec kitty
+
+# Close the focused window
+bindsym $mod+q kill
+
+
+# ===========================
+# Window Rules
+# ===========================
+
+# Remove title bars and borders from all windows
+default_border          pixel 0
+default_floating_border pixel 0
+
+# Only hide borders where they serve no purpose (adjacent to screen edge or single window)
+smart_borders on
+hide_edge_borders smart
+
+# Inner gap between windows; outer gap between windows and screen edge
+gaps inner 10
+gaps outer 5
