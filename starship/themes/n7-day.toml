@@ -1,0 +1,38 @@
+# STARSHIP - THEMES
+# N7-DAY THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #C41E3A"						# bright neutral red
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #D4266E"						# maroon red 
+
+[git_status]
+style = "#FF2244"							# bright red
+
+[username]
+style_user = "bold #8A0A22"
+style_root = "bold #FF2244"					# bright red
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+[hostname]
+style = "#E8325A"							# neutral red
+
+[character]
+success_symbol = "[❯](bold #c41e3a)"		# bright neutral red
+error_symbol = "[✗](bold #ff2244)"			# bright red

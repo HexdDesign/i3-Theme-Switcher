@@ -1,0 +1,38 @@
+# STARSHIP - THEMES
+# DEVILMAN THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #B00000"     						# bright blood red  
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #FF1A1A"      					# vibrant bright red
+
+[git_status]
+style = "#FF1A1A"             					# vibrant bright red
+
+[username]
+style_user = "bold #FF1A1A"						# vibrant bright red
+style_root = "bold #FF1A1A"						# vibrant bright red
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+[hostname]
+style = "#F5F5F5"            
+
+[character]
+success_symbol = "[❯](bold #FF1A1A)"			# vibrant bright red
+error_symbol = "[✗](bold #FF1A1A)"				# vibrant bright red

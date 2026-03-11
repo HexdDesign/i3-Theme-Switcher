@@ -1,0 +1,40 @@
+# STARSHIP - THEMES
+# BLUE-YELLOW THEME
+# https://starship.rs/config/
+
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #3399FF"				# bright blue with a hint of cyan
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #FFD700"				# bright golden yellow
+
+[git_status]
+style = "#FF4444"					# bright red
+
+[username]
+style_user = "bold #3399FF"			# bright blue with a hint of cyan
+style_root = "bold #FF4444"			# bright red
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+
+[hostname]
+style = "#FFD700"
+
+[character]
+success_symbol = "[❯](bold #FFD700)" # bright golden yellow
+error_symbol = "[✗](bold red)"

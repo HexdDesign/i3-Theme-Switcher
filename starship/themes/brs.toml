@@ -1,0 +1,38 @@
+# STARSHIP - THEMES
+# BRS THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #1a6a9a"							# dark cyan blue
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #00c8d4"							# bright cyan
+
+[git_status]
+style = "#1e88e5"								# bright dark cyan
+
+[username]
+style_user = "bold #1a4a7a"						# dark navy blue
+style_root = "bold #1e88e5"						# bright dark cyan
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+[hostname]
+style = "#4dd0e1"								# neutral bright cyan
+
+[character]
+success_symbol = "[❯](bold #8ab0c8)"			# pale neutral cyan
+error_symbol = "[✗](bold #1e88e5)"				# bright dark cyan

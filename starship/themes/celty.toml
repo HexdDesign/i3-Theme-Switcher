@@ -1,0 +1,38 @@
+# STARSHIP - THEMES
+# CELTY THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #c8c8c8"							# light grey
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #aaaaaa"							# neutral light grey
+
+[git_status]
+style = "#ffffff"								# white 
+
+[username]
+style_user = "bold #888888"						# neutral dark grey
+style_root = "bold #ffffff"						# white
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+[hostname]
+style = "#999999"								# neutral grey
+
+[character]
+success_symbol = "[❯](bold #c8c8c8)"			# light grey
+error_symbol = "[✗](bold #ffffff)"				# white

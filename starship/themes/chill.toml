@@ -1,0 +1,38 @@
+# STARSHIP - THEMES
+# CHILL THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #BB865E"						# light brown / orange
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #DAA16C"						# bright light brown / orange
+
+[git_status]
+style = "#B86A6A"							# pale brick red
+
+[username]
+style_user = "bold #6FA38E"					# neutral seafoam green / grey
+style_root = "bold #B86A6A"					# pale brick red
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+[hostname]
+style = "#78B7C8"
+
+[character]
+success_symbol = "[❯](bold #BB865E)"		# light brown / orange
+error_symbol = "[✗](bold #B86A6A)"			# pale brick red

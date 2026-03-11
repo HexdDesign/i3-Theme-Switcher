@@ -1,0 +1,38 @@
+# STARSHIP - THEMES
+# ARCH-RAIN THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #25C8FF"   				# neon arch blue
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #10E8FF"   				# bright cyan
+	
+[git_status]
+style = "bold #FFB56B"   				# neutral orange 
+
+[username]
+style_user = "bold #00A0F0"   			# neon dark arch blue 
+style_root = "bold #D06060"				# neutral red
+format = " [$user]($style) "
+disabled = false
+show_always = true
+
+[hostname]
+style = "#7FF7FF"        				# soft cyan highlight
+
+[character]
+success_symbol = "[❯](bold #10E8FF)"	# bright cyan
+error_symbol   = "[✗](bold #FF7A7A)"	# neutral light pink

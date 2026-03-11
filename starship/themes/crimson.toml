@@ -1,0 +1,38 @@
+# STARSHIP - THEMES
+# CRIMSON THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #5a1a2a"							# dark magenta red
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #e8192c"							# bright red
+
+[git_status]
+style = "#e8820a"								# bright golden yellow
+
+[username]
+style_user = "bold #5a1a2a"						# dark magenta red
+style_root = "bold #e8820a"						# bright golden yellow
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+[hostname]
+style = "#a09aac"
+
+[character]
+success_symbol = "[❯](bold #d4cfe0)"			# pale blue / purple
+error_symbol = "[✗](bold #e8820a)"				# bright golden yellow

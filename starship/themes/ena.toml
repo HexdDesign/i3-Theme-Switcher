@@ -1,0 +1,39 @@
+# STARSHIP - THEMES
+# ENA THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #a82828"					# neutral red
+
+[git_branch]
+symbol = '🩸 '
+style = "bold #c0303a"					# neutral light red
+
+[git_status]
+style = "#d4583a"						# neutral orange / red
+
+
+[username]
+style_user = "bold #8b1a1a"				# dark red
+style_root = "bold #d4583a"				# neutral orange / red
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+[hostname]
+style = "#3d7a5a"
+
+[character]
+success_symbol = "[❯](bold #c0303a)"	# neutral light red
+error_symbol = "[✗](bold #d4583a)"		# neutral orange / red

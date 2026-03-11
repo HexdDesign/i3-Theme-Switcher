@@ -1,0 +1,39 @@
+# STARSHIP - THEMES
+# SAKURA-HUNTER THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #a0b8d0"					# slate grey / light blue
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #e8a0c0"					# baby pink
+
+
+[git_status]
+style = "#c85a5a"						# brick neutral red
+
+[username]
+style_user = "bold #5a8ab0"				# neutral blue / grey
+style_root = "bold #c85a5a"				# brick neutral red
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+[hostname]
+style = "#c8a0b4"						# pale magenta / pink
+
+[character]
+success_symbol = "[❯](bold #d4a855)"	# golden yellow
+error_symbol = "[✗](bold red)"

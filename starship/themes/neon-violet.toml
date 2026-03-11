@@ -1,0 +1,38 @@
+# STARSHIP - THEMES
+# NEON-VIOLET THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #7D3CBE"   						# neon purple
+   
+[git_branch]
+symbol = '🌱 '
+style = "bold #E741BB"          				# neon pink
+
+[git_status]
+style = "#C43799"              					# bright magenta
+
+[username]
+style_user = "bold #E741BB"     				# neon pink
+style_root = "bold #C43799"    					# bright magenta
+format = ' [$user]($style) '
+disabled = false
+show_always = true 
+
+[hostname]
+style = "#EDB4DD"               
+
+[character]
+success_symbol = "[❯](bold #EDB4DD)" 			# pale pink
+error_symbol = "[✗](bold #C43799)"    			# bright magenta

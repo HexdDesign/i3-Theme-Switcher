@@ -1,0 +1,38 @@
+# STARSHIP - THEMES
+# EMBER-MOON THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #FF7AA2"   					# pale pink / light red
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #FF4D88"   					# Neon pink / red
+
+[git_status]
+style = "#E10600"        					# red
+
+[username]
+style_user = "bold #F4B942" 				# golden yellow
+style_root = "bold #E10600"					# red
+format = " [$user]($style) "
+disabled = false
+show_always = true
+
+[hostname]
+style = "#C9CED6"       					# slate grey / blue
+
+[character]
+success_symbol = "[❯](bold #FF4D88)"		# bright magenta / pink
+error_symbol   = "[✗](bold #E10600)"		# red
