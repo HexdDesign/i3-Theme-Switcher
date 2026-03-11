@@ -1,0 +1,39 @@
+# STARSHIP - THEMES
+# NORD THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #81A1C1"						      # slate grey / neutral blue
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #88C0D0"						      # light neutral cyan
+
+[git_status]
+style = "#BF616A"							          # brick neutral red
+
+[username]
+style_user = "bold #5E81AC"				    	# neutral blue / grey
+style_root = "bold #BF616A"				    	# brick neutral red
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+
+[hostname]
+style = "#8FBCBB"						          	# seafoam green / grey
+
+[character]
+success_symbol = "[❯](bold #88c0d0)"		# light neutral cyan
+error_symbol = "[✗](bold red)"
