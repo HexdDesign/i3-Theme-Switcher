@@ -1,0 +1,14 @@
+/* Geany editor background — Nord */
+/* Place at: ~/.config/gtk-3.0/themes/nord/geany.css */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/gtk-3.0/themes/nord/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #2E3440;			/* dark blue grey */
+    color: #D8DEE9;						/* off white */
+}
+
+textview {
+    background-color: #2E3440;			/* dark blue grey */
+}
