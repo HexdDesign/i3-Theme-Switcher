@@ -1,0 +1,29 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Papirus-Dark";
+}
+
+
+* {
+  /* Celty: monochrome. The Black Rider. No color. Only shadow. */
+  bg:          rgba(13, 13, 13, 0.97);				/* off black */
+  fg:          #F0F0F0;								/* off white */
+  fg-dim:      rgba(200, 200, 200, 0.70);			/* neutral grey */
+  fg-hi:       #FFFFFF;								/* white */
+
+  border:      rgba(200, 200, 200, 0.70);			/* neutral grey */
+  header:      rgba(40, 40, 40, 0.75);				/* off black */
+
+  entry-bg:    rgba(26, 26, 26, 0.97);				/* off black */
+  placeholder: rgba(200, 200, 200, 0.35);			/* neutral grey */
+
+  row:         rgba(30, 30, 30, 0.80); 				/* off black */
+  row-alt:     rgba(22, 22, 22, 0.60);				/* off black */
+
+  sel-bg:      rgba(200, 200, 200, 0.20);			/* neutral grey */
+  sel-border:  rgba(240, 240, 240, 0.85);			/* light grey */
+
+  msg-bg:      rgba(255, 255, 255, 0.10); 			/* off white */
+  msg-border:  rgba(255, 255, 255, 0.40);			/* off white */
+  msg-text:    #FFFFFF;								/* white */
+}

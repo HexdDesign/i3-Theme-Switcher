@@ -1,0 +1,28 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Vivid-Glassy-Dark-Icons";
+}
+
+* {
+  /* Neon-Violet: Neon Purples and Pinks */
+    bg:              rgba(32, 16, 40, 0.95);			/* dark purple black */
+    bg-alt:          rgba(52, 23, 69, 0.85);			/* dark purple */
+
+    fg:              #f8f2ff;							/* off white purple */
+    fg-dim:          rgba(248,242,255,0.60);			/* off white purple */
+    fg-hi:           #ffffff;							/* white */
+
+    border:          rgba(96, 45, 164, 0.85);			/* neutral purple */
+    header:          rgba(52, 23, 69, 0.90);			/* dark purple */
+
+    entry-bg:        rgba(52, 23, 69, 0.95);			/* dark purple */
+    placeholder:     rgba(168,141,184,0.60);			/* pale purple */
+
+    row:             rgba(52, 23, 69, 0.80);			/* pale purple */
+    row-alt:         rgba(32, 16, 40, 0.70);			/* dark purple black */
+
+    sel-bg:          rgba(231, 65, 187, 0.22);			/* pink */
+    sel-border:      rgba(231, 65, 187, 0.85);			/* pink */
+
+    accent:          #e741bb;							/* magenta */
+}

@@ -1,0 +1,30 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Vortex-Dark-Icons";
+}
+
+* {
+/* N7 Day: deep-space black-purples, N7 crimson, hot-pink nebula glow */
+  bg:          rgba(13, 10, 16, 0.96);						/* off black */
+  fg:          #F0DDE0;										/* pale light pink */
+  fg-dim:      rgba(240, 221, 224, 0.78);					/* pale light pink */
+  fg-hi:       rgba(240, 221, 224, 0.98);					/* pale light pink */
+
+  border:      rgba(196, 30, 58, 0.65);						/* neutral red pink */
+
+  header:      rgba(138, 10, 34, 0.22);						/* pale rose gold */
+  prompt:      #000000;										/* black */
+
+  entry-bg:    rgba(13, 10, 16, 0.88);						/* off black */
+  placeholder: rgba(240, 221, 224, 0.38);					/* pale light pink */
+
+  row:         rgba(255, 255, 255, 0.030);					/* off white */
+  row-alt:     rgba(255, 255, 255, 0.018);					/* off white */
+
+  sel-bg:      rgba(196, 30, 58, 0.22);						/* pale neutral pink */
+  sel-border:  rgba(255, 96, 144, 0.55);					/* bright pink */
+
+  msg-bg:      rgba(255, 34, 68, 0.14);						/* pink */
+  msg-border:  rgba(255, 34, 68, 0.38);						/* pink */
+  msg-text:    #FF8099;										/* pink */
+}

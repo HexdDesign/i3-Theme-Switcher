@@ -1,0 +1,29 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Dexy-Color-Dark-Icons";
+}
+
+
+* {
+  /* BRS: deep navy bg, cyan glow accents (Black Rock Shooter) */
+  bg:          rgba(10, 14, 23, 0.96);				/* off black */
+  fg:          #CCE0F0;								/* icy blue */
+  fg-dim:      rgba(204, 224, 240, 0.80);			/* pale icy blue */
+  fg-hi:       #FFFFFF;								/* white */
+
+  border:      rgba(0, 200, 212, 0.80);				/* bright neon cyan */
+  header:      rgba(26, 74, 122, 0.55);				/* pale neutral grey blue */
+
+  entry-bg:    rgba(21, 32, 51, 0.95);				/* dark navy blue */
+  placeholder: rgba(204, 224, 240, 0.40);			/* pale icy blue */
+
+  row:         rgba(28, 45, 69, 0.70);				/* dark grey blue */
+  row-alt:     rgba(21, 32, 51, 0.50);				/* neutral grey */
+
+  sel-bg:      rgba(0, 200, 212, 0.25);				/* bright neon cyan */
+  sel-border:  rgba(0, 200, 212, 0.90);				/* bright neon cyan */
+	
+  msg-bg:      rgba(30, 136, 229, 0.20);			/* neutral grey */
+  msg-border:  rgba(30, 136, 229, 0.50);			/* neutral icy blue */
+  msg-text:    #90CAF9;								/* bright light blue */
+}

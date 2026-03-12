@@ -1,0 +1,34 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Papirus";
+}
+
+
+* {
+  /* ENA: crimson red, cream white, teal, icy blue crystal accents */
+  bg:          rgba(18, 10, 10, 0.96);					/* off black - red */
+  fg:          #F0E8E0;									/* eggshell white */
+  fg-dim:      rgba(230, 215, 200, 0.78);				/* cream */
+  fg-hi:       #FFFFFF;									/* white */
+
+  border:      rgba(196, 48, 48, 0.85);					/* red */
+  header:      rgba(140, 28, 28, 0.55);					/* crimson red */
+
+  entry-bg:    rgba(35, 18, 18, 0.95);					/* off black - red */
+  placeholder: rgba(230, 215, 200, 0.38);				/* cream */
+
+  row:         rgba(50, 24, 24, 0.72);					/* off black - red */
+  row-alt:     rgba(30, 14, 14, 0.52);					/* off black - red */
+
+  sel-bg:      rgba(196, 48, 48, 0.28);					/* red */
+  sel-border:  rgba(220, 60, 60, 0.92);					/* red */
+
+  msg-bg:      rgba(110, 175, 190, 0.18);				/* icy grey blue */
+  msg-border:  rgba(110, 175, 190, 0.50);				/* icy grey blue */
+  msg-text:    #A8D8E8;									/* icy blue */
+  accent:      #7EC8D8;									/* icy grey blue */
+
+  font:        "monospace 12";
+  background-color: transparent;
+  text-color:  @fg;
+}

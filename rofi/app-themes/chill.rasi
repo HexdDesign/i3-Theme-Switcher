@@ -1,0 +1,28 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Goldy-Dark-Icons";
+}
+
+* {
+  /* Chill: deep night bg, warm candle accents */
+  bg:          rgba(12, 15, 36, 0.97);				/* dark navy blue black */
+  fg:          #E7ECF5;								/* off white */
+  fg-dim:      rgba(154, 165, 184, 0.90);			/* neutral grey */
+  fg-hi:       #FFFFFF;								/* white */
+
+  border:      rgba(187, 134, 94, 0.85);			/* neutral beige brown */
+  header:      rgba(25, 36, 58, 0.80);				/* dark blue grey */
+
+  entry-bg:    rgba(18, 25, 58, 0.97);				/* dark navy blue */
+  placeholder: rgba(154, 165, 184, 0.60);			/* neutral grey */
+
+  row:         rgba(25, 36, 58, 0.80);				/* neutral darkish grey */
+  row-alt:     rgba(18, 25, 58, 0.60);				/* neutral grey */
+
+  sel-bg:      rgba(218, 161, 108, 0.22);			/* creamy beige */
+  sel-border:  rgba(187, 134, 94, 0.95);			/* neutral light brown */
+
+  msg-bg:      rgba(184, 106, 106, 0.20);			/* very pale pink */
+  msg-border:  rgba(184, 106, 106, 0.50);			/* very pale pink */
+  msg-text:    #FFB3B3;								/* pale pink */
+}

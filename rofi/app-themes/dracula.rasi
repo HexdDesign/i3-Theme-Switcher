@@ -1,0 +1,28 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Tela-Circle-Dracula";
+}
+
+* {
+  /* Dracula: dark purple bg, pink/purple accents */
+  bg:          rgba(40, 42, 54, 0.97);			/* dark grey black */
+  fg:          #F8F8F2;							/* off white */
+  fg-dim:      rgba(98, 114, 164, 0.90);		/* grey purple blue */
+  fg-hi:       #FFFFFF;							/* white */
+
+  border:      rgba(189, 147, 249, 0.85);		/* neon purple */
+  header:      rgba(68, 71, 90, 0.80);			/* neutral grey */
+
+  entry-bg:    rgba(52, 55, 70, 0.97);			/* dark grey */
+  placeholder: rgba(98, 114, 164, 0.60);		/* grey purple blue */
+
+  row:         rgba(55, 58, 74, 0.80);			/* dark grey */
+  row-alt:     rgba(48, 50, 65, 0.60);			/* dark grey */
+
+  sel-bg:      rgba(255, 182, 193, 0.18);		/* baby pink */
+  sel-border:  rgba(189, 147, 249, 0.95);		/* neon purple */
+
+  msg-bg:      rgba(255, 85, 85, 0.20);			/* bright red orange */
+  msg-border:  rgba(255, 85, 85, 0.50);			/* bright red orange */
+  msg-text:    #FFB3B3;							/* baby pink */
+}

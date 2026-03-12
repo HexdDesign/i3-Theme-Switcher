@@ -1,0 +1,29 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Vortex-Dark-Icons";
+}
+
+* {
+  /* Arch Rain: obsidian, electric blue, amber */
+
+  bg:          rgba(8, 11, 16, 0.97);          		/* off black */
+  fg:          #C8DCE8;                         	/* pale blue white */
+  fg-dim:      rgba(180, 210, 225, 0.65);			/* pale blue */
+  fg-hi:       #E8F4FA;								/* pale blue white */
+
+  border:      rgba(28, 140, 255, 0.75);        	/* electric blue */
+  header:      rgba(10, 60, 120, 0.45);         	/* deep blue */
+
+  entry-bg:    rgba(14, 22, 34, 0.92);				/* off black */
+  placeholder: rgba(28, 140, 255, 0.75);			/* electric blue */
+
+  row:         rgba(18, 28, 40, 1.0);				/* off black */
+  row-alt:     rgba(14, 20, 30, 1.0);				/* off black */
+
+  sel-bg:      rgba(255, 0, 0, 0.8);				/* red */
+  sel-border:  rgba(28, 140, 255, 0.85);         	/* electric blue */
+
+  msg-bg:      rgba(4, 84, 139, 0.1);         		/* pale blue white */
+  msg-border:  rgba(28, 140, 255, 0.75);			/* electric blue */
+  msg-text:    #FF9977;								/* pale orange */
+}	

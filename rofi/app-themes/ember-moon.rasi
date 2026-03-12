@@ -1,0 +1,29 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Slot-Silvery-Dark-Icons";
+}
+
+
+* {
+  /* Ember-Moon: deep charcoal bg, neon blade pink + gold accents */
+  bg:          rgba(20, 20, 23, 0.96);				/* off black */
+  fg:          #C9CED6;								/* light blue grey */
+  fg-dim:      rgba(201, 206, 214, 0.80);			/* light grey */
+  fg-hi:       #FFFFFF;								/* white */
+
+  border:      rgba(255, 77, 136, 0.85);   			/* blade pink */
+  header:      rgba(255, 77, 136, 0.40);			/* blade pink */
+
+  entry-bg:    rgba(28, 31, 38, 0.95);				/* off black */
+  placeholder: rgba(201, 206, 214, 0.40);			/* light grey */ 
+
+  row:         rgba(38, 42, 51, 0.75); 				/* neutral grey */
+  row-alt:     rgba(28, 31, 38, 0.55);				/* neutral light grey */
+
+  sel-bg:      rgba(255, 77, 136, 0.28);			/* pink */
+  sel-border:  rgba(244, 185, 66, 0.90);   			/* gold edge */
+
+  msg-bg:      rgba(225, 6, 0, 0.22);      			/* ember red */
+  msg-border:  rgba(225, 6, 0, 0.55);				/* ember red */
+  msg-text:    #FFD6D6;								/* light pale pink */
+}

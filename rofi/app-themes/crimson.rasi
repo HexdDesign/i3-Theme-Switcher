@@ -1,0 +1,29 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Fluent-red";
+}
+
+
+* {
+  /* Crimson: near-black bg, blood-red energy ring accents */
+  bg:          rgba(13, 10, 14, 0.96);					/* off black */
+  fg:          #D4CFE0;									/* pale grey blue */
+  fg-dim:      rgba(212, 207, 224, 0.80);				/* pale ppink white */
+  fg-hi:       #FFFFFF;									/* white */
+
+  border:      rgba(232, 25, 44, 0.9);					/* red */
+  header:      rgba(232, 25, 44, 0.9);					/* red */
+
+  entry-bg:    rgba(26, 21, 32, 0.95);					/* off black */
+  placeholder: rgba(212, 207, 224, 0.40);				/* pale pink white */
+
+  row:         rgba(42, 21, 32, 0.70);					/* grey brown purple */
+  row-alt:     rgba(26, 21, 32, 0.50);					/* neutral grey */
+
+  sel-bg:      rgba(232, 25, 44, 0.25);					/* red */
+  sel-border:  rgba(232, 25, 44, 0.90);					/* red */
+
+  msg-bg:      rgba(232, 130, 10, 0.20);				/* pale golden yellow */
+  msg-border:  rgba(232, 130, 10, 0.50);				/* pale golden yellow */
+  msg-text:    #FFB870;									/* pale golden yellow */
+}

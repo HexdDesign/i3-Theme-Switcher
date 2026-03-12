@@ -1,0 +1,29 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Fluent-Yellow-Dark";
+}
+
+
+* {
+  /* Blue-Yellow: deep navy bg, golden accents */
+  bg:          rgba(10, 35, 90, 0.97);				/* navy blue */
+  fg:          #EAF6FF;								/* pale blue */
+  fg-dim:      rgba(200, 230, 255, 0.80);			/* pale baby blue */
+  fg-hi:       #FFFFFF;								/* white */
+
+  border:      rgba(255, 214, 106, 0.90);			/* yellow */
+  header:      rgba(9, 100, 172, 0.60);				/* pale blue */
+
+  entry-bg:    rgba(18, 50, 110, 0.95);				/* navy blue */
+  placeholder: rgba(200, 230, 255, 0.40);			/* pale baby blue */
+
+  row:         rgba(20, 60, 130, 0.70);				/* pale neutral blue */
+  row-alt:     rgba(15, 45, 105, 0.50);				/* pale grey blue */
+
+  sel-bg:      rgba(255, 214, 106, 0.20);			/* yellow */
+  sel-border:  rgba(255, 214, 106, 0.95);			/* yellow */
+
+  msg-bg:      rgba(255, 106, 106, 0.20);			/* yellow */
+  msg-border:  rgba(255, 106, 106, 0.50);			/* yellow */
+  msg-text:    #FFB3B3;								/* pale pink */
+}
