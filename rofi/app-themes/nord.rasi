@@ -1,0 +1,29 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Nordzy";
+}
+
+
+* {
+  /* Nord: dark slate bg, icy blue accents */
+  bg:          rgba(46, 52, 64, 0.96);			/* dark blue black */
+  fg:          #ECEFF4;							/* off white grey blue */
+  fg-dim:      rgba(216, 222, 233, 0.80);		/* light grey */
+  fg-hi:       #FFFFFF;							/* white */
+
+  border:      rgba(136, 192, 208, 0.80);		/* icy grey blue */
+  header:      rgba(67, 103, 141, 0.55);		/* grey blue */
+
+  entry-bg:    rgba(59, 66, 82, 0.95);			/* neutral grey */
+  placeholder: rgba(216, 222, 233, 0.40);		/* light grey */
+
+  row:         rgba(67, 76, 94, 0.70);			/* neutral grey */
+  row-alt:     rgba(59, 66, 82, 0.50);			/* neutral grey */
+
+  sel-bg:      rgba(136, 192, 208, 0.30);		/* icy grey blue */
+  sel-border:  rgba(136, 192, 208, 0.90);		/* icy grey blue */
+
+  msg-bg:      rgba(191, 97, 106, 0.20);		/* pale pink */
+  msg-border:  rgba(191, 97, 106, 0.50);		/* pale pink */
+  msg-text:    #FFB3B3;							/* light pink */
+}
