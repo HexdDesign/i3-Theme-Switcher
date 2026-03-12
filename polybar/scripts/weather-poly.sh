@@ -11,7 +11,7 @@ ENV_FILE="$HOME/.config/polybar/scripts/weather.env"
 CACHE="/tmp/polybar_weather.json"
 CACHE_TTL=240
 
-TEXT_COLOR="#123d88"   # matches your bg
+TEXT_COLOR="#123d88"
 
 # ======================
 # LOAD API KEY
