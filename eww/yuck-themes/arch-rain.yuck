@@ -1,0 +1,4 @@
+(defvar theme_name "arch-rain")
+(defvar eww_icon_dir "~/.config/eww/icons/arch-rain")
+(defvar qa_icon_size 50)
+(defvar eww_logo_path "~/.config/eww/icons/arch-rain/logo.png")
