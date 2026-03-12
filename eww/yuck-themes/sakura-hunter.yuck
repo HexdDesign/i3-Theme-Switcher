@@ -1,0 +1,4 @@
+(defvar theme_name "sakura-hunter")
+(defvar eww_icon_dir "~/.config/eww/icons/sakura-hunter")
+(defvar qa_icon_size 52)
+(defvar eww_logo_path "~/.config/eww/icons/sakura-hunter/sakura-hunter.png")
