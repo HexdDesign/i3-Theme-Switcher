@@ -1,0 +1,495 @@
+@import "/home/dizzy/.config/eww/themes/current.css";
+
+* {
+    all: unset;
+}
+
+.menu-box label,
+.menu-box image,
+.menu-box revealer {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.menu-box scroll,
+.menu-box scrolledwindow,
+.menu-box viewport,
+.menu-box frame {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 12px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-box .control-header {
+  padding: 0 4px 4px 4px;
+  margin-bottom: 4px;
+}
+
+.menu-box .control-icon {
+  margin-top: 22px;
+  font-size: 17px;
+  color: @icon_color;
+  margin-right: 6px;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+
+.menu-box .control-title {
+  margin-top: 6px;
+  font-size: 12px;
+  color: @title_color;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.control-value {
+  font-size: 13px;
+  color: @value_color;
+  font-weight: 600;
+  margin-left: 8px;
+  margin-right: 10px;
+  margin-top: 5px;
+  opacity: 0.85;
+}
+
+
+.menu-separator {
+  min-height: 1px;
+  margin: 6px 0 8px 0;
+  border-radius: 999px;
+  background-color: @accent;
+  border: none;
+  box-shadow: none;
+}
+
+
+.wifi-current-label,
+.wifi-current-value {
+  color: @accent;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+
+button.wifi-scan-btn,
+button.bt-scan-btn {
+  background-color: @item_bg;
+  border: 1px solid @item_border;
+  border-radius: 999px;
+  padding: 5px 14px;
+  color: @accent;
+  font-weight: 600;
+  font-size: 12px;
+  box-shadow: none;
+  min-height: 0;
+  min-width: 0;
+}
+
+button.wifi-scan-btn label,
+button.bt-scan-btn label {
+  background-color: @accent;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+
+button.wifi-scan-btn:hover,
+button.bt-scan-btn:hover {
+  background-color: @item_hover;
+  border-color: @accent;
+  box-shadow: 0 0 10px @glow_near;
+}
+
+
+.results-list {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  border: none;
+}
+
+.row-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: @fg;
+}
+
+.row-status {
+  font-size: 12px;
+  font-weight: 700;
+  color: @accent;
+  opacity: 0.95;
+}
+
+
+.wifi-item,
+.bt-item {
+  background-color: @item_bg;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 2px 0;
+  min-height: 0;
+  color: @fg;
+  font-size: 12px;
+}
+
+.wifi-item:hover,
+.bt-item:hover {
+  background-color: @accent;
+  border-color: @item_border;
+}
+
+.wifi-connected,
+.bt-connected {
+  background-color: @item_connected;
+  border: 1px solid @item_connected_border;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: @accent;
+}
+
+
+.bt-empty {
+  padding: 40px 20px;
+}
+
+.bt-empty-icon {
+  font-size: 48px;
+  color: @accent;
+}
+
+.bt-empty-text {
+  font-size: 16px;
+  color: @fg;
+  margin-top: 10px;
+}
+
+.bt-empty-hint {
+  font-size: 12px;
+  color: @fg_dim;
+  margin-top: 5px;
+}
+
+scale.control-slider {
+  margin: 4px 2px 2px 2px;
+  min-height: 0;
+  padding-bottom: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+scale.control-slider contents {
+  background-color: transparent;
+  border: none;
+}
+
+scale.control-slider trough {
+  min-height: 10px;
+  min-width: 0;
+  border-radius: 999px;
+  background-color: @slider_trough;
+  border: none;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.30);
+  margin: 10px 10px;
+}
+
+scale.control-slider trough highlight {
+  border-radius: 999px;
+  background-color: @slider_fill;
+  border: none;
+  box-shadow: none;
+}
+
+scale.control-slider slider {
+  min-width: 25px;
+  min-height: 25px;
+  border-radius: 999px;
+  background-color: @slider_thumb;
+  border: none;
+  margin: -2px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+}
+
+scale.control-slider slider:hover {
+  background-color: @slider_thumb_hover;
+}
+
+.menu-box scale.control-slider {
+  margin: 0;
+}
+
+.menu-box scale.control-slider trough {
+  min-height: 7px;
+  background-color: @slider_trough;
+  margin: 0 10px;
+}
+
+.menu-box scale.control-slider trough highlight {
+  background-color: @slider_fill;
+}
+
+.menu-box scale.control-slider slider {
+  min-width: 16px;
+  min-height: 16px;
+  margin: -4px 0;
+}
+
+.slider-hint {
+  font-size: 11px;
+  font-weight: 700;
+  color: @hint;
+  margin-top: 4px;
+}
+
+
+scrollbar {
+  background-color: transparent;
+  border: none;
+}
+
+scrollbar trough {
+  background-color: @scroll_trough;
+  border-radius: 10px;
+  border: none;
+}
+
+scrollbar slider {
+  background-color: @scroll_thumb;
+  border-radius: 10px;
+  min-width: 5px;
+  border: none;
+}
+
+scrollbar slider:hover {
+  background-color: @scroll_thumb_hover;
+}
+
+overshoot,
+undershoot {
+  background: none;
+  min-height: 0;
+}
+
+
+.popup-window .menu-window {
+  padding: 10px;
+}
+
+.popup-window .menu-box {
+  border-radius: 22px;
+  padding: 10px;
+  border-width: 4px;
+  background-color: @menu_bg;
+  border: 1px solid @menu_border_solid;
+
+  box-shadow:
+    0 18px 55px rgba(0,0,0,0.40),
+    0 6px 18px rgba(0,0,0,0.25),
+    inset 0 1px 0 rgba(255,255,255,0.10);
+}
+
+.popup-window .menu-box .control-header {
+  padding: 0 2px 0 2px;
+  margin-bottom: 0;
+}
+
+.popup-window .menu-box .control-icon {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.popup-window .menu-box .control-title {
+  font-size: 13px;
+  letter-spacing: 0.4px;
+}
+
+.popup-window .menu-box .control-value {
+  font-size: 12px;
+  opacity: 0.95;
+}
+
+.popup-window .menu-separator {
+  margin: 6px 0;
+  opacity: 0.85;
+}
+
+.popup-window scale.control-slider {
+  margin: 0;
+}
+
+.popup-window scale.control-slider trough {
+  margin: 0 10px;
+}
+
+.popup-window .menu-box scale.control-slider trough {
+  min-height: 7px;
+  background-color: @slider_trough;
+  margin: 0 10px;
+  box-shadow:
+    inset 0 1px 2px rgba(0,0,0,0.28),
+    inset 0 0 0 1px rgba(255,255,255,0.06);
+}
+
+.popup-window .menu-box scale.control-slider trough highlight {
+  background-color: @slider_fill;
+}
+
+.popup-window .menu-box scale.control-slider slider {
+  min-width: 18px;
+  min-height: 18px;
+  margin: -4px 0;
+  box-shadow:
+    0 4px 12px rgba(0,0,0,0.35),
+    inset 0 1px 0 rgba(255,255,255,0.12);
+}
+
+.popup-window button.wifi-scan-btn,
+.popup-window button.bt-scan-btn {
+  border-radius: 999px;
+  padding: 6px 14px;
+}
+
+.popup-window .results-list,
+.popup-window scroll,
+.popup-window scrolledwindow,
+.popup-window viewport {
+  border-radius: 18px;
+}
+
+.popup-window .wifi-item,
+.popup-window .bt-item {
+  border-radius: 10px;
+  padding: 6px 12px;
+  margin: 3px 0;
+}
+
+.popup-window .wifi-item:hover,
+.popup-window .bt-item:hover {
+  box-shadow: inset 3px 0 0 rgba(255,255,255,0.14);
+}
+
+.popup-window .wifi-connected,
+.popup-window .bt-connected {
+  border-radius: 10px;
+  padding: 0px;
+}
+
+
+.sidebar-window {
+  background-color: @sidebar_bg;
+  box-shadow: none;
+}
+
+
+.sidebar-bg {
+  background-color: @sidebar_bg;
+  border: none;
+  box-shadow: none;
+}
+
+.sidebar-bg box,
+.sidebar-bg label,
+.sidebar-bg image {
+  background-color: @sidebar_bg;
+  border: none;
+  box-shadow: none;
+}
+
+.sidebar-fill {
+  background-color: @sidebar_bg;
+}
+
+
+.quick-apps {
+  margin-top: 4px;
+  box-shadow: none;
+  background-color: @sidebar_bg;
+}
+
+
+.qa-svg,
+.quick-apps { 
+	background-color: @sidebar_bg;
+	box-shadow: none;
+
+}
+
+.qa-icon-btn {
+    color: @sidebar_bg;
+    box-shadow: none;
+    background: transparent;
+}
+
+
+.user-image {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+
+.sidebar-fill {
+  background-color: @sidebar_bg;
+  min-width: 95px;
+  box-shadow: none;
+
+}
+
+
+.popup-window .menu-box {
+  background-color: @menu_bg;
+  border: 1px solid @menu_border_solid;
+}
+window#wifi-menu,
+window#bluetooth-menu,
+window#brightness-control,
+window#volume-control {
+  background: transparent;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.menu-box { background-color: @menu_bg; border: 1px solid @menu_border_solid; }
+
+
+.window.popup-window .menu-window,
+.window.popup-window .menu-window * {
+  background-color: @menu_bg;
+  background-image: none;
+  box-shadow: none;
+}
+
+window.popup-window .menu-box {
+  background-color: @menu_bg;
+  border: 1px solid @menu_border_solid;
+  border-radius: 42px;
+
+}
+
+scrolledwindow,
+viewport,
+viewport > box {
+  background-color: @menu_bg;
+  background-image: none;
+}
+
+.quick-apps {
+  margin-top: 4px;
+  box-shadow: none;
+  background-color: @menu_bg;
+  background: transparent;
+
+}
