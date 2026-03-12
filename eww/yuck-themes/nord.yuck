@@ -1,0 +1,4 @@
+(defvar theme_name "nord")
+(defvar eww_icon_dir "~/.config/eww/icons/nord")
+(defvar qa_icon_size 52)
+(defvar eww_logo_path "~/.config/eww/icons/nord/logo.png")
