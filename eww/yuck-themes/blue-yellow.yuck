@@ -1,0 +1,4 @@
+(defvar theme_name "blue-yellow")
+(defvar eww_icon_dir "~/.config/eww/icons/blue-yellow")
+(defvar qa_icon_size 52)
+(defvar eww_logo_path "~/.config/eww/icons/blue-yellow/logo.png")
