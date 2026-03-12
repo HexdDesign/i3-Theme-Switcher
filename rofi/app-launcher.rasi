@@ -1,7 +1,7 @@
 /* ---- ROFI GLOBAL APP LAUNCHER ---- */
-
-@import "/home/dizzy/.config/rofi/app-themes/current.rasi"
 /* ---- input theme rules ---- */
+@import "/home/dizzy/.config/rofi/app-themes/current.rasi"
+
 
 /* ---- global sizing ---- */
 * {
