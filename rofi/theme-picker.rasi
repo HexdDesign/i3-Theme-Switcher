@@ -1,0 +1,109 @@
+/* ---- ROFI GLOBAL THEME PICKER ---- */
+/* ---- input theme rules ---- */
+@import "~/.config/rofi/app-themes/current.rasi"
+
+/* ---- global sizing ---- */
+* {
+  bg:         rgba(0, 0, 0, 0.92);
+  bg-alt:     rgba(255, 255, 255, 0.05);
+  fg:         #FFFFFF;
+  fg-dim:     rgba(255, 255, 255, 0.65);
+  accent:     rgba(255, 255, 255, 0.90);
+  accent-bg:  rgba(255, 255, 255, 0.12);
+  border-col: rgba(255, 255, 255, 0.35);
+
+  background-color: transparent;
+  text-color: @fg;
+  font: "JetBrainsMono Nerd Font 11";
+}
+
+/* -- window -- */
+window {
+  width: 380px;
+  background-color: @bg;
+  border: 2px;
+  border-color: @border-col;
+  border-radius: 16px;
+}
+
+mainbox {
+  padding: 12px;
+  spacing: 8px;
+  background-color: transparent;
+}
+
+/* -- text entry container -- */
+inputbar {
+  children: [ prompt, entry ];
+  padding: 10px 14px;
+  spacing: 10px;
+  background-color: @bg-alt;
+  border-radius: 10px;
+  border: 1px;
+  border-color: rgba(255, 255, 255, 0.20);
+}
+
+prompt {
+  text-color: @accent;
+  vertical-align: 0.5;
+}
+
+entry {
+  text-color: @fg;
+  background-color: transparent;
+  placeholder: "filter...";
+  placeholder-color: @fg-dim;
+  vertical-align: 0.5;
+}
+
+listview {
+  lines: 8;
+  spacing: 4px;
+  scrollbar: false;
+  background-color: transparent;
+}
+
+element {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 0px;
+}
+
+element.normal.normal {
+  background-color: transparent;
+}
+
+element.normal.active {
+  background-color: transparent;
+}
+
+element.alternate.normal {
+  background-color: @bg-alt;
+}
+
+element.alternate.active {
+  background-color: @bg-alt;
+}
+
+element.selected.normal {
+  background-color: @accent-bg;
+  border: 1px;
+  border-color: @border-col;
+}
+
+element.selected.active {
+  background-color: @accent-bg;
+  border: 1px;
+  border-color: @border-col;
+}
+
+element-text {
+  text-color: @fg-dim;
+  vertical-align: 0.5;
+  background-color: transparent;
+}
+
+element-text.selected {
+  text-color: @fg;
+  background-color: transparent;
+}
