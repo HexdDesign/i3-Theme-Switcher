@@ -1,0 +1,4 @@
+(defvar theme_name "crimson")
+(defvar eww_icon_dir "~/.config/eww/icons/crimson")
+(defvar qa_icon_size 52)
+(defvar eww_logo_path "~/.config/eww/icons/crimson/crimson.png")
