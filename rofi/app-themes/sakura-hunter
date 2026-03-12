@@ -1,0 +1,23 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Tela-Circle-Pink";
+}
+
+* {
+  /* Sakura Hunter: deep plum bg, blossom pink accents */
+  bg:          rgba(40, 42, 54, 0.94);			  	/* dark grey black */
+  fg:          #F8F8F2;							          	/* off white */
+  fg-dim:      rgba(255, 255, 255, 0.86);		  	/* off white */
+  fg-hi:       rgba(255, 255, 255, 0.98);		  	/* off white */
+  border:      rgba(189, 147, 249, 0.60);		  	/* light purple */
+  header:      rgba(98, 114, 164, 0.20);		  	/* light grey */
+  entry-bg:    rgba(40, 42, 54, 0.85);				  /* dark grey */
+  placeholder: rgba(255, 255, 255, 0.45);			  /* white */
+  row:         rgba(255, 255, 255, 0.035);			/* white */
+  row-alt:     rgba(255, 255, 255, 0.025);			/* white */
+  sel-bg:      rgba(80, 250, 123, 0.18);			  /* light white green */
+  sel-border:  rgba(189, 147, 249, 0.55);			  /* light purple */
+  msg-bg:      rgba(255, 85, 85, 0.15);				  /* pale pink */
+  msg-border:  rgba(255, 85, 85, 0.35);				  /* pale pink */
+  msg-text:    #FFB3B3;							        	  /* pale pink */
+}
