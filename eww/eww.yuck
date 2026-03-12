@@ -1,0 +1,329 @@
+(include "generated/current-theme.yuck")
+
+;; ======================
+;; MENU VARIABLES
+;; ======================
+
+;; WIFI =================
+(defvar wifi-results "")
+(defpoll wifi_current :interval "2s"
+  "nmcli -t -f IN-USE,SSID dev wifi list 2>/dev/null | awk -F: '$1==\"*\"{print $2; exit}' | sed 's/^$/Disconnected/'")
+
+;; BLUETOOTH ============
+(defvar bt_results "")
+
+(defpoll bt_connected :interval "2s"
+  "bluetoothctl devices Connected 2>/dev/null | cut -d' ' -f3- | sed '/^$/d' | paste -sd ', ' - | sed 's/^$/None/'")
+
+;; BRIGHTNESS ===========
+(defpoll brightness :interval "1s" :initial "50"
+  "bash -lc 'cur=$(brightnessctl g 2>/dev/null); max=$(brightnessctl m 2>/dev/null); [ -z \"$max\" ] || [ \"$max\" = \"0\" ] && echo 50 && exit; p=$(( cur*100/max )); ((p<0)) && p=0; ((p>100)) && p=100; echo $p'")
+(defpoll volume :interval "1s" :initial "0"
+  "pactl get-sink-volume @DEFAULT_SINK@ 2>/dev/null | awk '{print $5}' | tr -d '%' | grep -E '^[0-9]+$' || echo 0")
+
+(defvar bri_hint "")
+(defvar bri_hint_show false)
+
+
+(defvar vol_hint "")
+(defvar vol_hint_show false)
+
+;; ======================
+;; SEPARATOR
+;; ======================
+(defwidget menu-separator []
+  (box :class "menu-separator"
+       :hexpand true
+       :vexpand false))
+
+;; ======================
+;; QUICKAPPS SIDEBAR WIDGET
+;; ======================
+
+(defwidget user-image []
+  (box :class "user-image"
+       :valign "start"
+       :vexpand false
+       :hexpand false
+    (image :path eww_logo_path
+           :image-width 100
+           
+           :image-height 200)))
+
+(defwidget app-icon [cmd icon]
+  (eventbox :cursor "pointer" :onclick cmd
+    (image :class "qa-svg"
+           :path "${eww_icon_dir}/${icon}"
+           :image-width qa_icon_size
+           :image-height qa_icon_size)))
+
+(defwidget quickapps []
+  (box :class "quick-apps" :orientation "v" :spacing 40 :halign "center" :valign "start"
+    (app-icon :cmd "gtk-launch proton-mail"         :icon "protonmail.svg")
+    (app-icon :cmd "gtk-launch protonvpn"           :icon "protonvpn.svg")
+    (app-icon :cmd "steam"                          :icon "steam.svg")
+    (app-icon :cmd "discord"                        :icon "discord.svg")
+    (app-icon :cmd "firefox"                        :icon "firefox.svg")
+    (app-icon :cmd "torbrowser-launcher"            :icon "tor.svg")
+    (app-icon :cmd "codium"                         :icon "vscode.svg")
+    (app-icon :cmd "firefox https://github.com"     :icon "github.svg")
+    (app-icon :cmd "firefox http://localhost:8096/" :icon "jellyfin.svg")))
+ 
+
+;; ======================
+;; POLYBAR MENU WIDGETS
+;; ======================
+
+;;=======================
+;; WIFI =================
+;;=======================
+(defwidget wifi-widget []
+  (box :width 300
+       :class "menu-box"
+       :orientation "v"
+       :space-evenly false
+       :spacing 6
+       :hexpand false
+       :vexpand false
+
+    (box :class "control-header"
+         :orientation "h"
+         :space-evenly false
+         :spacing 10
+      (label :class "control-icon"  :text "󰖩")
+      (label :class "control-title" :text "Network")
+      (box :hexpand true))
+
+    (menu-separator)
+
+    (box :orientation "h"
+         :space-evenly false
+         :spacing 6
+      (label :class "wifi-current-label" :text "Connected:")
+      (label :class "wifi-current-value" :text wifi_current))
+
+    (button :class "wifi-scan-btn"
+            :onclick "~/.config/eww/scripts/wifi-scan-update.sh"
+            "󰑓 Scan networks")
+
+    (scroll :height 90
+            :vscroll true
+            :hscroll false
+      (box :class "results-list"
+           :orientation "v"
+           :space-evenly false
+           :spacing 2
+        (literal :content wifi-results)))))
+
+;;============================
+;; BLUETOOTH =================
+;;============================
+(defwidget bluetooth-widget []
+  (box :width 300
+       :class "menu-box"
+       :orientation "v"
+       :space-evenly false
+       :spacing 6
+       :hexpand false
+       :vexpand false
+
+    (box :class "control-header"
+         :orientation "h"
+         :space-evenly false
+         :spacing 10
+      (label :class "control-icon"  :text "󰂯")
+      (label :class "control-title" :text "Bluetooth")
+      (box :hexpand true))
+
+    (menu-separator)
+
+    (box :orientation "h"
+         :space-evenly false
+         :spacing 6
+      (label :class "wifi-current-label" :text "Connected:")
+      (label :class "wifi-current-value" :text bt_connected))
+
+    (button :class "bt-scan-btn"
+            :onclick "~/.config/eww/scripts/bt-scan-update.sh"
+            "󰑓 Scan devices")
+
+    (scroll :height 90
+            :vscroll true
+            :hscroll false
+      (box :class "results-list"
+           :orientation "v"
+           :space-evenly false
+           :spacing 2
+        (literal :content bt_results)))))
+
+
+;;============================
+;; BRIGHTNESS ================
+;;============================
+(defwidget brightness-widget []
+  (box :class "menu-box"
+       :orientation "v"
+       :space-evenly false
+       :spacing 10
+       :hexpand false
+       :vexpand false
+
+    (box :class "control-header"
+         :orientation "h"
+         :space-evenly false
+         :spacing 10
+      (label :class "control-icon"  :text "󰃞")
+      (label :class "control-title" :text "Brightness")
+      (box :hexpand true)
+      (label :class "control-value" :text "${brightness}%"))
+
+    (box :orientation "h" :space-evenly false :hexpand false :vexpand false
+      (box :width 18)
+      (scale :class "control-slider"
+             :orientation "h"
+             :min 0
+             :max 100
+             :value brightness
+             :vexpand false
+             :hexpand false
+             :width 220
+             :onchange "bash -lc 'eww update bri_hint=\"{}%\" bri_hint_show=true; ~/.config/eww/scripts/hide-hint.sh bri_hint_show; ~/.config/eww/scripts/brightness-set.sh {}'")
+      (box :width 18))
+
+    (revealer :reveal bri_hint_show
+      (label :class "slider-hint" :text bri_hint))))
+
+;;============================
+;; VOLUME ====================
+;;============================
+(defwidget volume-widget []
+  (box :class "menu-box"
+       :orientation "v"
+       :space-evenly false
+       :spacing 10
+       :hexpand false
+       :vexpand false
+
+    (box :class "control-header"
+         :orientation "h"
+         :space-evenly false
+         :spacing 10
+      (label :class "control-icon"  :text "󰕾")
+      (label :class "control-title" :text "Volume")
+      (box :hexpand true)
+      (label :class "control-value" :text "${volume}%"))
+
+    (box :orientation "h" :space-evenly false :hexpand false :vexpand false
+      (box :width 18)
+      (scale :class "control-slider"
+             :orientation "h"
+             :min 0
+             :max 100
+             :value volume
+             :vexpand false
+             :hexpand false
+             :width 220
+             :onchange "bash -lc 'eww update vol_hint=\"{}%\" vol_hint_show=true; ~/.config/eww/scripts/hide-hint.sh vol_hint_show; pactl set-sink-volume @DEFAULT_SINK@ {}%'")
+      (box :width 18))
+
+    (revealer :reveal vol_hint_show
+      (label :class "slider-hint" :text vol_hint))))
+
+;;============================
+;; QUICKAPPS SIDEBAR =========
+;;============================
+(defwidget sidebar []
+  (box :class "sidebar-fill"         
+       :vexpand true
+       :hexpand true
+    (box :class "sidebar-fill"
+         :orientation "v"
+         :space-evenly false
+         :halign "center"
+         :valign "fill"
+         :vexpand true
+         :spacing 0
+      (user-image)
+      (box :orientation "v"
+           :valign "start"
+           :spacing 10
+        (quickapps))
+      (box :vexpand true))))
+      
+;; ======================
+;; WINDOWS
+;; ======================
+
+(defwindow sidebar
+  :monitor 0
+  :anchor "top left bottom"
+  :stacking "fg"
+  :exclusive true
+  :focusable false
+  :class "sidebar-window"
+  :geometry (geometry :x "0" :y "32" :width "95px" :height "1014px")
+  (sidebar))
+
+(defwindow wifi-menu
+  :name "wifi-menu"
+  :class "popup-window"
+  :monitor 0
+  :stacking "fg"
+  :windowtype "utility"
+  :wm-ignore false
+  :exclusive false
+  :focusable false
+  :geometry (geometry :x "-28px" :y "40px" :width "250px" :height "0px" :anchor "top right")
+  :onclose "eww update wifi-results=''"
+(box :class "popup-window"
+       :orientation "v"
+       :halign "center"
+       :valign "start"
+       :hexpand true
+       :vexpand false
+    (wifi-widget)))
+
+(defwindow bluetooth-menu
+  :name "bluetooth-menu"
+  :class "popup-window"
+  :monitor 0
+  :stacking "fg"
+  :windowtype "utility"
+  :wm-ignore false
+  :exclusive false
+  :focusable false
+  :geometry (geometry :x "-40px" :y "40px" :width "250px" :height "0px" :anchor "top right")
+  :onclose "eww update bt_results=''"
+(box :class "popup-window"
+       :orientation "v"
+       :halign "center"
+       :valign "start"
+       :hexpand true
+       :vexpand false
+    (bluetooth-widget)))
+
+(defwindow brightness-control
+  :name "brightness-control"
+  :class "popup-window"
+  :monitor 0
+  :stacking "fg"
+  :windowtype "utility"
+  :wm-ignore false
+  :exclusive false
+  :focusable false
+  :geometry (geometry :x "-12px" :y "40px" :width "260px" :height "50px" :anchor "top right")
+  (box :class "menu-window"
+    (brightness-widget)))
+
+(defwindow volume-control
+  :name "volume-control"
+  :class "popup-window"
+  :monitor 0
+  :stacking "fg"
+  :windowtype "utility"
+  :wm-ignore false
+  :exclusive false
+  :focusable false
+  :geometry (geometry :x "-12px" :y "-42px" :width "260px" :height "50px" :anchor "bottom right")
+  (box :class "menu-window"
+    (volume-widget)))
