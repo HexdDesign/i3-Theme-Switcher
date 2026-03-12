@@ -1,0 +1,4 @@
+(defvar theme_name "neon-violet")
+(defvar eww_icon_dir "~/.config/eww/icons/neon-violet")
+(defvar qa_icon_size 52)
+(defvar eww_logo_path "~/.config/eww/icons/neon-violet/neon-violet.png")
