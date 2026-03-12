@@ -1,0 +1,4 @@
+(defvar theme_name "chill")
+(defvar eww_icon_dir "~/.config/eww/icons/chill")
+(defvar qa_icon_size 52)
+(defvar eww_logo_path "~/.config/eww/icons/chill/chill.png")
