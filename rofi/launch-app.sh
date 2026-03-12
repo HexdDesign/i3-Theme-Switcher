@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-exec /home/dizzy/.local/bin/rofi-apps
+exec ~.local/bin/rofi-apps
