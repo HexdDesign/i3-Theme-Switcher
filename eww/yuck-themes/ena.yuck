@@ -1,0 +1,4 @@
+(defvar theme_name "ena")
+(defvar eww_icon_dir "~/.config/eww/icons/ena")
+(defvar qa_icon_size 52)
+(defvar eww_logo_path "~/.config/eww/icons/ena/logo.png")
