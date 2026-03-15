@@ -1,0 +1,57 @@
+/* Blue-Yellow GTK4 overlay (portal dialogs) */
+
+@define-color bg      #0a1a3a;			/* dark navy blue */
+@define-color bg_alt  #0d2d66;			/* navy blue */
+@define-color fg      #eaf6ff;			/* pale white blue grey */
+@define-color dim     #6c9bb3;			/* slate blue cyan */
+@define-color accent  #09acf7;			/* neon cyan */
+@define-color gold    #ffd36a;			/* yellow */
+@define-color urgent  #ff5555;			/* red */
+
+window, dialog, .background { background-color: @bg; color: @fg; }
+headerbar, .titlebar { background-color: @bg_alt; color: @fg; }
+
+entry, textview, spinbutton, combobox entry {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 55%, transparent);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 55%, transparent);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+filechooser button,
+filechooser actionbar button,
+filechooser .dialog-action-area button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @gold 70%, transparent);
+  border-radius: 10px;
+  padding: 6px 14px;
+}
+
+filechooser button:hover,
+filechooser actionbar button:hover,
+filechooser .dialog-action-area button:hover {
+  background-color: color-mix(in srgb, @gold 18%, @bg_alt);
+}
+
+filechooser button.suggested-action,
+filechooser actionbar button.suggested-action {
+  background-color: @gold;
+  color: @bg;
+  border-color: @gold;
+}
+
+filechooser button.destructive-action {
+  background-color: @urgent;
+  color: @fg;
+  border-color: @urgent;
+}
