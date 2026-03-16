@@ -1,0 +1,65 @@
+/* Dracula GTK4 overlay */
+
+@define-color bg      #282a36;		/* blue grey */
+@define-color bg_alt  #44475a;		/* blue grey */
+@define-color fg      #f8f8f2;		/* near white */
+@define-color dim     #6272a4;		/* blue grey */
+@define-color accent  #bd93f9;		/* neon violet */
+@define-color urgent  #ff5555;		/* red */
+
+window, dialog, .background {
+  background-color: @bg;
+  color: @fg;
+}
+
+headerbar, .titlebar {
+  background-color: @bg_alt;
+  color: @fg;
+}
+
+entry, textview, spinbutton, combobox entry {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @dim 70%, transparent);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+/* Generic buttons */
+button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 70%, transparent);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+/* Portal FileChooser: action buttons (Save/Cancel) */
+filechooser button,
+filechooser actionbar button,
+filechooser .dialog-action-area button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 70%, transparent);
+  border-radius: 10px;
+  padding: 6px 14px;
+}
+
+filechooser button:hover,
+filechooser actionbar button:hover,
+filechooser .dialog-action-area button:hover {
+  background-color: color-mix(in srgb, @accent 22%, @bg_alt);
+}
+
+filechooser button.suggested-action,
+filechooser actionbar button.suggested-action {
+  background-color: @accent;
+  color: @bg;
+  border-color: @accent;
+}
+
+filechooser button.destructive-action {
+  background-color: @urgent;
+  color: @fg;
+  border-color: @urgent;
+}
