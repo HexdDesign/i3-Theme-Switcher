@@ -1,0 +1,50 @@
+/* Arch Rain GTK4 overlay */
+
+@define-color bg      #0d1117;			/* dark navy blue */
+@define-color bg_alt  #161c26;			/* navy blue */
+@define-color fg      #dce8f0;			/* light slate blue white */
+@define-color dim     #5bb8d4;			/* bright cyan */ 
+@define-color accent  #5bb8d4;			/* bright cyan */
+@define-color accent2 #1e90d4;			/* blue cyan */
+
+window, dialog, .background { background-color: @bg; color: @fg; }
+headerbar, .titlebar { background-color: @bg_alt; color: @fg; }
+
+entry, textview, spinbutton, combobox entry {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @dim 65%, transparent);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+filechooser button,
+filechooser actionbar button,
+filechooser .dialog-action-area button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 14px;
+}
+
+filechooser button:hover,
+filechooser actionbar button:hover,
+filechooser .dialog-action-area button:hover {
+  background-color: color-mix(in srgb, @accent 18%, @bg_alt);
+}
+
+filechooser button.suggested-action,
+filechooser actionbar button.suggested-action {
+  background-color: @accent2;
+  color: @bg;
+  border-color: @accent2;
+}
