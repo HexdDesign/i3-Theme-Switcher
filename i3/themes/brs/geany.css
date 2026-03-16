@@ -1,0 +1,14 @@
+/* Geany editor background — BRS (Black Rock Shooter) */
+/* Place at: ~/.config/i3/themes/brs/geany.css */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/i3/themes/brs/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #0a0e17;			/* dark navy blue */
+    color: #cce0f0;						/* light slate blue white */
+}
+
+textview {
+    background-color: #0a0e17;			/* dark navy blue */
+}
