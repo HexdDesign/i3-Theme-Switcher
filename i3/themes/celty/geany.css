@@ -1,0 +1,14 @@
+/* Geany editor background — Celty */
+/* Place at: ~/.config/i3/themes/celty/geany.css */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/i3/themes/celty/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #0d0d0d;			/* near black */
+    color: #f0f0f0;						/* near white */
+}
+
+textview {
+    background-color: #0d0d0d;			/* near black */
+}
