@@ -1,0 +1,12 @@
+
+GtkTextView,
+textview text,
+.geany-editor {	
+    background-color: #201028;				/* dark violet */
+    color: #e741bb;							/* bright pink */
+}
+
+textview {
+    background-color: #341745;				/* dark violet */
+}
+
