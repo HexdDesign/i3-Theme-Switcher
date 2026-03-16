@@ -1,0 +1,65 @@
+/* Chill GTK4 overlay */
+
+@define-color bg      #0c0f24;			/* dark blue */
+@define-color bg_alt  #19243a;			/* dark neutral blue */
+@define-color fg      #e7ecf5;			/* slate blue white */
+@define-color dim     #9aa5b8;			/* light slate blue */
+@define-color accent  #bb865e;			/* tan orange */
+@define-color urgent  #b86a6a;			/* pale red */
+
+window, dialog, .background {
+  background-color: @bg;
+  color: @fg;
+}
+
+headerbar, .titlebar {
+  background-color: @bg_alt;
+  color: @fg;
+}
+
+entry, textview, spinbutton, combobox entry {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @dim 70%, transparent);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+/* Generic buttons */
+button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 70%, transparent);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+/* Portal FileChooser: action buttons (Save/Cancel) */
+filechooser button,
+filechooser actionbar button,
+filechooser .dialog-action-area button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 70%, transparent);
+  border-radius: 10px;
+  padding: 6px 14px;
+}
+
+filechooser button:hover,
+filechooser actionbar button:hover,
+filechooser .dialog-action-area button:hover {
+  background-color: color-mix(in srgb, @accent 22%, @bg_alt);
+}
+
+filechooser button.suggested-action,
+filechooser actionbar button.suggested-action {
+  background-color: @accent;
+  color: @bg;
+  border-color: @accent;
+}
+
+filechooser button.destructive-action {
+  background-color: @urgent;
+  color: @fg;
+  border-color: @urgent;
+}
