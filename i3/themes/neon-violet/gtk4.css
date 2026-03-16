@@ -1,0 +1,72 @@
+/* Neon Violet GTK 4.0 Overlay */
+
+@define-color bg          #201028;			/* dark violet */
+@define-color bg_alt      #341745;			/* dark violet */
+@define-color fg          #f8f2ff;			/* light violet white */
+@define-color dim         #a98db8;			/* violet */
+@define-color accent      #e741bb;			/* neon pink */
+@define-color accent2     #602da4;			/* violet */
+
+window, dialog, .background { background-color: @bg; }
+
+window, dialog, .background {
+  background-color: alpha(@bg, 0.92);
+  color: @fg;
+}
+
+popover, .popover, menu, .menu {
+  background-color: alpha(@bg, 0.92);
+  border: 1px solid alpha(@accent2, 0.45);
+  border-radius: 14px;
+  box-shadow:
+    0 14px 40px rgba(0,0,0,0.55),
+    0 0 0 1px alpha(@accent, 0.18);
+  background-image: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.06) 0%,
+    rgba(255,255,255,0.00) 52%
+  );
+}
+
+selection {
+  background-color: alpha(@accent, 0.22);
+  color: @fg;
+}
+entry, textview, spinbutton, combobox entry {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @dim 65%, transparent);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+filechooser button,
+filechooser actionbar button,
+filechooser .dialog-action-area button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 14px;
+}
+
+filechooser button:hover,
+filechooser actionbar button:hover,
+filechooser .dialog-action-area button:hover {
+  background-color: color-mix(in srgb, @accent 18%, @bg_alt);
+}
+
+filechooser button.suggested-action,
+filechooser actionbar button.suggested-action {
+  background-color: @accent;
+  color: @bg;
+  border-color: @accent;
+}
