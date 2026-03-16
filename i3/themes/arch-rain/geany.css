@@ -1,0 +1,14 @@
+/* Geany editor background — Arch Rain */
+/* Place at: ~/.config/gtk-3.0/themes/arch-rain/geany.css */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/gtk-3.0/themes/arch-rain/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #0d1117;				/* dark navy blue */
+    color: #dce8f0;							/* light slate blue */
+}
+
+textview {
+    background-color: #0d1117;				/* dark navy blue */
+}
