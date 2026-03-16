@@ -1,0 +1,14 @@
+/* Geany editor background — Devilman */
+/* Place at: ~/.config/gtk-3.0/themes/devilman/geany.css */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/gtk-3.0/themes/devilman/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+	background-color: #0f0f12;			/* near black blue */
+    color: #f5f5f5;						/* near white */
+}
+
+textview {
+	background-color: #0f0f12;			/* near blue black */
+}
