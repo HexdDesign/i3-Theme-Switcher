@@ -1,0 +1,240 @@
+/* ============================================================
+   Crimson GTK 3.0 Overlay (White Hair Red Eyes)
+   ============================================================ */
+
+@define-color bg          #0d0a0e;			/* dark violet black */
+@define-color bg_alt      #1a1520;			/* slightly lighter dark violet */
+@define-color bg_bright   #2a1a30;			/* dark violet */
+@define-color fg          #d4cfe0;			/* light violet white */
+@define-color fg_dim      #3a2a40;			/* neutral violet */
+@define-color accent      #5a1a2a;			/* maroon red */
+@define-color accent_alt  #7a1a2a;			/* maroon red */
+@define-color red         #e8192c;			/* red */
+@define-color yellow      #e8820a;			/* orange */
+@define-color urgent      #e8820a;			/* orange */
+@define-color selection   #2a1520;			/* dark maroon pink */
+
+/* ── Base / safety ─────────────────────────────────────────── */
+* { outline: none; }
+
+.background,
+window.background,
+dialog.background,
+messagedialog.background {
+  background-color: @bg;
+  color: @fg;
+}
+
+.background:backdrop,
+window.background:backdrop,
+dialog.background:backdrop,
+messagedialog.background:backdrop {
+  background-color: shade(@bg, 0.96);
+  color: alpha(@fg, 0.80);
+}
+
+/* ── CSD headerbars ────────────────────────────────────────── */
+headerbar,
+.titlebar {
+  background-color: @bg_alt;
+  color: @fg;
+  border-bottom: 1px solid alpha(@red, 0.35);
+  padding: 4px 8px;
+  min-height: 46px;
+}
+
+headerbar:backdrop,
+.titlebar:backdrop {
+  background-color: shade(@bg_alt, 0.96);
+  color: alpha(@fg, 0.80);
+  border-bottom-color: alpha(@red, 0.20);
+}
+
+headerbar .title, .titlebar .title { color: @fg; font-weight: bold; }
+headerbar .subtitle, .titlebar .subtitle { color: @fg_dim; font-size: smaller; }
+
+headerbar button, .titlebar button {
+  background-color: transparent;
+  border-color: transparent;
+}
+headerbar button:hover, .titlebar button:hover {
+  background-color: alpha(@red, 0.18);
+  border-color: alpha(@red, 0.55);
+}
+headerbar button:backdrop, .titlebar button:backdrop {
+  color: alpha(@fg, 0.75);
+}
+
+/* ── Text / inputs ─────────────────────────────────────────── */
+label { color: @fg; }
+label:disabled { color: @fg_dim; }
+
+entry, textview, spinbutton, combobox entry {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid alpha(@fg_dim, 0.9);
+  border-radius: 6px;
+  padding: 6px 8px;
+  caret-color: @red;
+}
+
+entry:focus, textview:focus, spinbutton:focus, combobox entry:focus {
+  border-color: @red;
+  box-shadow: 0 0 0 2px alpha(@red, 0.20);
+}
+
+entry selection, textview selection {
+  background-color: @accent;
+  color: @fg;
+}
+
+/* ── Buttons ──────────────────────────────────────────────── */
+button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid alpha(@accent, 0.85);
+  border-radius: 8px;
+  padding: 6px 12px;
+  transition: all 150ms ease;
+}
+
+button:hover {
+  background-color: alpha(@accent, 0.35);
+  border-color: @accent;
+}
+
+button:active, button:checked {
+  background-color: @red;
+  color: @bg;
+  border-color: @red;
+}
+
+button:disabled {
+  background-color: alpha(@bg_alt, 0.7);
+  color: alpha(@fg_dim, 0.9);
+  border-color: alpha(@bg_alt, 0.6);
+}
+
+button.suggested-action { background-color: @accent; color: @fg; border-color: @accent; }
+button.destructive-action { background-color: @urgent; color: @fg; border-color: @urgent; }
+
+/* ── Menus / popovers ─────────────────────────────────────── */
+menu, .menu, .context-menu, popover, .popover {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid alpha(@accent, 0.35);
+  border-radius: 10px;
+  padding: 6px;
+}
+
+menuitem { padding: 6px 10px; border-radius: 8px; color: @fg; }
+menuitem:hover { background-color: alpha(@accent, 0.35); color: @fg; }
+menuitem:disabled { color: @fg_dim; }
+
+separator, separator.horizontal {
+  background-color: alpha(@fg_dim, 0.55);
+  min-height: 1px; min-width: 1px; margin: 6px 0;
+}
+
+/* ── Scrolled windows / viewports ───────────────────────────── */
+scrolledwindow, scrolledwindow viewport, viewport, frame, .frame {
+  background-color: @bg;
+  color: @fg;
+  border-color: alpha(@accent, 0.25);
+}
+
+/* ── Lists / views ─────────────────────────────────────────── */
+list, listbox, treeview, .view, iconview { background-color: @bg; color: @fg; }
+row, treeview row { padding: 6px 10px; }
+
+row:selected, treeview row:selected, .view:selected {
+  background-color: alpha(@accent, 0.65);
+  color: @fg;
+}
+row:hover:not(:selected), treeview row:hover:not(:selected) {
+  background-color: alpha(@accent, 0.18);
+}
+
+iconview:selected, .view:selected {
+  background-color: alpha(@accent, 0.65);
+  color: @fg;
+}
+
+rubberband {
+  border: 1px solid alpha(@red, 0.9);
+  background-color: alpha(@red, 0.12);
+}
+
+placessidebar, .sidebar {
+  background-color: @bg_alt;
+  color: @fg;
+  border-right: 1px solid alpha(@accent, 0.25);
+}
+placessidebar row:selected, .sidebar row:selected {
+  background-color: alpha(@accent, 0.65);
+  color: @fg;
+}
+
+/* ── Scrollbars ───────────────────────────────────────────── */
+scrollbar { background-color: transparent; }
+scrollbar slider {
+  background-color: alpha(@fg_dim, 0.85);
+  border-radius: 999px;
+  min-width: 8px; min-height: 8px; margin: 2px;
+}
+scrollbar slider:hover { background-color: @red; }
+
+/* ── Tabs ─────────────────────────────────────────────────── */
+notebook > header { background-color: @bg_alt; border-bottom: 1px solid alpha(@accent, 0.35); }
+notebook > header tab { padding: 8px 14px; color: @fg_dim; }
+notebook > header tab:checked { color: @fg; border-bottom: 2px solid @red; }
+notebook > header tab:hover:not(:checked) { background-color: alpha(@accent, 0.12); color: @fg; }
+
+/* ── Tooltips ─────────────────────────────────────────────── */
+tooltip {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid alpha(@red, 0.9);
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+
+/* ── Switch / sliders / progress ──────────────────────────── */
+switch {
+  background-color: @bg_alt;
+  border: 1px solid alpha(@fg_dim, 0.9);
+  border-radius: 999px;
+  min-width: 46px; min-height: 24px;
+}
+switch:checked { background-color: @red; border-color: @red; }
+switch slider {
+  background-color: @fg;
+  border-radius: 999px;
+  min-width: 18px; min-height: 18px; margin: 2px;
+}
+
+scale trough { background-color: alpha(@bg_alt, 0.95); border-radius: 999px; min-height: 6px; }
+scale highlight { background-color: @red; border-radius: 999px; }
+progressbar trough { background-color: alpha(@bg_alt, 0.95); border-radius: 999px; min-height: 8px; }
+progressbar progress { background-color: @red; border-radius: 999px; }
+
+/* ── Eww transparent buttons ──────────────────────────────── */
+window.sidebar-window button.qa-icon-btn,
+window.sidebar-window button.qa-icon-btn:hover,
+window.sidebar-window button.qa-icon-btn:focus,
+window.sidebar-window button.qa-icon-btn:active,
+window.sidebar-window button.qa-icon-btn:backdrop {
+  all: unset;
+  background: transparent;
+  background-color: transparent;
+  background-image: none;
+  border: none; border-radius: 0;
+  box-shadow: none; padding: 0; margin: 0;
+}
+
+/* Geany editor background */
+GeanyEdit, .geany-editor, GtkTextView, textview text {
+    background-color: #0d0a0e;
+    color: #d4cfe0;
+}
+textview { background-color: #0d0a0e; }
