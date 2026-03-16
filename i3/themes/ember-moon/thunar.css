@@ -1,0 +1,289 @@
+/* ============================================================
+   Ember-Moon 
+   ============================================================ */
+@define-color bg          #141417;  /* near black */
+@define-color bg_alt      #1C1F26;  /* dark grey */
+@define-color fg          #C9CED6;  /* grey */
+@define-color fg_dim      #7E8794;  /* light grey */
+@define-color accent      #FF4D88;  /* pink */
+@define-color cyan        #FF7AA2;  /* soft pink */
+@define-color yellow      #F4B942;  /* gold */
+@define-color urgent      #E10600;  /* red */
+
+/* ── Scope hard to Thunar only ─────────────────────────────── */
+.thunar,
+.thunar-window {
+  color: @fg;
+}
+
+/* Main surfaces inside Thunar */
+.thunar .background,
+.thunar-window .background,
+.thunar .view,
+.thunar-window .view {
+  background-color: @bg;
+  color: @fg;
+}
+
+/* Unfocused Thunar */
+.thunar .background:backdrop,
+.thunar-window .background:backdrop,
+.thunar .view:backdrop,
+.thunar-window .view:backdrop {
+  background-color: shade(@bg, 0.96);
+  color: alpha(@fg, 0.80);
+}
+
+/* ── Toolbar / pathbar / location bar ──────────────────────── */
+.thunar toolbar,
+.thunar-window toolbar,
+.thunar .path-bar,
+.thunar-window .path-bar {
+  background-color: @bg_alt;
+  border-bottom: 1px solid alpha(@cyan, 0.35);
+  padding: 2px 4px;
+}
+
+.thunar .path-bar button,
+.thunar-window .path-bar button {
+  background-color: transparent;
+  color: @fg_dim;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 3px 8px;
+}
+
+.thunar .path-bar button:hover,
+.thunar-window .path-bar button:hover {
+  background-color: alpha(@cyan, 0.12);
+  color: @fg;
+  border-color: alpha(@cyan, 0.4);
+}
+
+/* Current segment */
+.thunar .path-bar button:checked,
+.thunar-window .path-bar button:checked {
+  background-color: alpha(@cyan, 0.18);
+  color: @cyan;
+  border-color: @cyan;
+}
+
+/* Location bar (toggle strip between path-bar and entry) */
+.thunar .thunar-location-bar,
+.thunar-window .thunar-location-bar {
+  background-color: @bg_alt;
+  border-bottom: 1px solid alpha(@cyan, 0.35);
+  padding: 2px 4px;
+}
+
+/* Location entry */
+.thunar entry,
+.thunar-window entry {
+  background-color: @bg;
+  color: @fg;
+  border: 1px solid alpha(@cyan, 0.9);
+  border-radius: 6px;
+  padding: 4px 6px;
+  caret-color: @cyan;
+}
+
+.thunar entry:focus,
+.thunar-window entry:focus {
+  border-color: @cyan;
+  box-shadow: 0 0 0 2px alpha(@cyan, 0.20);
+}
+
+/* ── Side pane / places sidebar ────────────────────────────── */
+.thunar placessidebar,
+.thunar-window placessidebar,
+.thunar .sidebar,
+.thunar-window .sidebar {
+  background-color: @bg_alt;
+  color: @fg;
+  border-right: 1px solid alpha(@accent, 0.20);
+}
+
+.thunar placessidebar row,
+.thunar-window placessidebar row,
+.thunar .sidebar row,
+.thunar-window .sidebar row {
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: @fg;
+}
+
+.thunar placessidebar row:hover,
+.thunar-window placessidebar row:hover,
+.thunar .sidebar row:hover,
+.thunar-window .sidebar row:hover {
+  background-color: alpha(@cyan, 0.10);
+}
+
+/* FIX: was @fg (poor contrast on mid-blue accent) — changed to @bg */
+.thunar placessidebar row:selected,
+.thunar-window placessidebar row:selected,
+.thunar .sidebar row:selected,
+.thunar-window .sidebar row:selected {
+  background-color: alpha(@accent, 0.65);
+  color: @bg;
+}
+
+/* Sidebar small action buttons */
+.thunar placessidebar row button,
+.thunar-window placessidebar row button,
+.thunar .sidebar row button,
+.thunar-window .sidebar row button {
+  background-color: transparent;
+  border: none;
+  color: @fg_dim;
+  padding: 0 4px;
+}
+
+.thunar placessidebar row button:hover,
+.thunar-window placessidebar row button:hover,
+.thunar .sidebar row button:hover,
+.thunar-window .sidebar row button:hover {
+  color: @urgent;
+}
+
+/* ── Viewports / scrolled windows (prevents "gray boxes") ───── */
+.thunar scrolledwindow,
+.thunar-window scrolledwindow,
+.thunar scrolledwindow viewport,
+.thunar-window scrolledwindow viewport,
+.thunar viewport,
+.thunar-window viewport {
+  background-color: @bg;
+  color: @fg;
+}
+
+/* ── File view (icon + list) ───────────────────────────────── */
+.thunar iconview,
+.thunar-window iconview,
+.thunar treeview.view,
+.thunar-window treeview.view,
+.thunar .standard-view .view,
+.thunar-window .standard-view .view {
+  background-color: @bg;
+  color: @fg;
+}
+
+/* FIX: was @fg (poor contrast on mid-blue accent) — changed to @bg */
+.thunar iconview:selected,
+.thunar-window iconview:selected,
+.thunar treeview.view row:selected,
+.thunar-window treeview.view row:selected {
+  background-color: alpha(@accent, 0.65);
+  color: @bg;
+}
+
+.thunar treeview.view row:hover:not(:selected),
+.thunar-window treeview.view row:hover:not(:selected) {
+  background-color: alpha(@cyan, 0.10);
+}
+
+/* Rubberband selection box */
+.thunar rubberband,
+.thunar-window rubberband {
+  background-color: alpha(@cyan, 0.12);
+  border: 1px solid @cyan;
+  border-radius: 2px;
+}
+
+/* ── Column headers (Details view) ──────────────────────────── */
+.thunar treeview header button,
+.thunar-window treeview header button {
+  background-color: @bg_alt;
+  color: @fg_dim;
+  border-bottom: 1px solid alpha(@cyan, 0.25);
+  font-size: smaller;
+  font-weight: bold;
+  padding: 4px 8px;
+}
+
+.thunar treeview header button:hover,
+.thunar-window treeview header button:hover {
+  background-color: alpha(@cyan, 0.10);
+  color: @fg;
+}
+
+/* ── Details side pane (FIX: was missing from nord) ─────────── */
+.thunar .thunar-details-pane,
+.thunar-window .thunar-details-pane {
+  background-color: @bg_alt;
+  border-left: 1px solid alpha(@accent, 0.20);
+  padding: 8px;
+}
+
+.thunar .thunar-details-pane label,
+.thunar-window .thunar-details-pane label {
+  color: @fg_dim;
+  font-size: smaller;
+}
+
+/* ── Progress dialog (FIX: was missing from nord) ───────────── */
+.thunar .thunar-progress-dialog,
+.thunar-window .thunar-progress-dialog {
+  background-color: @bg_alt;
+  color: @fg;
+}
+
+.thunar .thunar-progress-dialog progressbar trough,
+.thunar-window .thunar-progress-dialog progressbar trough {
+  background-color: @bg;
+  border-radius: 10px;
+  min-height: 8px;
+}
+
+.thunar .thunar-progress-dialog progressbar progress,
+.thunar-window .thunar-progress-dialog progressbar progress {
+  background-color: @cyan;
+  border-radius: 10px;
+}
+
+/* ── Statusbar ─────────────────────────────────────────────── */
+.thunar statusbar,
+.thunar-window statusbar {
+  background-color: @bg_alt;
+  color: @fg_dim;
+  border-top: 1px solid alpha(@cyan, 0.20);
+  font-size: smaller;
+  padding: 2px 8px;
+}
+
+/* ── Context menu inside Thunar ────────────────────────────── */
+.thunar menu,
+.thunar-window menu,
+.thunar .context-menu,
+.thunar-window .context-menu {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid alpha(@cyan, 0.40);
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.thunar menuitem:hover,
+.thunar-window menuitem:hover {
+  background-color: alpha(@accent, 0.65);
+  color: @fg;
+}
+
+/* ── Misc niceties ─────────────────────────────────────────── */
+.thunar .new-bookmark,
+.thunar-window .new-bookmark {
+  color: @yellow;
+  font-style: italic;
+}
+
+.thunar .view.dnd,
+.thunar-window .view.dnd {
+  border: 2px dashed @cyan;
+  background-color: alpha(@cyan, 0.06);
+}
+
+.thunar .empty-folder-label,
+.thunar-window .empty-folder-label {
+  color: @fg_dim;
+  font-size: larger;
+}

@@ -1,0 +1,51 @@
+/* Nord GTK4 overlay (portal dialogs, Firefox save/open) */
+
+@define-color bg          #141417;  /* dark blue grey */
+@define-color bg_alt      #1C1F26;  /* blue grey */
+@define-color bg_bright   #262A33;  /* blue grey */
+@define-color fg          #C9CED6;  /* light grey */
+@define-color fg_dim      #7E8794;  /* light blue grey */
+@define-color accent      #FF4D88;  /* pink */
+@define-color accent2     #FF7AA2;  /* soft pink */
+
+window, dialog, .background { background-color: @bg; color: @fg; }
+headerbar, .titlebar { background-color: @bg_alt; color: @fg; }
+
+entry, textview, spinbutton, combobox entry {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @dim 65%, transparent);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+filechooser button,
+filechooser actionbar button,
+filechooser .dialog-action-area button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 14px;
+}
+
+filechooser button:hover,
+filechooser actionbar button:hover,
+filechooser .dialog-action-area button:hover {
+  background-color: color-mix(in srgb, @accent 18%, @bg_alt);
+}
+
+filechooser button.suggested-action,
+filechooser actionbar button.suggested-action {
+  background-color: @accent;
+  color: @bg;
+  border-color: @accent;
+}
