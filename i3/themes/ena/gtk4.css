@@ -1,0 +1,50 @@
+/* Ena GTK4 overlay */
+
+@define-color bg      #1a0a0a;			/* dark red */
+@define-color bg_alt  #2d1515;			/* dark red */
+@define-color fg      #f0e6d6;			/* light yellow white */
+@define-color dim     #7a5a5a;			/* pale neutral red */
+@define-color accent  #c0303a;			/* bright red */
+@define-color accent2 #8b1a1a;			/* bright rich red */
+
+window, dialog, .background { background-color: @bg; color: @fg; }
+headerbar, .titlebar { background-color: @bg_alt; color: @fg; }
+
+entry, textview, spinbutton, combobox entry {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @dim 65%, transparent);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+filechooser button,
+filechooser actionbar button,
+filechooser .dialog-action-area button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 14px;
+}
+
+filechooser button:hover,
+filechooser actionbar button:hover,
+filechooser .dialog-action-area button:hover {
+  background-color: color-mix(in srgb, @accent 20%, @bg_alt);
+}
+
+filechooser button.suggested-action,
+filechooser actionbar button.suggested-action {
+  background-color: @accent;
+  color: @fg;
+  border-color: @accent;
+}
