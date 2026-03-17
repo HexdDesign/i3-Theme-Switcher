@@ -53,12 +53,12 @@ Switch themes on i3 with this stunning collection of different high quality them
 
 
 
-### —— ⊹ i3 KEYBINDS ⊹ ——
+## —— ⊹ i3 KEYBINDS ⊹ ——
 
-i3 Keybinds - They can be altered to your preferences in the config file:
+**i3 Keybinds - They can be altered to your preferences in the config file:**
 
 
-_~/.config/i3/config_ 
+   _~/.config/i3/config_ 
 
    
 - [Click to see i3's official site for more information about keybindings](https://i3wm.org/docs/userguide.html#_default_keybindings)
@@ -68,24 +68,24 @@ _~/.config/i3/config_
 
 :star: Mod4: SUPER / WIN KEY  
 
-**CUSTOM KEYBINDS:**
+###CUSTOM KEYBINDS:
 
-━━ i3 LOCK-COLOR - Lock Screen:
+━━ **i3 LOCK-COLOR** - Lock Screen:
 
    _› $mod+Shift+q_
    
-━━ FLAMESHOT - Screen Capture GUI:
+━━ **FLAMESHOT** - Screen Capture GUI:
 
    _› $mod+Shift+p_
    
-━━ FIREFOX - Default Browser:
+━━ **FIREFOX** - Default Browser:
 
    _› $mod+b_  
 
-━━ THUNAR - File Manager:
+━━ **THUNAR** - File Manager:
    _› $mod+m_
 
-━━ i3 THEME SWITCHER:
+━━ **i3 THEME SWITCHER:**
    _› $mod+Shift+t_ 
 
 
