@@ -85,123 +85,123 @@ _~/.config/i3/config_
 
 **CHANGE FOCUS (VIM - STYLE):**
 
-FOCUS LEFT:
+━━ FOCUS LEFT:
 
    _› $mod+j_  
 
-FOCUS DOWN:
+━━ FOCUS DOWN:
 
    _› $mod+k_ 
 
-FOCUS UP:
+━━ FOCUS UP:
 
    _› $mod+l_ 
 
-FOCUS RIGHT:
+━━ FOCUS RIGHT:
 
    _› $mod+semicolon_  
 
 
 **CHANGE FOCUS (ARROW KEYS):**
 
-FOCUS LEFT:
+━━ FOCUS LEFT:
 
    _› $mod+Left_  
 
-FOCUS DOWN:
+━━ FOCUS DOWN:
 
    _› $mod+Down_ 
 
-FOCUS UP:
+━━ FOCUS UP:
 
    _› $mod+Up_ 
 
-FOCUS RIGHT:
+━━ FOCUS RIGHT:
 
    _› $mod+Right_  
 
 
 **MOVE FOCUS (VIM - STYLE):**
 
-MOVE LEFT:
+━━ MOVE LEFT:
 
    _› $mod+Shift+j_  
 
-MOVE DOWN: 
+━━ MOVE DOWN: 
 
    _› $mod+Shift+k_
 
-MOVE UP:
+━━ MOVE UP:
 
    _› $mod+Shift+l_ 
 
-MOVE RIGHT:
+━━ MOVE RIGHT:
 
    _› $mod+Shift+semicolon_ 
 
 
 **MOVE FOCUS (ARROW KEYS):**
 
-MOVE LEFT:
+━━ MOVE LEFT:
 
    _› $mod+Shift+Left_
 
-MOVE DOWN: 
+━━ MOVE DOWN: 
 
    _› $mod+Shift+Down_ 
 
-MOVE UP:
+━━ MOVE UP:
 
    _› $mod+Shift+Up_ 
 
-MOVE RIGHT:
+━━ MOVE RIGHT:
             
    _› $mod+Shift+Right_
 
 
 **SPLIT ORIENTATION:**
 
-SPLIT HORIZONTAL:
+━━ SPLIT HORIZONTAL:
 
    _› $mod+h_
 
-SPLIT VERTICAL:
+━━ SPLIT VERTICAL:
 
    _› $mod+v_
    
 
 **CONTAINER LAYOUT:**
 
-LAYOUT STACKING:
+━━ LAYOUT STACKING:
 
    _› $mod+s_
    
-LAYOUT TABBED:
+━━ LAYOUT TABBED:
 
    _› $mod+w_
 
-∗ LAYOUT TOGGLE SPLIT:
+━━ LAYOUT TOGGLE SPLIT:
 
    _› $mod+e_ 
 
 
 **TOGGLE FLOATING:**
 
-LAYOUT STACKING:
+━━ LAYOUT STACKING:
 
    _› $mod+Shift+Space_
 
 
 **FOCUS PARENT:**
 
-PARENT CONTAINER:
+━━ PARENT CONTAINER:
             
    _› $mod+a_ 
 
 
 **WORKSPACES:**
 
-DEFINE:
+━━ DEFINE:
 
    _› set $ws1 "1"_  
    _› set $ws2 "2"_  
@@ -215,7 +215,7 @@ DEFINE:
    _› set $ws10 "10"_  
 
 
-SWITCH:
+━━ SWITCH:
 
    _› $mod+1 workspace number $ws1_
    _› $mod+2 workspace number $ws2_
@@ -231,60 +231,60 @@ SWITCH:
 
 **i3:**
 
-RELOAD:
+━━ RELOAD:
 
    _› $mod+Shift+c_
 
-RESTART:
+━━ RESTART:
 
    _› $mod+Shift+r_
 
-EXIT:
+━━ EXIT:
 
    _› $mod+Shift+e_
 
 
 **RESIZE:**
 
-RESIZE MODE:
+━━ RESIZE MODE:
 
 _› $mod+r_ 
 
-SHRINK WIDTH 10px OR 10ppt:
+━━ SHRINK WIDTH 10px OR 10ppt:
 
 _› j_
 
-GROW HEIGHT 10px OR 10ppt:
+━━ GROW HEIGHT 10px OR 10ppt:
 
 _› k_
 
-SHRINK HEIGHT 10 px OR 10ppt :
+━━ SHRINK HEIGHT 10 px OR 10ppt :
 
 _› l_
 
-GROW WIDTH 10px OR 10ppt:
+━━ GROW WIDTH 10px OR 10ppt:
 
 _› semicolon_ 
 
 
 **CUSTOM:**
 
-i3 LOCK-COLOR - Lock Screen:
-
-   _› $mod+Shift+l_
-   
-FLAMESHOT - Screen Capture GUI:
+━━ i3 LOCK-COLOR - Lock Screen:
 
    _› $mod+Shift+q_
    
-FIREFOX - Default Browser:
+━━ FLAMESHOT - Screen Capture GUI:
+
+   _› $mod+Shift+p_
+   
+━━ FIREFOX - Default Browser:
 
    _› $mod+b_  
 
-THUNAR - File Manager:
+━━ THUNAR - File Manager:
    _› $mod+m_
 
-i3 THEME SWITCHER:
+━━ i3 THEME SWITCHER:
    _› $mod+Shift+t_ 
 
 
