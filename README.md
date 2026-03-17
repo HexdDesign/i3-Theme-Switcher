@@ -68,10 +68,12 @@ _~/.config/i3/config_
 
    
 **MOD KEY:**
-› set $mod Mod4
+
+_› set $mod Mod4_
 
 **KILL FOCUSED WINDOW:**
-› $mod+q
+
+_› $mod+q_
 
 
 
