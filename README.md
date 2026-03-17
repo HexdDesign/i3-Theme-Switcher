@@ -68,7 +68,7 @@ Switch themes on i3 with this stunning collection of different high quality them
 
 :star: Mod4: SUPER / WIN KEY  
 
-###CUSTOM KEYBINDS:
+### CUSTOM KEYBINDS:
 
 ━━ **i3 LOCK-COLOR** - Lock Screen:
 
