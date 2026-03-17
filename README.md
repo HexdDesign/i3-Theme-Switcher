@@ -39,5 +39,13 @@ Switch themes on i3 with this stunning collection of different high quality them
 ────────────────────────────
  
 ### OPTIONAL
+   - Dunst
+   - Picom
+   - Feh
+   - Nerd Fonts
+   - Starship
+   - i3lock-color
+   - Firefox
+   - Calcurse
  
 ────────────────────────────
