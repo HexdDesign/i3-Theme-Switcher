@@ -64,6 +64,15 @@ _~/.config/i3/config_
 - [Click to see i3's official site for more information about keybindings](https://i3wm.org/docs/userguide.html#_default_keybindings)
 
 
+:star: Mod4: SUPER / WIN KEY  
+
+   
+**MOD KEY:**
+› set $mod Mod4
+
+**KILL FOCUSED WINDOW:**
+› $mod+q
+
 
 
 
