@@ -64,7 +64,7 @@ Switch themes on i3 with this stunning collection of different high quality them
 - [Click to see i3's official site for more information about keybindings](https://i3wm.org/docs/userguide.html#_default_keybindings)
 
 >[!NOTE]
->Keybind Cheat Sheet can be found within general file location in this repo. However, here are some ones to note:
+>Keybind cheat sheet can be found within general file location in this repo by the name of Keybind Cheat Sheet. However, here are some ones to note:
 
 :star: Mod4: SUPER / WIN KEY  
 
@@ -90,7 +90,7 @@ Switch themes on i3 with this stunning collection of different high quality them
 
 
 >[!TIP]
->File location cheat sheet can also be found in the general location in this repo as a text file! 
+>File location cheat sheet can also be found in the general location in this repo as a text file - named File Location. 
 
 
 ## OFFICIAL DOCUMENTATIONS ・・・・・
