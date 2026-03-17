@@ -96,7 +96,7 @@ Switch themes on i3 with this stunning collection of different high quality them
 ## OFFICIAL DOCUMENTATIONS ・・・・・
 
 >[!IMPORTANT]
->Please - review official documentions for accurate integrations and dependencies! 
+>Please - review official documentions for accurate integrations and dependencies! Documentation file included in general location in this repo by the name of - Documentation.
 
 :zap: 〢ARCH LINUX WIKI
 
