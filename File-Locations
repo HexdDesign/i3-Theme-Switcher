@@ -1,0 +1,358 @@
+—— 👾 〢Configuration and Script File Locations: 
+
+    ━━━━━━ i3 
+        ⋮ ~/.config/i3/
+            ⭑ config
+            ⭑ apply-theme.sh
+            ⭑ switch-theme.sh
+            ⭑ geany-scheme.sh
+            ⭑ lock.sh
+            ⭑ calcurse-theme.sh
+
+        ⋮ ~/.config/i3/themes/
+            ⭑ nord
+            ⭑ crimson
+            ⭑ devilman
+            ⭑ n7-day
+            ⭑ chill
+            ⭑ blue-yellow
+            ⭑ sakura-hunter
+            ⭑ ember-moon
+            ⭑ brs
+            ⭑ arch-rain
+            ⭑ neon-violet
+            ⭑ ena
+            ⭑ celty
+            ⭑ dracula
+            ── current.env
+            ── current_theme.conf
+
+        ⋮ ~/.config/i3/themes/(theme)    
+            ⭑ theme.env
+            ⭑ geany.conf
+            ⭑ geany.css
+            ⭑ gtk.css
+            ⭑ gtk4.css
+            ⭑ thunar.css
+            ⭑ theme.css
+            ⭑ theme.conf
+
+        ⋮ ~/.config/i3/wallpapers/   
+            ⭑ nord.jpeg
+            ⭑ Crimson.png
+            ⭑ devilman.png
+            ⭑ n7-day.jpg 
+            ⭑ chill.jpg 
+            ⭑ blue-yellow.png
+            ⭑ sakura-hunter.png
+            ⭑ ember-moon.jpg
+            ⭑ brs.jpg
+            ⭑ arch-rain.png
+            ⭑ neon-violet.jpg
+            ⭑ ena.png
+            ⭑ celty.jpg
+            ⭑ dracula.jpeg 
+
+
+    ━━━━━━ Starship
+        ⋮ ~/.config/starship/
+            ⭑ env
+            ⭑ starship.toml
+            ── current.toml
+            ── current_theme.toml        
+
+        ⋮ ~/.config/starship/themes/
+            ⭑ nord.toml
+            ⭑ crimson.toml
+            ⭑ devilman.toml
+            ⭑ n7-day.toml
+            ⭑ chill.toml
+            ⭑ blue-yellow.toml
+            ⭑ sakura-hunter.toml
+            ⭑ ember-moon.toml
+            ⭑ brs.toml
+            ⭑ arch-rain.toml
+            ⭑ neon-violet.toml
+            ⭑ ena.toml
+            ⭑ celty.toml
+            ⭑ dracula.toml
+
+
+    ━━━━━━ Geany
+        ⋮ ~/.config/geany/
+            ⭑ session.conf
+            ⭑ geany.conf
+            ⭑ keybindings.conf
+
+        ⋮ ~/.config/geany/colorschemes/
+            ⭑ NORD_THEME.conf
+            ⭑ CRIMSON_THEME.conf
+            ⭑ DEVILMAN.conf
+            ⭑ N7DAY_THEME.conf
+            ⭑ Hexd-Chill.conf
+            ⭑ BLUE_YELLOW.conf
+            ⭑ SAKURA_HUNTER.conf
+            ⭑ EMBER_MOON.conf
+            ⭑ BRS_THEME.conf
+            ⭑ ARCH_RAIN.conf
+            ⭑ NEON_VIOLET.conf
+            ⭑ ENA_THEME.conf
+            ⭑ CELTY_THEME.conf
+            ⭑ Hexd-Dracula.conf 
+            
+
+    ━━━━━━ Rofi
+        ⋮ ~/.config/rofi/
+            ⭑ app-launcher.rasi
+            ⭑ theme-picker.rasi
+            ⭑ launch-app.sh
+
+        ⋮ ~/.config/rofi/images/
+            ⭑ nord.png
+            ⭑ crimson.png 
+            ⭑ Devilman.png
+            ⭑ n7-day.png 
+            ⭑ chill.png
+            ⭑ blue-yellow.png
+            ⭑ Sakura.png
+            ⭑ ember-moon.png 
+            ⭑ brs.png
+            ⭑ arch-rain.png 
+            ⭑ neon-violet.png
+            ⭑ ena.png
+            ⭑ celty.png
+            ⭑ dracula.png
+
+        ⋮ ~/.config/rofi/app-themes/
+            ⭑ nord.rasi
+            ⭑ crimson.rasi
+            ⭑ devilman.rasi
+            ⭑ n7-day.rasi 
+            ⭑ chill.rasi
+            ⭑ blue-yellow.rasi
+            ⭑ sakura-hunter.rasi
+            ⭑ ember-moon.rasi
+            ⭑ brs.rasi
+            ⭑ arch-rain.rasi
+            ⭑ neon-violet.rasi
+            ⭑ ena.rasi 
+            ⭑ celty.rasi
+            ⭑ dracula.rasi 
+
+        ⋮ ~/.config/rofi/themes/
+            ⭑ nord.rasi
+            ⭑ crimson.rasi
+            ⭑ devilman.rasi
+            ⭑ n7-day.rasi 
+            ⭑ chill.rasi
+            ⭑ blue-yellow.rasi
+            ⭑ sakura-hunter.rasi
+            ⭑ ember-moon.rasi
+            ⭑ brs.rasi
+            ⭑ arch-rain.rasi
+            ⭑ neon-violet.rasi
+            ⭑ ena.rasi 
+            ⭑ celty.rasi
+            ⭑ dracula.rasi 
+
+        ⋮ ~/.config/rofi/scripts/
+            ⭑ launch-rofi.sh
+
+
+    ━━━━━━ Neofetch
+        ⋮ ~/.config/neofetch/
+            ⭑ neofetch.conf
+            ── config.conf
+
+        ⋮ ~/.config/neofetch/themes/
+            ⭑ nord.conf
+            ⭑ crimson.conf
+            ⭑ devilman.conf
+            ⭑ n7-day.conf 
+            ⭑ chill.conf
+            ⭑ blue-yellow.conf
+            ⭑ sakura-hunter.conf
+            ⭑ ember-moon.conf
+            ⭑ brs.conf
+            ⭑ arch-rain.conf
+            ⭑ neon-violet.conf
+            ⭑ ena.conf
+            ⭑ celty.conf
+            ⭑ dracula.conf
+
+        ⋮ ~/.config/neofetch/images/
+            ⭑ Nord.png
+            ⭑ crimson.png
+            ⭑ Devilman.png
+            ⭑ n7-day.png
+            ⭑ Chill.png
+            ⭑ blue-yellow.png 
+            ⭑ dango.png
+            ⭑ ember-moon.png
+            ⭑ brs.png 
+            ⭑ neon-violet.png 
+            ⭑ ena.png
+            ⭑ celty.png
+            ⭑ dracula.png
+
+
+    ━━━━━━ Calcurse
+        ⋮ ~/.config/calcurse/
+            ⭑ conf
+            ⭑ keys 
+
+
+    ━━━━━━ Eww
+        ⋮ ~/.config/eww/
+            ⭑ eww.yuck
+            ⭑ eww.css 
+            ⭑ eww-theme.sh
+            ⭑ toggle-sidebar.sh
+
+        ⋮ ~/.config/eww/themes/
+            ⭑ nord.css
+            ⭑ crimson.css
+            ⭑ devilman.css
+            ⭑ n7-day.css
+            ⭑ chill.css
+            ⭑ blue-yellow.css
+            ⭑ sakura-hunter.css
+            ⭑ ember-moon.css
+            ⭑ brs.css
+            ⭑ arch-rain.css
+            ⭑ neon-violet.css
+            ⭑ ena.css
+            ⭑ celty.css
+            ⭑ dracula.css
+
+        ⋮ ~/.config/eww/yuck-themes/
+            ⭑ nord.yuck
+            ⭑ crimson.yuck
+            ⭑ devilman.yuck
+            ⭑ n7-day.yuck
+            ⭑ chill.yuck
+            ⭑ blue-yellow.yuck
+            ⭑ sakura-hunter.yuck
+            ⭑ ember-moon.yuck
+            ⭑ brs.yuck
+            ⭑ arch-rain.yuck
+            ⭑ neon-violet.yuck
+            ⭑ ena.yuck
+            ⭑ celty.yuck
+            ⭑ dracula.yuck
+
+        ⋮ ~/.config/eww/icons/
+            ⭑ nord
+            ⭑ crimson
+            ⭑ devilman
+            ⭑ n7-day
+            ⭑ chill
+            ⭑ blue-yellow
+            ⭑ sakura-hunter
+            ⭑ ember-moon
+            ⭑ brs
+            ⭑ arch-rain
+            ⭑ neon-violet
+            ⭑ ena
+            ⭑ celty
+            ⭑ dracula
+
+        ⋮ ~/.config/eww/scripts
+            ⭑ menu-toggle.sh 
+            ⭑ toggle.sh
+            ⭑ toggle-wifi-menu.sh
+            ⭑ toggle-bt-menu.sh
+            ⭑ toggle-volume.sh
+            ⭑ toggle-brightness.sh
+            ⭑ menu-open.sh
+            ⭑ wifi-list.sh
+            ⭑ hide-hint.sh
+            ⭑ bt-list.sh
+            ⭑ bt-scan-update.sh
+            ⭑ wifi-scan-update.sh
+
+
+    ━━━━━━ Polybar 
+        ⋮ ~/.config/polybar/
+            ⭑ config.ini 
+            ⭑ launch.sh 
+            ── colors.ini
+
+        ⋮ ~/.config/polybar/themes/
+            ⭑ nord.ini 
+            ⭑ crimson.ini 
+            ⭑ devilman.ini 
+            ⭑ n7-day.ini 
+            ⭑ chill.ini
+            ⭑ blue-yellow.ini
+            ⭑ sakura-hunter.ini
+            ⭑ ember-moon.ini
+            ⭑ brs.ini
+            ⭑ arch-rain.ini
+            ⭑ neon-violet.ini
+            ⭑ ena.ini
+            ⭑ celty.ini
+            ⭑ dracula.ini
+
+        ⋮ ~/.config/polybar/scripts/
+            ⭑ hub.sh 
+            ⭑ rofi-toggle.sh
+            ⭑ weather-poly.sh
+            ⭑ eww-toggle-sidebar.sh
+            ⭑ eww-sidebar-state.sh
+            ⭑ menu-toggle.sh 
+            ⭑ eww-toggle-bluetooth.sh
+            ⭑ eww-toggle-brightness.sh 
+            ⭑ eww-toggle-volume.sh
+            ⭑ eww-toggle-wifi.sh
+            ⭑ wifi-list.sh
+            ⭑ bt-list.sh
+            ⭑ bt-scan-update.sh
+            ⭑ wifi-scan-update.sh
+            ⭑ brightness-icon.sh 
+            ⭑ volume-icon.sh 
+            ⭑ bt-status.sh 
+            ⭑ brightness.sh 
+            ⭑ scripts.sh
+            ⭑ volscale.sh 
+            ⭑ eww-toggle-sidebar.sh 
+            ⭑ weather.sh
+            ⭑ battery.sh
+            ⭑ music-title-compact.sh
+            ⭑ netspeed-compact.sh
+            ⭑ netspeed.sh
+            ⭑ network-ssid.sh
+            ⭑ music-title.sh 
+
+
+    ━━━━━━ Kitty 
+        ⋮ ~/.config/kitty/
+            ⭑ kitty.conf
+            ── current-theme.conf
+
+        ⋮ ~/.config/kitty/themes
+            ⭑ nord.conf
+            ⭑ crimson.conf
+            ⭑ devilman.conf
+            ⭑ n7-day.conf 
+            ⭑ chill.conf
+            ⭑ blue-yellow.conf
+            ⭑ sakura-hunter.conf
+            ⭑ ember-moon.conf
+            ⭑ brs.conf
+            ⭑ arch-rain.conf
+            ⭑ neon-violet.conf
+            ⭑ ena.conf
+            ⭑ celty.conf
+            ⭑ dracula.conf
+
+
+    ━━━━━━ Dunst
+        ⋮ ~/.config/dunst/
+            ⭑ dunst.conf
+            ⭑ dunstrc 
+
+
+    ━━━━━━ Picom
+        ⋮ ~/.config/picom
+            ⭑ picom.conf 
