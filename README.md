@@ -169,4 +169,41 @@ Switch themes on i3 with this stunning collection of different high quality them
 
 [GTK ICONS: Gnome-Look](https://www.gnome-look.org/)
 
-        
+
+
+:sparkles: 〢GTK ICONS
+
+[Dexy-Color-Dark-Icons](https://www.gnome-look.org/p/1964004)
+
+
+[Nordzy](https://www.gnome-look.org/p/1686927)
+
+
+[Tela-Circle](https://www.gnome-look.org/p/1359276)
+
+
+[Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+
+
+[Goldy-Dark-Icons](https://www.gnome-look.org/p/2037378)
+
+
+[Vivid-Glassy-Dark-Icons](https://www.gnome-look.org/p/2119129/)
+
+
+[Fluent-Icon-Theme](https://www.gnome-look.org/p/1477945)
+
+
+[Slot-Silvery-Dark-Icons](https://www.gnome-look.org/p/2344960)
+
+
+[Vortex-Dark-Icons](https://www.gnome-look.org/p/149343/)
+
+
+
+
+
+
+
+
+
