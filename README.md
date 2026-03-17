@@ -89,7 +89,7 @@ Switch themes on i3 with this stunning collection of different high quality them
    _› $mod+Shift+t_ 
 
 
->[!TIP:]
+>[!TIP]
 >File location cheat sheet can also be found in the general location in this repo as a text file! 
 
 
