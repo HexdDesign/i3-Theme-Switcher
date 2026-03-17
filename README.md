@@ -66,15 +66,242 @@ _~/.config/i3/config_
 
 :star: Mod4: SUPER / WIN KEY  
 
+
    
 **MOD KEY:**
 
-_› set $mod Mod4_
+   _› set $mod Mod4_
+
 
 **KILL FOCUSED WINDOW:**
 
-_› $mod+q_
+   _› $mod+q_
 
+
+**FULLSCREEN TOGGLE:**
+
+   _› $mod+f_ 
+
+
+**CHANGE FOCUS (VIM - STYLE):**
+
+FOCUS LEFT:
+
+   _› $mod+j_  
+
+FOCUS DOWN:
+
+   _› $mod+k_ 
+
+FOCUS UP:
+
+   _› $mod+l_ 
+
+FOCUS RIGHT:
+
+   _› $mod+semicolon_  
+
+
+**CHANGE FOCUS (ARROW KEYS):**
+
+FOCUS LEFT:
+
+   _› $mod+Left_  
+
+FOCUS DOWN:
+
+   _› $mod+Down_ 
+
+FOCUS UP:
+
+   _› $mod+Up_ 
+
+FOCUS RIGHT:
+
+   _› $mod+Right_  
+
+
+**MOVE FOCUS (VIM - STYLE):**
+
+MOVE LEFT:
+
+   _› $mod+Shift+j_  
+
+MOVE DOWN: 
+
+   _› $mod+Shift+k_
+
+MOVE UP:
+
+   _› $mod+Shift+l_ 
+
+MOVE RIGHT:
+
+   _› $mod+Shift+semicolon_ 
+
+
+**MOVE FOCUS (ARROW KEYS):**
+
+MOVE LEFT:
+
+   _› $mod+Shift+Left_
+
+MOVE DOWN: 
+
+   _› $mod+Shift+Down_ 
+
+MOVE UP:
+
+   _› $mod+Shift+Up_ 
+
+MOVE RIGHT:
+            
+   _› $mod+Shift+Right_
+
+
+**SPLIT ORIENTATION:**
+
+SPLIT HORIZONTAL:
+
+   _› $mod+h_
+
+SPLIT VERTICAL:
+
+   _› $mod+v_
+   
+
+**CONTAINER LAYOUT:**
+
+LAYOUT STACKING:
+
+   _› $mod+s_
+   
+LAYOUT TABBED:
+
+   _› $mod+w_
+
+∗ LAYOUT TOGGLE SPLIT:
+
+   _› $mod+e_ 
+
+
+**TOGGLE FLOATING:**
+
+LAYOUT STACKING:
+
+   _› $mod+Shift+Space_
+
+
+**FOCUS PARENT:**
+
+PARENT CONTAINER:
+            
+   _› $mod+a_ 
+
+
+**WORKSPACES:**
+
+DEFINE:
+
+   _› set $ws1 "1"_  
+   _› set $ws2 "2"_  
+   _› set $ws3 "3"_  
+   _› set $ws4 "4"_  
+   _› set $ws5 "5"_
+   _› set $ws6 "6"_  
+   _› set $ws7 "7"_  
+   _› set $ws8 "8"_  
+   _› set $ws9 "9"_  
+   _› set $ws10 "10"_  
+
+
+SWITCH:
+
+   _› $mod+1 workspace number $ws1_
+   _› $mod+2 workspace number $ws2_
+   _› $mod+3 workspace number $ws3_
+   _› $mod+4 workspace number $ws4_ 
+   _› $mod+5 workspace number $ws5_ 
+   _› $mod+6 workspace number $ws6_ 
+   _› $mod+7 workspace number $ws7_ 
+   _› $mod+8 workspace number $ws8_ 
+   _› $mod+9 workspace number $ws9_ 
+   _› $mod+10 workspace number $ws10_ 
+
+
+**i3:**
+
+RELOAD:
+
+   _› $mod+Shift+c_
+
+RESTART:
+
+   _› $mod+Shift+r_
+
+EXIT:
+
+   _› $mod+Shift+e_
+
+
+**RESIZE:**
+
+RESIZE MODE:
+
+_› $mod+r_ 
+
+SHRINK WIDTH 10px OR 10ppt:
+
+_› j_
+
+GROW HEIGHT 10px OR 10ppt:
+
+_› k_
+
+SHRINK HEIGHT 10 px OR 10ppt :
+
+_› l_
+
+GROW WIDTH 10px OR 10ppt:
+
+_› semicolon_ 
+
+
+**CUSTOM:**
+
+i3 LOCK-COLOR - Lock Screen:
+
+   _› $mod+Shift+l_
+   
+FLAMESHOT - Screen Capture GUI:
+
+   _› $mod+Shift+q_
+   
+FIREFOX - Default Browser:
+
+   _› $mod+b_  
+
+THUNAR - File Manager:
+   _› $mod+m_
+
+i3 THEME SWITCHER:
+   _› $mod+Shift+t_ 
+
+
+**WINDOW RULES**
+
+   _› default_border pixel 0_
+   
+   _› default_floating_border pixel 0_
+   
+   _› smart_borders on_ 
+   
+   _› hide_edge_borders smart_
+
+   
+   _› gaps inner 10_
+   
+   _› gaps outer 5_
 
 
 
