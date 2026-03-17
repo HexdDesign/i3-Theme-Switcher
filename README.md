@@ -16,13 +16,29 @@ Switch themes on i3 with this stunning collection of different high quality them
 ────────────────────────────────────────────────────
 
 >[!WARNING]
-> Keep in mind that these dotfiles are coded for these options. ── Anything can be removed or replaced, in theory. However, 
-the ' optional ' category contains options that are much easier to remove and/or replace.
+> Keep in mind that these dotfiles are coded for these options. ── Anything can be removed or replaced, in theory.
 
+────────────────────────────
 
-:exclamation:
 ### REQUIRED
-
-:grey_exclamation: 
+   - i3
+   - Pacman
+   - Polybar
+   - Rofi
+   - Eww
+   - GTK 3.0
+   - GTK 4.0
+   - Thunar
+   - Kitty
+   - Neofetch
+   - PulseAudio
+   - Nmcli
+   - Playerctl
+   - Weather API
+   - Geany
+     
+────────────────────────────
+ 
 ### OPTIONAL
  
+────────────────────────────
