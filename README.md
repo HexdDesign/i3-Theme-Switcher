@@ -63,7 +63,7 @@ Switch themes on i3 with this stunning collection of different high quality them
    
 - [Click to see i3's official site for more information about keybindings](https://i3wm.org/docs/userguide.html#_default_keybindings)
 
->[!Tip]
+>[!NOTE]
 >Keybind Cheat Sheet can be found within general file location in this repo. However, here are some ones to note:
 
 :star: Mod4: SUPER / WIN KEY  
@@ -89,6 +89,8 @@ Switch themes on i3 with this stunning collection of different high quality them
    _› $mod+Shift+t_ 
 
 
+>[!TIP:]
+>File location cheat sheet can also be found in the general location in this repo as a text file! 
 
 
 ## OFFICIAL DOCUMENTATIONS ・・・・・
