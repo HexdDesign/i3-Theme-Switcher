@@ -204,28 +204,46 @@ _~/.config/i3/config_
 ━━ DEFINE:
 
    _› set $ws1 "1"_  
+   
    _› set $ws2 "2"_  
+   
    _› set $ws3 "3"_  
+   
    _› set $ws4 "4"_  
+   
    _› set $ws5 "5"_
+   
    _› set $ws6 "6"_  
+   
    _› set $ws7 "7"_  
+   
    _› set $ws8 "8"_  
+   
    _› set $ws9 "9"_  
+   
    _› set $ws10 "10"_  
 
 
 ━━ SWITCH:
 
    _› $mod+1 workspace number $ws1_
+   
    _› $mod+2 workspace number $ws2_
+   
    _› $mod+3 workspace number $ws3_
+   
    _› $mod+4 workspace number $ws4_ 
-   _› $mod+5 workspace number $ws5_ 
+   
+   _› $mod+5 workspace number $ws5_
+   
    _› $mod+6 workspace number $ws6_ 
+   
    _› $mod+7 workspace number $ws7_ 
+   
    _› $mod+8 workspace number $ws8_ 
+   
    _› $mod+9 workspace number $ws9_ 
+   
    _› $mod+10 workspace number $ws10_ 
 
 
