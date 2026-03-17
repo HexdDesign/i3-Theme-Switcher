@@ -244,6 +244,7 @@ _~/.config/i3/config_
    _› $mod+Shift+e_
 
 
+
 **RESIZE:**
 
 ━━ RESIZE MODE:
