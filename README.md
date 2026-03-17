@@ -13,9 +13,16 @@ Switch themes on i3 with this stunning collection of different high quality them
 
 ### ꩜ Dots by Dizzy ₊˚ʚ ᗢ₊˚✧ ﾟ.
 
-───── ⋆⋅☆⋅⋆ ────────────────────────────────────────────────────
+────────────────────────────────────────────────────
 
 >[!WARNING]
 > Keep in mind that these dotfiles are coded for these options. ── Anything can be removed or replaced, in theory. However, 
-the ' optional ' category contains options that are much easier to remove and/or replace.  
+the ' optional ' category contains options that are much easier to remove and/or replace.
+
+
+:exclamation:
+### REQUIRED
+
+:grey_exclamation: 
+### OPTIONAL
  
