@@ -25,6 +25,7 @@
 (defvar bri_hint_show false)
 
 
+;; VOLUME ===========
 (defvar vol_hint "")
 (defvar vol_hint_show false)
 
