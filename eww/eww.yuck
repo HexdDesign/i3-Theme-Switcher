@@ -29,6 +29,8 @@
 (defvar vol_hint "")
 (defvar vol_hint_show false)
 
+
+
 ;; ======================
 ;; SEPARATOR
 ;; ======================
@@ -36,6 +38,7 @@
   (box :class "menu-separator"
        :hexpand true
        :vexpand false))
+
 
 ;; ======================
 ;; QUICKAPPS SIDEBAR WIDGET
@@ -58,6 +61,10 @@
            :image-width qa_icon_size
            :image-height qa_icon_size)))
 
+
+;; =========== THIS IS WHERE YOU ADD YOUR OWN QUICKAPPS, IF YOU WANT.
+;; MAKE SURE TO CREATE A CORRESPONDING SVG IMAGE AND NAME IT EXACTLY AS SHOWN HERE ===========
+
 (defwidget quickapps []
   (box :class "quick-apps" :orientation "v" :spacing 40 :halign "center" :valign "start"
     (app-icon :cmd "gtk-launch proton-mail"         :icon "protonmail.svg")
@@ -69,7 +76,8 @@
     (app-icon :cmd "codium"                         :icon "vscode.svg")
     (app-icon :cmd "firefox https://github.com"     :icon "github.svg")
     (app-icon :cmd "firefox http://localhost:8096/" :icon "jellyfin.svg")))
- 
+
+
 
 ;; ======================
 ;; POLYBAR MENU WIDGETS
@@ -115,6 +123,7 @@
            :space-evenly false
            :spacing 2
         (literal :content wifi-results)))))
+
 
 ;;============================
 ;; BLUETOOTH =================
@@ -194,6 +203,7 @@
     (revealer :reveal bri_hint_show
       (label :class "slider-hint" :text bri_hint))))
 
+
 ;;============================
 ;; VOLUME ====================
 ;;============================
@@ -229,6 +239,7 @@
 
     (revealer :reveal vol_hint_show
       (label :class "slider-hint" :text vol_hint))))
+
 
 ;;============================
 ;; QUICKAPPS SIDEBAR =========
