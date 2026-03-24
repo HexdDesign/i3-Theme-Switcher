@@ -1,0 +1,77 @@
+/* Arch Rain  */
+@define-color bg #0d1117;									/* dark blue black */
+@define-color fg #dce8f0;									/* pale blue white */
+@define-color fg_dim rgba(220,232,240,0.60);				/* pale blue white */
+@define-color menu_bg rgba(13,17,23,0.94);					/* dark grey blue */
+@define-color menu_border_solid rgba(30,144,212,0.60);		/* bright blue */
+@define-color menu_shadow rgba(0,0,0,0.60);					/* grey */
+
+/*Background to widgets*/
+@define-color sidebar_bg rgba(13,17,23,0.94);				/* dark grey */
+
+/*Widget icons and titles*/
+@define-color icon_color #5bb8d4;							/* bright blue cyan */
+@define-color title_color rgba(220,232,240,0.92);			/* light grey blue */
+@define-color value_color #1e90d4;							/* bright blue */
+
+/*Bluetooth and network button glow*/
+@define-color qa_hover_bg rgba(255,255,255,0.08);			/* near white */
+@define-color qa_hover_glow_near rgba(30,144,212,0.60);		/* blue */
+@define-color qa_hover_glow_far rgba(30,144,212,0.30);		/* pale blue */
+
+/*Color of bluetooth and brightness sliders*/
+@define-color slider_trough_menu rgba(30,144,212,0.18);		/* light blue */ 
+@define-color slider_fill_menu rgba(91,184,212,0.85);		/* cyan blue */
+@define-color slider_trough rgba(30,144,212,0.20);			/* light blue grey */
+@define-color slider_fill rgba(91,184,212,0.75);			/* cyan blue */
+@define-color slider_thumb rgba(91,184,212,0.95);			/* bright blue cyan */
+@define-color slider_thumb_hover #10E8FF;					/* bright cyan */
+
+
+/*Separator line under network and bluetooth before menu*/
+@define-color separator_start rgba(30,144,212,0.40);		/* pale blue grey */
+@define-color separator_end rgba(212,136,30,0.25);			/* pale yellow */
+
+/*Menu specifics for bluetooth and network*/
+@define-color item_bg rgba(30,144,212,0.10);				/* pale blue grey */
+@define-color item_hover_bg rgba(91,184,212,0.28);			/* pale blue grey */
+@define-color item_hover_border rgba(212,136,30,0.70);		/* pale yellow */
+@define-color item_connected_bg rgba(91,184,212,0.28);		/* pale blue grey */
+@define-color item_connected_border rgba(212,136,30,0.50);	/* orange *.
+@define-color item_connected_text #d4881e;
+
+/*Color of current bluetooth and network connection*/
+@define-color current_label rgba(220,232,240,0.85);			/* pale grey blue */
+
+/*Scan devices or networks button*/
+@define-color scan_btn_bg rgba(91,184,212,0.15);			/* pale blue white */
+@define-color scan_btn_border rgba(212,136,30,0.60);		/* orange */
+@define-color scan_btn_text #d4881e;						/* orange */
+@define-color scan_btn_hover_bg rgba(91,184,212,0.35);		/* pale slate blue */
+@define-color scan_btn_hover_border rgba(212,136,30,0.90);	/* orange */
+@define-color scan_btn_hover_glow rgba(212,136,30,0.30);	/* pale orange */
+
+/*Menu specifics for bluetooth and network widgets*/
+@define-color row_status #d4881e;							/* orange */
+@define-color bt_empty_icon rgba(212,136,30,0.50);			/* pale orange */
+@define-color hint_color rgba(220,232,240,0.85);			/* pale slate blue */
+	
+/*Scrollbar for network and bluetooth menu*/
+@define-color scrollbar_trough rgba(30,144,212,0.10);		/* pale blue white */
+@define-color scrollbar_thumb rgba(91,184,212,0.30);		/* pale blue white */
+@define-color scrollbar_thumb_hover rgba(91,184,212,0.55);	/* pale blue white */
+
+
+/* Aliases your eww.css uses */
+@define-color menu_border @menu_border_solid;
+@define-color hover_bg @qa_hover_bg;
+@define-color glow_near @qa_hover_glow_near;
+@define-color glow_far @qa_hover_glow_far;
+@define-color item_hover @item_hover_bg;
+@define-color item_border @item_hover_border;
+@define-color item_connected @item_connected_bg;
+@define-color accent @icon_color;
+@define-color hint @hint_color;
+@define-color scroll_trough @scrollbar_trough;
+@define-color scroll_thumb @scrollbar_thumb;
+@define-color scroll_thumb_hover @scrollbar_thumb_hover;
