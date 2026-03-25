@@ -1,0 +1,72 @@
+/* ============================================================
+   Sakura Hunter
+   ============================================================ */
+   
+:root {
+  /* ── Base ──────────────────────────────────────────────── */
+  --bg:                    #1a0f1a;
+  --bg-alt:                #2a1e2a;
+  --fg:                    #f0e6ec;
+  --fg-dim:                rgba(160, 120, 144, 0.85);
+  --accent:                #e8a0c0;
+  --primary:               #5a8ab0;
+  --yellow:                #d4a855;
+  --urgent:                #c85a5a;
+
+  /* ── Menu box ──────────────────────────────────────────── */
+  --menu-bg:               rgba(26, 15, 26, 0.96);
+  --menu-border:           rgba(232, 160, 192, 0.55);
+  --menu-border-solid:     rgba(90, 138, 176, 0.60);
+  --menu-shadow:           rgba(0, 0, 0, 0.65);
+
+  /* ── Sidebar ───────────────────────────────────────────── */
+  --sidebar-bg:            rgba(42, 30, 42, 0.96);
+
+  /* ── Control header ────────────────────────────────────── */
+  --icon-color:            #e8a0c0;
+  --title-color:           rgba(240, 230, 236, 0.92);
+  --value-color:           #a0b8d0;
+
+  /* ── Quick apps ────────────────────────────────────────── */
+  --qa-hover-bg:           rgba(232, 160, 192, 0.10);
+  --qa-hover-glow-near:    rgba(232, 160, 192, 0.50);
+  --qa-hover-glow-far:     rgba(232, 160, 192, 0.20);
+
+  /* ── Sliders ───────────────────────────────────────────── */
+  --slider-trough:         rgba(90, 138, 176, 0.20);
+  --slider-fill:           rgba(232, 160, 192, 0.85);
+  --slider-thumb:          #d4a855;
+  --slider-thumb-hover:    #e8c070;
+
+  /* ── Separator ─────────────────────────────────────────── */
+  --separator-start:       rgba(232, 160, 192, 0.35);
+  --separator-end:         rgba(212, 168, 85, 0.20);
+
+  /* ── Wifi / BT items ───────────────────────────────────── */
+  --item-bg:               rgba(90, 138, 176, 0.12);
+  --item-hover-bg:         rgba(232, 160, 192, 0.25);
+  --item-hover-border:     rgba(212, 168, 85, 0.60);
+  --item-connected-bg:     rgba(232, 160, 192, 0.22);
+  --item-connected-border: rgba(212, 168, 85, 0.45);
+  --item-connected-text:   #d4a855;
+  --current-label:         rgba(240, 230, 236, 0.85);
+
+  /* ── Scan buttons ──────────────────────────────────────── */
+  --scan-btn-bg:           rgba(232, 160, 192, 0.14);
+  --scan-btn-border:       rgba(212, 168, 85, 0.55);
+  --scan-btn-text:         #d4a855;
+  --scan-btn-hover-bg:     rgba(232, 160, 192, 0.30);
+  --scan-btn-hover-border: rgba(212, 168, 85, 0.85);
+  --scan-btn-hover-glow:   rgba(212, 168, 85, 0.25);
+
+  /* ── Row status ────────────────────────────────────────── */
+  --row-status:            #d4a855;
+
+  /* ── BT empty state ────────────────────────────────────── */
+  --bt-empty-icon:         rgba(212, 168, 85, 0.45);
+
+  /* ── Scrollbars ────────────────────────────────────────── */
+  --scrollbar-trough:      rgba(90, 138, 176, 0.10);
+  --scrollbar-thumb:       rgba(232, 160, 192, 0.28);
+  --scrollbar-thumb-hover: rgba(232, 160, 192, 0.50);
+}
