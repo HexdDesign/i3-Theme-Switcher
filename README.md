@@ -73,22 +73,29 @@ Switch themes on i3 with this stunning collection of different high quality them
 ### CUSTOM KEYBINDS:
 
 ━━ **i3 LOCK-COLOR** - Lock Screen:
-
-   _› $mod+Shift+q_
+```
+ $mod+Shift+q
+```
    
 ━━ **FLAMESHOT** - Screen Capture GUI:
-
-   _› $mod+Shift+p_
+```
+ $mod+Shift+p
+```
    
 ━━ **FIREFOX** - Default Browser:
-
-   _› $mod+b_  
+```
+ $mod+b
+```
 
 ━━ **THUNAR** - File Manager:
-   _› $mod+m_
+```
+$mod+m
+```
 
 ━━ **i3 THEME SWITCHER:**
-   _› $mod+Shift+t_ 
+```
+$mod+Shift+t
+```
 
 
 >[!TIP]
@@ -102,11 +109,13 @@ Switch themes on i3 with this stunning collection of different high quality them
 - Do not physically add files such as: current.conf, current.env, etc. symlink files. The theme switcher script will handle it.
 
 
+
 :star: ROFI:
 
 • app-launcher.rasi - This .rasi file is global for the application launcher.
  
 • theme-picker.rasi - This .rasi file is global for the theme switcher.
+
 
 
 :star: POLYBAR:
@@ -116,9 +125,14 @@ Switch themes on i3 with this stunning collection of different high quality them
    ```
    ~/.config/eww/eww.yuck 
    ```
+
 • MAKE SURE to input your own weather API into:
-                        ~/.config/polybar/scripts/weather.env
+   ```
+   ~/.config/polybar/scripts/weather.env
+   ```
 ( Suggestion: Use OpenWeatherMap.org for free weather APIs! )
+
+
 
 
 
