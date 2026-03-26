@@ -280,7 +280,7 @@ $mod+Shift+t
 
 
 >[!IMPORTANT]
-> Check out the 'theme images' for a more detailed visual example of the i3 themes! 
+> Check out the 'theme images' folder in the general section of this repo for a more detailed visual example of the i3 themes! 
 
 
 
