@@ -132,12 +132,30 @@ $mod+Shift+t
    ~/.config/polybar/scripts/weather.env
    ```
 
-( Suggestion: Use OpenWeatherMap.org for free weather APIs! )
+( Suggestion: Use OpenWeatherMap.org for free weather APIs ! )
 
 
 
 :star: EWW:
 
+• Sidebar - You can add your own quickapps to sidebar. 
+
+   ── Add them in:
+   ```
+   ~/.config/eww/eww.yuck
+   ```
+
+   ── Then, be sure to create SVG icons accordingly and add them in:
+   ```
+    ~/.config/eww/icons/(name-of-theme)
+   ```
+
+   ── To change the size of quickapp icons, do so in:
+   ```
+   ~/.config/eww/yuck-themes/(name-of-theme)
+   ```
+    
+( Change name-of-theme to the theme you would like to edit ! )
 
 
 ────────────────────────────
