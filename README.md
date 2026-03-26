@@ -103,6 +103,7 @@ $mod+Shift+t
 
 ────────────────────────────
 
+
 :seedling: Some more important notes about this repo:
 
 
