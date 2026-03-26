@@ -51,6 +51,8 @@ Switch themes on i3 with this stunning collection of different high quality them
  
 ────────────────────────────
 
+>[!TIP]
+>All of the files in this repo are to be loaded under your ~/.config/ folder!
 
 
 ## —— ⊹ i3 KEYBINDS ⊹ ——
@@ -90,7 +92,7 @@ Switch themes on i3 with this stunning collection of different high quality them
 
 
 >[!TIP]
->File location cheat sheet can also be found in the general location in this repo as a text file by the name of - File Location. 
+>File location cheat sheet can also be found in the general location in this repo as a text file by the name of - File Location.
 
 
 ## OFFICIAL DOCUMENTATIONS ・・・・・
