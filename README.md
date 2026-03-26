@@ -157,6 +157,17 @@ $mod+Shift+t
     
 ( Change name-of-theme to the theme you would like to edit ! )
 
+:star: THEME.ENV:
+
+• The theme.env file within each:
+   ```
+   ~/.config/i3/(theme)
+   ```
+
+• Control file links here, as well as the colors for Dunst and i3 Lock-Color !
+
+
+
 
 ────────────────────────────
 
