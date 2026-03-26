@@ -98,11 +98,27 @@ Switch themes on i3 with this stunning collection of different high quality them
 
 :seedling: Some more important notes about this repo:
 
+
 - Do not physically add files such as: current.conf, current.env, etc. symlink files. The theme switcher script will handle it.
 
-- ROFI:
- • app-launcher.rasi - This .rasi file is global for the application launcher.
- • theme-picker.rasi - This .rasi file is global for the theme switcher.
+
+:star: ROFI:
+
+• app-launcher.rasi - This .rasi file is global for the application launcher.
+ 
+• theme-picker.rasi - This .rasi file is global for the theme switcher.
+
+
+:star: POLYBAR:
+• BE CAREFUL as the EWW widgets are hard coded to desktop locations.
+   
+   ── Change their location in:
+   ```
+   ~/.config/eww/eww.yuck 
+   ```
+• MAKE SURE to input your own weather API into:
+                        ~/.config/polybar/scripts/weather.env
+( Suggestion: Use OpenWeatherMap.org for free weather APIs! )
 
 
 
