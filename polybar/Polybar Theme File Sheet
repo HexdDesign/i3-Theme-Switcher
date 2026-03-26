@@ -1,0 +1,13 @@
+~/.config/polybar/themes:
+
+⭕ 〢POLYBAR THEME FILE CHEAT SHEET: 
+        ( Add your own as you wish!)
+
+            ・ theme - theme icon ( paintbrush icon located on bottom bar )
+            ・ ttbar - top toolbar on right ( bluetooth, network, brightness, and battery icons )
+            ・ circle - rofi app launcher button ( circle icon on bottom left )
+            ・ msc - music buttons ( back, play, and forward icons on bottom right )
+            ・ star - eww sidebar launcher button ( star icon located on top left )
+            ・ updates - number of updates ( located to the right of pacman icon, bottom center )
+            ・ title = music title ( music title / 'no music playing' on bottom right )
+            ・ pacman - pacman icon ( pacman icon on bottom bar in the center, next to time )
