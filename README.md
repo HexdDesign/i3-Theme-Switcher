@@ -119,6 +119,7 @@ $mod+Shift+t
 
 
 :star: POLYBAR:
+
 • BE CAREFUL as the EWW widgets are hard coded to desktop locations.
    
    ── Change their location in:
@@ -130,10 +131,12 @@ $mod+Shift+t
    ```
    ~/.config/polybar/scripts/weather.env
    ```
+
 ( Suggestion: Use OpenWeatherMap.org for free weather APIs! )
 
 
 
+:star: EWW:
 
 
 
