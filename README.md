@@ -94,6 +94,20 @@ Switch themes on i3 with this stunning collection of different high quality them
 >[!TIP]
 >File location cheat sheet can also be found in the general location in this repo as a text file by the name of - File Location.
 
+────────────────────────────
+
+:seedling: Some more important notes about this repo:
+
+- Do not physically add files such as: current.conf, current.env, etc. symlink files. The theme switcher script will handle it.
+- 
+- ROFI:
+- • app-launcher.rasi - This .rasi file is global for the application launcher.
+- • theme-picker.rasi - This .rasi file is global for the theme switcher.
+
+
+
+
+────────────────────────────
 
 ## OFFICIAL DOCUMENTATIONS ・・・・・
 
