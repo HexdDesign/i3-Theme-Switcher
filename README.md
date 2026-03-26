@@ -59,9 +59,9 @@ Switch themes on i3 with this stunning collection of different high quality them
 
 **i3 Keybinds - They can be altered to your preferences in the config file:**
 
-
-   _~/.config/i3/config_ 
-
+```
+~/.config/i3/config_ 
+```
    
 - [Click to see i3's official site for more information about keybindings](https://i3wm.org/docs/userguide.html#_default_keybindings)
 
