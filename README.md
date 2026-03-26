@@ -99,10 +99,10 @@ Switch themes on i3 with this stunning collection of different high quality them
 :seedling: Some more important notes about this repo:
 
 - Do not physically add files such as: current.conf, current.env, etc. symlink files. The theme switcher script will handle it.
-- 
+
 - ROFI:
-- • app-launcher.rasi - This .rasi file is global for the application launcher.
-- • theme-picker.rasi - This .rasi file is global for the theme switcher.
+ • app-launcher.rasi - This .rasi file is global for the application launcher.
+ • theme-picker.rasi - This .rasi file is global for the theme switcher.
 
 
 
