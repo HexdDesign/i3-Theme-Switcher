@@ -169,6 +169,27 @@ $mod+Shift+t
 
 
 
+────────────────────────────
+
+### CURRENT THEMES
+   - Arch-Rain
+   - Blue-Yellow
+   - BRS (Black Rock Shooter)
+   - Celty (Durarara)
+   - Chill
+   - Crimson
+   - Devilman (Devilman Crybaby)
+   - Dracula
+   - Ember-Moon
+   - ENA (Joel G.)
+   - N7-Day (Mass Effect)
+   - Neon-Violet
+   - Nord
+   - Sakura-Hunter (Monster Hunter)
+     
+────────────────────────────
+
+
 
 ────────────────────────────
 
