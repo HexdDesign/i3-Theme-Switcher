@@ -63,10 +63,60 @@ fi
 # Abort if we still have no scheme name after all resolution attempts
 [[ -n "${scheme:-}" ]] || { echo "ERROR: No scheme provided." >&2; usage; exit 2; }
 
+# ---- Verify the scheme file actually exists in Geany's colorschemes directory
+COLORSCHEMES_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/geany/colorschemes"
+if [[ ! -f "$COLORSCHEMES_DIR/$scheme" ]]; then
+  echo "WARNING: Scheme file not found at $COLORSCHEMES_DIR/$scheme" >&2
+  echo "         Geany will silently fall back to its default theme." >&2
+  echo "         Available schemes:" >&2
+  if [[ -d "$COLORSCHEMES_DIR" ]]; then
+    ls "$COLORSCHEMES_DIR" >&2 || echo "         (directory is empty)" >&2
+  else
+    echo "         (directory does not exist: $COLORSCHEMES_DIR)" >&2
+  fi
+fi
+
+# ---- FIX: Kill Geany BEFORE writing the config.
+# Geany writes its config on exit and will overwrite any changes made while it is running.
+geany_was_running=false
+if pgrep -x geany >/dev/null 2>&1; then
+  geany_was_running=true
+  if [[ "$restart" == true ]]; then
+    echo "INFO: Stopping Geany before patching config..."
+    pkill -x geany 2>/dev/null || true
+    # Wait up to 3 seconds for Geany to fully exit and flush its config
+    for i in {1..6}; do
+      sleep 0.5
+      pgrep -x geany >/dev/null 2>&1 || break
+    done
+    # If still running, force-kill
+    if pgrep -x geany >/dev/null 2>&1; then
+      echo "INFO: Geany did not exit cleanly; force-killing..."
+      pkill -9 -x geany 2>/dev/null || true
+      sleep 0.5
+    fi
+  else
+    echo "WARNING: Geany is currently running. It will overwrite your changes when it exits." >&2
+    echo "         Use --restart to have this script handle it safely." >&2
+  fi
+fi
+
 # ---- Prepare geany.conf
 # Create the config directory and file if they don't exist yet
 mkdir -p "$(dirname "$GEANY_CONF")"
 [[ -f "$GEANY_CONF" ]] || : >"$GEANY_CONF"
+
+# ---- FIX: Ensure [geany] and [editor] sections exist before patching.
+# If either section is missing, awk can update keys within it but cannot create the section itself.
+# We append any missing sections (with their required keys) before running awk.
+if ! grep -q '^\[geany\]' "$GEANY_CONF"; then
+  echo "INFO: [geany] section missing from geany.conf; adding it."
+  printf '\n[geany]\ncolor_scheme=\n' >> "$GEANY_CONF"
+fi
+if ! grep -q '^\[editor\]' "$GEANY_CONF"; then
+  echo "INFO: [editor] section missing from geany.conf; adding it."
+  printf '\n[editor]\ncolor_scheme=\nuse_custom_colors=false\nuse_legacy_editor_colors=false\n' >> "$GEANY_CONF"
+fi
 
 # ---- Patch geany.conf with awk
 # This awk script edits ONLY the relevant keys inside [geany] and [editor] sections,
@@ -159,10 +209,6 @@ awk -v scheme="$scheme" '
   END {
     # Flush any missing keys if the file ended while still inside a managed section
     flush_missing_for_section()
-
-    # If [geany] section didn't exist at all, prepend it
-    # (cheap check: if we never entered it AND never wrote to it)
-    # We can't prepend in END with awk easily, so rely on your file already having [geany].
   }
 ' "$GEANY_CONF" > "$tmp"
 
@@ -172,14 +218,17 @@ echo "OK: Wrote Geany scheme: $scheme -> $GEANY_CONF"
 
 # ---- Optional Geany restart
 if [[ "$restart" == true ]]; then
-  if pgrep -x geany >/dev/null 2>&1; then
-    # Kill the running instance, then relaunch detached from this script's session
-    pkill -x geany 2>/dev/null || true
+  if [[ "$geany_was_running" == true ]]; then
     setsid -f geany >/dev/null 2>&1 || true
     echo "OK: Geany restarted"
   else
-    echo "NOTE: Geany not running; start it to see the change."
+    echo "NOTE: Geany was not running; start it to see the change."
   fi
 else
-  echo "NOTE: Restart Geany to guarantee the scheme reloads."
+  if [[ "$geany_was_running" == true ]]; then
+    echo "NOTE: Geany was left stopped. Restart it manually to see the change."
+    echo "      Or re-run with --restart to have this script handle it."
+  else
+    echo "NOTE: Start Geany to see the new scheme."
+  fi
 fi
