@@ -1,0 +1,13 @@
+/* Geany editor background — Dracula */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/gtk-3.0/themes/dracula/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #282A36;			/* blue grey */
+    color: #F8F8F2;						/* near white */
+}
+
+textview {
+    background-color: #282A36;			/* blue grey */
+}
