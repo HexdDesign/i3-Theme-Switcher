@@ -1,0 +1,27 @@
+/* Geany editor background — Ember-Moon */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/gtk-3.0/themes/ember-moon/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #141417;   				/* near black */
+    color: #C9CED6;              				/* light grey */
+}
+
+textview {
+    background-color: #141417;					/* near black */
+}
+
+
+
+/* Caret */
+textview caret {
+    color: #FF4D88;  							 /* pink */
+}
+
+/* Selection */
+textview text selection,
+GtkTextView text selection {
+    background-color: rgba(255, 77, 136, 0.28);	 /* pink */
+    color: #FFFFFF;								 /* white */
+}
