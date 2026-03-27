@@ -1,0 +1,13 @@
+/* Geany editor background — N7-Day */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/i3/themes/n7-day/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #0d0a10;				/* dark violet black */
+    color: #f0dde0;							/* light pink white */
+}
+
+textview {
+    background-color: #0d0a10;				/* dark violet black */
+}
