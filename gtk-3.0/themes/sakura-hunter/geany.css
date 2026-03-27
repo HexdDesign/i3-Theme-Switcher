@@ -1,0 +1,17 @@
+/* Sakura Hunter — Geany editor background */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/i3/themes/sakura-hunter/geany.css" */
+
+GeanyEdit,
+GtkTextView,
+textview,
+textview text,
+.geany-editor,
+.view {
+    background-color: #1a0f1a;				/* dark violet */
+    color: #f0e6ec;							/* light pink white */
+}
+
+textview text selection {
+    background-color: #3d2a3d;				/* pale dark violet */
+    color: #f0e6ec;							/* light pink white */
+}
