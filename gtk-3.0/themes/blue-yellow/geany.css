@@ -1,0 +1,13 @@
+/* Geany editor background — Blue-Yellow */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/gtk-3.0/themes/blue-yellow/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #0B1B3A;			/* dark navy blue */
+    color: #EAF2FF;						/* pale bright grey blue */
+}
+
+textview {
+    background-color: #0B1B3A;			/* dark navy blue */
+}
