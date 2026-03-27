@@ -1,0 +1,13 @@
+/* Geany editor background — Ena */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/i3/themes/ena/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #1a0a0a;					/* dark red */
+    color: #f0e6d6;								/* light yellow white */
+}
+
+textview {
+    background-color: #1a0a0a;					/* dark red */
+}
