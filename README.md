@@ -117,6 +117,7 @@ $mod+Shift+t
  
 • theme-picker.rasi - This .rasi file is global for the theme switcher.
 
+• app-themes/(name-of-theme) - This is the file to change icon theme
 
 
 :star: POLYBAR:
