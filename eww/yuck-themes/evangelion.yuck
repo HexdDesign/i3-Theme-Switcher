@@ -1,0 +1,4 @@
+(defvar theme_name "evangelion")
+(defvar eww_icon_dir "/home/dizzy/.config/eww/icons/evangelion")
+(defvar qa_icon_size 52)
+(defvar eww_logo_path "/home/dizzy/.config/eww/icons/evangelion/logo.png")

@@ -1,0 +1,4 @@
+(defvar theme_name "nord")
+(defvar eww_icon_dir "/home/dizzy/.config/eww/icons/project-hail-mary")
+(defvar qa_icon_size 52)
+(defvar eww_logo_path "/home/dizzy/.config/eww/icons/project-hail-mary/logo.png")
