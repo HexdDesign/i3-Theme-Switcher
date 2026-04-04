@@ -1,0 +1,14 @@
+/* Geany editor background — Project-Hail-Mary */
+/* Place at: ~/.config/gtk-3.0/themes/project-hail-mary/geany.css */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/gtk-3.0/themes/project-hail-mary/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #1A2127;			/* dark blue black */
+    color: #D7CF68;						/* off white */
+}
+
+textview {
+    background-color: #1A2127;			/* dark blue black */
+}

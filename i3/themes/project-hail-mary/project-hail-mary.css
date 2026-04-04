@@ -1,0 +1,73 @@
+/* ============================================================
+   Project-Hail-Mary — eww theme variables
+   ============================================================ */
+
+:root {
+  /* ── Base ──────────────────────────────────────────────── */
+  --bg:                    #100C0D;           		 /* near black */
+  --bg-alt:                #0F0C0E;           		 /* lighter near black */
+  --fg:                    #282119;           		 /* dark yellow */
+  --fg-dim:                #CBAC37;				     /* light yellow */
+  --accent:                #BAC3BA;            		 /* neutral blue */
+  --primary:               #D7CF68;            		 /* lighter yellow */
+  --yellow:                #BCA141;            		 /* lighter dark yellow */
+  --urgent:                #E4DEAB;           		 /* near white yellow */
+
+  /* ── Menu box ──────────────────────────────────────────── */
+  --menu-bg:               rgba(26, 33, 39, 0.96);    /* dark blue grey */
+  --menu-border:           rgba(186, 195, 186, 0.55); /* soft yellow grey */
+  --menu-border-solid:     rgba(203, 172, 55, 0.60);  /* yellow */
+  --menu-shadow:           rgba(0, 0, 0, 0.50);       /* black drop shadow */
+
+  /* ── Sidebar ───────────────────────────────────────────── */
+  --sidebar-bg:            rgba(23, 18, 18, 0.96);    /* dark blue grey */
+
+  /* ── Control header ────────────────────────────────────── */
+  --icon-color:            #D7CF68;            		  /* light yellow */
+  --title-color:           rgba(228, 222, 171, 0.92); /* yellow white titles */
+  --value-color:           #BAC3BA;            		  /* light blue */
+
+
+  /* ── Quick apps ────────────────────────────────────────── */
+  --qa-hover-bg:           rgba(255, 255, 255, 0.10); /* subtle white  */
+  --qa-hover-glow-near:    rgba(136, 192, 208, 0.50); /* cyan */
+  --qa-hover-glow-far:     rgba(136, 192, 208, 0.20); /* cyan */
+
+  /* ── Sliders ───────────────────────────────────────────── */
+  --slider-trough:         rgba(94, 129, 172, 0.20);  /* soft frost blue */
+  --slider-fill:           rgba(136, 192, 208, 0.85); /* bright cyan */
+  --slider-thumb:          #ebcb8b;           		  /* yellow */
+  --slider-thumb-hover:    #f0d9a0;           		  /* lighter warm yellow */
+
+  /* ── Separator ─────────────────────────────────────────── */
+  --separator-start:       rgba(136, 192, 208, 0.35); /* cyan gradient start */
+  --separator-end:         rgba(235, 203, 139, 0.20); /* soft yellow gradient end */
+
+  /* ── Wifi / BT items ───────────────────────────────────── */
+  --item-bg:               rgba(94, 129, 172, 0.12);  /*  frost blue */
+  --item-hover-bg:         rgba(136, 192, 208, 0.25); /* cyan */
+  --item-hover-border:     rgba(235, 203, 139, 0.60); /* yellow */
+  --item-connected-bg:     rgba(136, 192, 208, 0.22); /* cyan */
+  --item-connected-border: rgba(235, 203, 139, 0.45); /* yellow */
+  --item-connected-text:   #ebcb8b;            		  /* yellow */
+  --current-label:         rgba(236, 239, 244, 0.85); /* white */
+
+  /* ── Scan buttons ──────────────────────────────────────── */
+  --scan-btn-bg:           rgba(136, 192, 208, 0.14); /* faint cyan */
+  --scan-btn-border:       rgba(235, 203, 139, 0.55); /* yellow  */
+  --scan-btn-text:         #ebcb8b;            	 	  /* yellow */
+  --scan-btn-hover-bg:     rgba(136, 192, 208, 0.30); /* cyan  */
+  --scan-btn-hover-border: rgba(235, 203, 139, 0.85); /* brighter yellow  */
+  --scan-btn-hover-glow:   rgba(235, 203, 139, 0.25); /* soft yellow */
+
+  /* ── Row status ────────────────────────────────────────── */
+  --row-status:            #ebcb8b;            		  /* yellow status indicator */
+
+  /* ── BT empty state ────────────────────────────────────── */
+  --bt-empty-icon:         rgba(235, 203, 139, 0.45); /* dim yellow */
+
+  /* ── Scrollbars ────────────────────────────────────────── */
+  --scrollbar-trough:      rgba(94, 129, 172, 0.10);  /* faint frost blue */
+  --scrollbar-thumb:       rgba(136, 192, 208, 0.28); /* cyan */
+  --scrollbar-thumb-hover: rgba(136, 192, 208, 0.50); /* brighter cyan */
+}
