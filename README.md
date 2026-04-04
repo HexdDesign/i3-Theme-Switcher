@@ -168,7 +168,9 @@ $mod+Shift+t
    ~/.config/i3/(theme)
    ```
 
-• Control file links here, as well as the colors for Dunst and i3 Lock-Color !
+   - control links to other files
+   - control i3-lock-color colors
+   - control dunst notification colors
 
 
 
@@ -188,6 +190,7 @@ $mod+Shift+t
    - N7-Day (Mass Effect)
    - Neon-Violet
    - Nord
+   - Project-Hail-Mary (Project Hail Mary 2026)
    - Sakura-Hunter (Monster Hunter)
      
 ────────────────────────────
