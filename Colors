@@ -14,9 +14,9 @@
                                 | * - if applicable   | 
                                  ─────────────────────
 
-            ➤ PRIMARY: background of overall bar color.
+            ➤ PRIMARY: background color of polybar.
             ➤ SECONDARY: background for time and weather center modules.
-            ➤ ACCENT: background for music controls and workspaces.  
+            ➤ ACCENT: background for music button controls and i3 workspaces.  
 
         ────────────────────────
         ✶ Nord:
