@@ -1,0 +1,72 @@
+/* ============================================================
+   MSI White — eww theme variables
+   ============================================================ */
+
+:root {
+  /* ── Base ──────────────────────────────────────────────── */
+  --bg:                    #f0f2f5;           		 /* light grey white */
+  --bg-alt:                #e2e6eb;           		 /* soft cool grey */
+  --fg:                    #2c3a4a;           		 /* dark blue grey text */
+  --fg-dim:                rgba(122, 143, 163, 0.85); /* muted steel blue */
+  --accent:                #5bbfcc;            		 /* teal cyan */
+  --primary:               #8b9db5;            		 /* steel lavender blue */
+  --yellow:                #f0c060;            		 /* warm gold */
+  --urgent:                #e05a6a;           		 /* rose red */
+
+  /* ── Menu box ──────────────────────────────────────────── */
+  --menu-bg:               rgba(255, 255, 255, 0.97);  /* white */
+  --menu-border:           rgba(91, 191, 204, 0.50);   /* teal cyan */
+  --menu-border-solid:     rgba(139, 157, 181, 0.55);  /* steel blue */
+  --menu-shadow:           rgba(0, 0, 0, 0.12);        /* soft drop shadow */
+
+  /* ── Sidebar ───────────────────────────────────────────── */
+  --sidebar-bg:            rgba(240, 242, 245, 0.97);  /* light grey white */
+
+  /* ── Control header ────────────────────────────────────── */
+  --icon-color:            #5bbfcc;            		  /* teal cyan */
+  --title-color:           rgba(44, 58, 74, 0.92);     /* dark text */
+  --value-color:           #8b9db5;            		  /* steel blue */
+
+  /* ── Quick apps ────────────────────────────────────────── */
+  --qa-hover-bg:           rgba(91, 191, 204, 0.12);   /* soft cyan */
+  --qa-hover-glow-near:    rgba(91, 191, 204, 0.45);   /* cyan */
+  --qa-hover-glow-far:     rgba(91, 191, 204, 0.18);   /* cyan */
+
+  /* ── Sliders ───────────────────────────────────────────── */
+  --slider-trough:         rgba(139, 157, 181, 0.20);  /* soft steel blue */
+  --slider-fill:           rgba(91, 191, 204, 0.85);   /* bright cyan */
+  --slider-thumb:          #8b9db5;           		  /* steel blue */
+  --slider-thumb-hover:    #5bbfcc;           		  /* teal cyan */
+
+  /* ── Separator ─────────────────────────────────────────── */
+  --separator-start:       rgba(91, 191, 204, 0.35);   /* cyan gradient start */
+  --separator-end:         rgba(139, 157, 181, 0.20);  /* steel blue gradient end */
+
+  /* ── Wifi / BT items ───────────────────────────────────── */
+  --item-bg:               rgba(139, 157, 181, 0.10);  /* faint steel blue */
+  --item-hover-bg:         rgba(91, 191, 204, 0.18);   /* cyan */
+  --item-hover-border:     rgba(91, 191, 204, 0.55);   /* cyan */
+  --item-connected-bg:     rgba(91, 191, 204, 0.18);   /* cyan */
+  --item-connected-border: rgba(91, 191, 204, 0.50);   /* cyan */
+  --item-connected-text:   #2a7a88;            		  /* dark teal */
+  --current-label:         rgba(44, 58, 74, 0.85);     /* dark text */
+
+  /* ── Scan buttons ──────────────────────────────────────── */
+  --scan-btn-bg:           rgba(91, 191, 204, 0.12);   /* faint cyan */
+  --scan-btn-border:       rgba(139, 157, 181, 0.55);  /* steel blue */
+  --scan-btn-text:         #2a7a88;            		  /* dark teal */
+  --scan-btn-hover-bg:     rgba(91, 191, 204, 0.25);   /* cyan */
+  --scan-btn-hover-border: rgba(91, 191, 204, 0.80);   /* bright cyan */
+  --scan-btn-hover-glow:   rgba(91, 191, 204, 0.20);   /* soft cyan */
+
+  /* ── Row status ────────────────────────────────────────── */
+  --row-status:            #5bbfcc;            		  /* teal cyan status indicator */
+
+  /* ── BT empty state ────────────────────────────────────── */
+  --bt-empty-icon:         rgba(139, 157, 181, 0.45);  /* dim steel blue */
+
+  /* ── Scrollbars ────────────────────────────────────────── */
+  --scrollbar-trough:      rgba(139, 157, 181, 0.12);  /* faint steel blue */
+  --scrollbar-thumb:       rgba(91, 191, 204, 0.30);   /* cyan */
+  --scrollbar-thumb-hover: rgba(91, 191, 204, 0.55);   /* brighter cyan */
+}

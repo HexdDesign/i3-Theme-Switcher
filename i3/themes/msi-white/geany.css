@@ -1,0 +1,14 @@
+/* Geany editor background — MSI White */
+/* Place at: ~/.config/gtk-3.0/themes/msi-white/geany.css */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/i3/themes/msi-white/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #f8f9fb;			/* near-white cool grey */
+    color: #2c3a4a;						/* dark blue grey text */
+}
+
+textview {
+    background-color: #f8f9fb;			/* near-white cool grey */
+}

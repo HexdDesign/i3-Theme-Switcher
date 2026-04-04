@@ -1,0 +1,51 @@
+/* MSI White — GTK4 overlay */
+
+@define-color bg      #f0f2f5;			/* light grey white */
+@define-color bg_alt  #e2e6eb;			/* soft cool grey */
+@define-color fg      #2c3a4a;			/* dark blue grey text */
+@define-color dim     #8b9db5;			/* steel lavender blue */
+@define-color accent  #5bbfcc;			/* teal cyan */
+@define-color accent2 #8b9db5;			/* steel blue */
+
+
+window, dialog, .background { background-color: @bg; color: @fg; }
+headerbar, .titlebar { background-color: @bg_alt; color: @fg; }
+
+entry, textview, spinbutton, combobox entry {
+  background-color: #ffffff;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @dim 65%, transparent);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+filechooser button,
+filechooser actionbar button,
+filechooser .dialog-action-area button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 14px;
+}
+
+filechooser button:hover,
+filechooser actionbar button:hover,
+filechooser .dialog-action-area button:hover {
+  background-color: color-mix(in srgb, @accent 15%, @bg_alt);
+}
+
+filechooser button.suggested-action,
+filechooser actionbar button.suggested-action {
+  background-color: @accent;
+  color: #ffffff;
+  border-color: @accent;
+}
