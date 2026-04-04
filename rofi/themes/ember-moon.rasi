@@ -1,0 +1,25 @@
+/* Ember-Moon variables for launcher.rasi (hyphen names; parser-safe) */
+* {
+  bg: rgba(20, 20, 23, 0.94);                /* deep charcoal */
+  fg: #C9CED6;                               /* moon glow */
+  fg-dim: rgba(201, 206, 214, 0.86);
+  fg-hi: rgba(255, 255, 255, 0.98);
+
+  border: rgba(255, 77, 136, 0.60);          /* blade pink */
+
+  header: rgba(255, 77, 136, 0.18);
+  prompt: #F4B942;                           /* gold prompt */
+
+  entry-bg: rgba(20, 20, 23, 0.85);
+  placeholder: rgba(201, 206, 214, 0.45);
+
+  row: rgba(255, 255, 255, 0.035);
+  row-alt: rgba(255, 255, 255, 0.025);
+
+  sel-bg: rgba(255, 77, 136, 0.22);
+  sel-border: rgba(244, 185, 66, 0.55);      /* gold edge */
+
+  msg-bg: rgba(225, 6, 0, 0.14);             /* ember red */
+  msg-border: rgba(225, 6, 0, 0.35);
+  msg-text: #FFD2D2;
+}

@@ -1,0 +1,25 @@
+/* Crimson variables for launcher.rasi (hyphen names; parser-safe) */
+* {
+  bg: rgba(13, 10, 14, 0.94);
+  fg: #D4CFE0;
+  fg-dim: rgba(212, 207, 224, 0.86);
+  fg-hi: rgba(212, 207, 224, 0.98);
+
+  border: rgba(90, 26, 42, 0.60);
+
+  header: rgba(90, 26, 42, 0.18);
+  prompt: #000000;
+
+  entry-bg: rgba(13, 10, 14, 0.85);
+  placeholder: rgba(212, 207, 224, 0.45);
+
+  row: rgba(90, 26, 42, 0.12);
+  row-alt: rgba(90, 26, 42, 0.09);
+
+  sel-bg: rgba(232, 25, 44, 0.25);
+  sel-border: rgba(232, 130, 10, 0.70);
+
+  msg-bg: rgba(232, 25, 44, 0.14);
+  msg-border: rgba(232, 25, 44, 0.35);
+  msg-text: #FFD0D0;
+}

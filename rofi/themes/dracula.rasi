@@ -1,0 +1,25 @@
+/* Dracula variables for launcher.rasi (hyphen names; parser-safe) */
+* {
+  bg: rgba(40, 42, 54, 0.94);
+  fg: #F8F8F2;
+  fg-dim: rgba(255, 255, 255, 0.86);
+  fg-hi: rgba(255, 255, 255, 0.98);
+
+  border: rgba(189, 147, 249, 0.60);
+
+  header: rgba(98, 114, 164, 0.20);
+  prompt: #000000;
+
+  entry-bg: rgba(40, 42, 54, 0.85);
+  placeholder: rgba(255, 255, 255, 0.45);
+
+  row: rgba(255, 255, 255, 0.035);
+  row-alt: rgba(255, 255, 255, 0.025);
+
+  sel-bg: rgba(255, 182, 193, 0.18);
+  sel-border: rgba(189, 147, 249, 0.55);
+
+  msg-bg: rgba(255, 85, 85, 0.15);
+  msg-border: rgba(255, 85, 85, 0.35);
+  msg-text: #FFB3B3;
+}

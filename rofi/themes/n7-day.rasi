@@ -1,0 +1,27 @@
+/* N7 Day variables for launcher.rasi (hyphen names; parser-safe)
+   Palette: deep-space black-purples, N7 crimson, hot-pink nebula glow
+*/
+* {
+  bg:          rgba(13, 10, 16, 0.96);
+  fg:          #F0DDE0;
+  fg-dim:      rgba(240, 221, 224, 0.78);
+  fg-hi:       rgba(240, 221, 224, 0.98);
+
+  border:      rgba(196, 30, 58, 0.65);
+
+  header:      rgba(138, 10, 34, 0.22);
+  prompt:      #000000;
+
+  entry-bg:    rgba(13, 10, 16, 0.88);
+  placeholder: rgba(240, 221, 224, 0.38);
+
+  row:         rgba(255, 255, 255, 0.030);
+  row-alt:     rgba(255, 255, 255, 0.018);
+
+  sel-bg:      rgba(196, 30, 58, 0.22);
+  sel-border:  rgba(255, 96, 144, 0.55);
+
+  msg-bg:      rgba(255, 34, 68, 0.14);
+  msg-border:  rgba(255, 34, 68, 0.38);
+  msg-text:    #FF8099;
+}

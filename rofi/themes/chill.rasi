@@ -1,0 +1,25 @@
+/* Chill variables for launcher.rasi (hyphen names; parser-safe) */
+* {
+  bg: rgba(12, 15, 36, 0.94);
+  fg: #E7ECF5;
+  fg-dim: rgba(231, 236, 245, 0.86);
+  fg-hi: rgba(231, 236, 245, 0.98);
+
+  border: rgba(187, 134, 94, 0.60);
+
+  header: rgba(35, 54, 71, 0.20);
+  prompt: #000000;
+
+  entry-bg: rgba(12, 15, 36, 0.85);
+  placeholder: rgba(231, 236, 245, 0.45);
+
+  row: rgba(231, 236, 245, 0.035);
+  row-alt: rgba(231, 236, 245, 0.025);
+
+  sel-bg: rgba(218, 161, 108, 0.18);
+  sel-border: rgba(187, 134, 94, 0.55);
+
+  msg-bg: rgba(184, 106, 106, 0.15);
+  msg-border: rgba(184, 106, 106, 0.35);
+  msg-text: #FFB3B3;
+}

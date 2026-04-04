@@ -1,0 +1,26 @@
+/* Project-Hail-Mary variables for launcher.rasi (hyphen names; parser-safe) */
+
+* {
+  bg: rgba(16, 12, 13, 0.94);
+  fg: #E4DEAB;
+  fg-dim: rgba(16, 13, 14, 0.86);
+  fg-hi: rgba(203, 172, 55, 0.98);
+
+  border: rgba(215, 207, 104, 0.60);
+
+  header: rgba(94, 129, 172, 0.18);
+  prompt: #000000;
+
+  entry-bg: rgba(16, 12, 13, 0.85);
+  placeholder: rgba(23, 18, 18, 0.45);
+
+  row: rgba(255, 255, 255, 0.035);
+  row-alt: rgba(255, 255, 255, 0.025);
+
+  sel-bg: rgba(136, 192, 208, 0.18);
+  sel-border: rgba(235, 203, 139, 0.50);
+
+  msg-bg: rgba(191, 97, 106, 0.14);
+  msg-border: rgba(191, 97, 106, 0.35);
+  msg-text: #E4DEAB;
+}
