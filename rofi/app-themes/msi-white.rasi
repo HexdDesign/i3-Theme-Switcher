@@ -1,0 +1,29 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Papirus-Light";
+}
+
+
+* {
+  /* MSI White: light grey bg, teal cyan accents, steel blue */
+  bg:          rgba(240, 242, 245, 0.97);		/* light grey white */
+  fg:          #2C3A4A;							/* dark blue grey text */
+  fg-dim:      rgba(44, 58, 74, 0.65);			/* muted dark text */
+  fg-hi:       #1a2530;							/* near black */
+
+  border:      rgba(91, 191, 204, 0.75);		/* teal cyan */
+  header:      rgba(139, 157, 181, 0.40);		/* steel lavender blue */
+
+  entry-bg:    rgba(255, 255, 255, 0.95);		/* white */
+  placeholder: rgba(44, 58, 74, 0.35);			/* dim dark text */
+
+  row:         rgba(226, 230, 235, 0.75);		/* soft cool grey */
+  row-alt:     rgba(240, 242, 245, 0.55);		/* lighter grey */
+
+  sel-bg:      rgba(91, 191, 204, 0.20);		/* faint teal cyan */
+  sel-border:  rgba(91, 191, 204, 0.85);		/* teal cyan */
+
+  msg-bg:      rgba(224, 90, 106, 0.15);		/* pale rose */
+  msg-border:  rgba(224, 90, 106, 0.45);		/* rose red */
+  msg-text:    #c0404f;							/* deep rose */
+}

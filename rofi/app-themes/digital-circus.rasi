@@ -1,0 +1,29 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Fluent-pink-dark";
+}
+
+
+* {
+  /* Digital Circus: deep purple-black bg, hot magenta & cyan accents */
+  bg:          rgba(13, 5, 32, 0.97);				/* deep purple-black */
+  fg:          #F5E6FF;								/* pale lavender white */
+  fg-dim:      rgba(204, 153, 255, 0.80);			/* soft violet */
+  fg-hi:       #FFFFFF;								/* white */
+
+  border:      rgba(255, 45, 155, 0.90);			/* hot magenta */
+  header:      rgba(58, 18, 96, 0.70);				/* deep purple */
+
+  entry-bg:    rgba(26, 8, 64, 0.95);				/* dark purple */
+  placeholder: rgba(204, 153, 255, 0.40);			/* soft violet */
+
+  row:         rgba(40, 10, 80, 0.70);				/* mid purple */
+  row-alt:     rgba(26, 8, 64, 0.50);				/* dark purple */
+
+  sel-bg:      rgba(255, 45, 155, 0.20);			/* hot magenta */
+  sel-border:  rgba(255, 45, 155, 0.95);			/* hot magenta */
+
+  msg-bg:      rgba(255, 106, 0, 0.20);				/* neon orange */
+  msg-border:  rgba(255, 106, 0, 0.50);				/* neon orange */
+  msg-text:    #FFB380;								/* pale orange */
+}

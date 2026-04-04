@@ -1,0 +1,30 @@
+configuration {
+show-icons: true;
+icon-theme: "Fluent-purple-dark";
+}
+
+* {
+  /* Evangelion: Eva-01 purple armor + neon green highlights */
+
+  bg:          rgba(29, 29, 33, 0.96);			/* Eva shadow black */
+  fg:          #E8E8E8;							/* light text */
+
+  fg-dim:      rgba(232, 232, 232, 0.75);		/* dim text */
+  fg-hi:       #FFFFFF;							/* highlight text */
+
+  border:      rgba(86, 209, 85, 0.80);			/* Eva neon green */
+  header:      rgba(110, 88, 136, 0.55);		/* Eva armor purple */
+
+  entry-bg:    rgba(60, 56, 74, 0.95);			/* dark armor panel */
+  placeholder: rgba(232, 232, 232, 0.40);		/* faded text */
+
+  row:         rgba(60, 56, 74, 0.70);			/* armor purple */
+  row-alt:     rgba(29, 29, 33, 0.60);			/* shadow panel */
+
+  sel-bg:      rgba(60, 56, 74, 0.30);			/* purple glow */
+  sel-border:  rgba(244, 154, 31, 0.90);			/* strong glow */
+
+  msg-bg:      rgba(182, 114, 22, 0.20);		/* Eva core orange */
+  msg-border:  rgba(182, 114, 22, 0.50);		/* orange warning */
+  msg-text:    #FFCC88;							/* warm orange text */
+  }

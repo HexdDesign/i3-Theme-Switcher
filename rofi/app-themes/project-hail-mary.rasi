@@ -1,0 +1,29 @@
+configuration {
+  show-icons: true;
+  icon-theme: "Nordzy";
+}
+
+
+* {
+  /* Project-Hail-Mary: dark tones of yellow and blue */
+  bg:          rgba(16, 12, 13, 0.96);			/* near black */
+  fg:          #E4DEAB;							/* near white yellow */
+  fg-dim:      rgba(215, 207, 104, 0.80);		/* yellow */
+  fg-hi:       #FFFFFF;							/* white */
+
+  border:      rgba(186, 195, 186, 0.80);		/* icy grey blue */
+  header:      rgba(215, 207, 104, 0.55);		/* yellow */
+
+  entry-bg:    rgba(23, 18, 18, 0.95);			/* near black */
+  placeholder: rgba(26, 33, 39, 0.40);	    	/* dark grey */
+
+  row:         rgba(16, 12, 13, 0.70);			/* near black */
+  row-alt:     rgba(15, 12, 14, 0.50);			/* lighter near black */
+
+  sel-bg:      rgba(40, 33, 25, 0.30);		    /* dark yellow */
+  sel-border:  rgba(228, 222, 171, 0.90);		/* light yellow white */
+
+  msg-bg:      rgba(26, 33, 39, 0.20);	    	/* dark blue black */
+  msg-border:  rgba(215, 207, 104, 0.50);		/* yellow */
+  msg-text:    #E7EDEC;							/* near white */
+}
