@@ -184,9 +184,12 @@ $mod+Shift+t
    - Chill
    - Crimson
    - Devilman (Devilman Crybaby)
+   - Digital-Circus (GLITCH / Gooseworx - 'The Amazing Digital Circus')
    - Dracula
    - Ember-Moon
    - ENA (Joel G.)
+   - Evangelion (Evangelion)
+   - MSI-White (MSI - Micro-Star International Co., Ltd)
    - N7-Day (Mass Effect)
    - Neon-Violet
    - Nord
