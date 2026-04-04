@@ -6,15 +6,21 @@ EWW="/usr/bin/eww"
 CFG="$HOME/.config/eww"
 WIN="${1:-sidebar}"
 
-# Polybar color formatting
-COLOR_OPEN="%{F#EAF6FF}"
-COLOR_CLOSED="%{F#EAF6FF}"
+THEME_ENV="$HOME/.config/i3/themes/current.env"
+
+# Load theme variables if present
+if [[ -f "$THEME_ENV" ]]; then
+  # shellcheck disable=SC1090
+  source "$THEME_ENV"
+fi
+
+# Theme colors (fallbacks if theme doesn't define them)
+COLOR_OPEN="%{F${POLYBAR_ACCENT:-#10E8FF}}"
+COLOR_CLOSED="%{F${POLYBAR_DIM:-#6B7C8F}}"
 RESET="%{F-}"
 
 ICON_CLOSED="${COLOR_CLOSED}${RESET}"
 ICON_OPEN="${COLOR_OPEN}${RESET}"
-
-
 
 export DISPLAY="${DISPLAY:-:0}"
 export XAUTHORITY="${XAUTHORITY:-$HOME/.Xauthority}"
@@ -32,7 +38,7 @@ is_open() {
 
 start_eww_if_needed
 
-# print immediately so the module has width
+# Initial state so polybar allocates width
 if is_open; then
   last="$ICON_OPEN"
 else
@@ -40,7 +46,7 @@ else
 fi
 echo "$last"
 
-# tail loop
+# Update loop
 while :; do
   if is_open; then
     cur="$ICON_OPEN"
