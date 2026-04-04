@@ -1,0 +1,51 @@
+/* Evangelion GTK4 overlay */
+
+@define-color bg      #1a1a2e;			/* deep dark navy purple */
+@define-color bg_alt  #2a1a3e;			/* dark EVA purple */
+@define-color fg      #e8e8f0;			/* off white */
+@define-color dim     #9b59b6;			/* medium EVA purple */
+@define-color accent  #39ff14;			/* neon green */
+@define-color accent2 #7b2d8b;			/* deep EVA purple */
+
+
+window, dialog, .background { background-color: @bg; color: @fg; }
+headerbar, .titlebar { background-color: @bg_alt; color: @fg; }
+
+entry, textview, spinbutton, combobox entry {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @dim 65%, transparent);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+filechooser button,
+filechooser actionbar button,
+filechooser .dialog-action-area button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 65%, transparent);
+  border-radius: 10px;
+  padding: 6px 14px;
+}
+
+filechooser button:hover,
+filechooser actionbar button:hover,
+filechooser .dialog-action-area button:hover {
+  background-color: color-mix(in srgb, @accent 18%, @bg_alt);
+}
+
+filechooser button.suggested-action,
+filechooser actionbar button.suggested-action {
+  background-color: @accent;
+  color: @bg;
+  border-color: @accent;
+}

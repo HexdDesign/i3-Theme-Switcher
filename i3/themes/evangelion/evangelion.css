@@ -1,0 +1,72 @@
+/* ============================================================
+   Evangelion — eww theme variables
+   ============================================================ */
+
+:root {
+  /* ── Base ──────────────────────────────────────────────── */
+  --bg:                    #1a1a2e;           		 /* deep dark navy purple */
+  --bg-alt:                #2a1a3e;           		 /* dark EVA purple */
+  --fg:                    #e8e8f0;           		 /* off white */
+  --fg-dim:                rgba(122, 107, 138, 0.85); /* muted purple grey text */
+  --accent:                #39ff14;            		 /* neon green */
+  --primary:               #7b2d8b;            		 /* EVA purple */
+  --yellow:                #f5a623;            		 /* EVA orange / warning */
+  --urgent:                #ff4500;           		 /* warning orange-red */
+
+  /* ── Menu box ──────────────────────────────────────────── */
+  --menu-bg:               rgba(26, 26, 46, 0.96);    /* deep dark navy purple */
+  --menu-border:           rgba(57, 255, 20, 0.55);   /* neon green */
+  --menu-border-solid:     rgba(123, 45, 139, 0.60);  /* EVA purple */
+  --menu-shadow:           rgba(0, 0, 0, 0.65);       /* deep black drop shadow */
+
+  /* ── Sidebar ───────────────────────────────────────────── */
+  --sidebar-bg:            rgba(26, 26, 46, 0.96);    /* deep dark navy purple */
+
+  /* ── Control header ────────────────────────────────────── */
+  --icon-color:            #39ff14;            		  /* neon green */
+  --title-color:           rgba(232, 232, 240, 0.92); /* off white titles */
+  --value-color:           #9b59b6;            		  /* medium EVA purple */
+
+  /* ── Quick apps ────────────────────────────────────────── */
+  --qa-hover-bg:           rgba(255, 255, 255, 0.08); /* subtle white */
+  --qa-hover-glow-near:    rgba(57, 255, 20, 0.50);   /* neon green */
+  --qa-hover-glow-far:     rgba(57, 255, 20, 0.20);   /* neon green */
+
+  /* ── Sliders ───────────────────────────────────────────── */
+  --slider-trough:         rgba(123, 45, 139, 0.20);  /* soft EVA purple */
+  --slider-fill:           rgba(57, 255, 20, 0.85);   /* bright neon green */
+  --slider-thumb:          #f5a623;           		  /* EVA orange */
+  --slider-thumb-hover:    #ffbe55;           		  /* lighter orange */
+
+  /* ── Separator ─────────────────────────────────────────── */
+  --separator-start:       rgba(57, 255, 20, 0.35);   /* neon green gradient start */
+  --separator-end:         rgba(245, 166, 35, 0.20);  /* soft orange gradient end */
+
+  /* ── Wifi / BT items ───────────────────────────────────── */
+  --item-bg:               rgba(123, 45, 139, 0.12);  /* faint EVA purple */
+  --item-hover-bg:         rgba(57, 255, 20, 0.20);   /* neon green */
+  --item-hover-border:     rgba(245, 166, 35, 0.60);  /* orange */
+  --item-connected-bg:     rgba(57, 255, 20, 0.18);   /* neon green */
+  --item-connected-border: rgba(245, 166, 35, 0.45);  /* orange */
+  --item-connected-text:   #f5a623;            		  /* EVA orange */
+  --current-label:         rgba(232, 232, 240, 0.85); /* off white */
+
+  /* ── Scan buttons ──────────────────────────────────────── */
+  --scan-btn-bg:           rgba(57, 255, 20, 0.12);   /* faint neon green */
+  --scan-btn-border:       rgba(245, 166, 35, 0.55);  /* orange */
+  --scan-btn-text:         #f5a623;            	 	  /* EVA orange */
+  --scan-btn-hover-bg:     rgba(57, 255, 20, 0.28);   /* neon green */
+  --scan-btn-hover-border: rgba(245, 166, 35, 0.85);  /* brighter orange */
+  --scan-btn-hover-glow:   rgba(245, 166, 35, 0.25);  /* soft orange */
+
+  /* ── Row status ────────────────────────────────────────── */
+  --row-status:            #f5a623;            		  /* orange status indicator */
+
+  /* ── BT empty state ────────────────────────────────────── */
+  --bt-empty-icon:         rgba(245, 166, 35, 0.45);  /* dim orange */
+
+  /* ── Scrollbars ────────────────────────────────────────── */
+  --scrollbar-trough:      rgba(123, 45, 139, 0.10);  /* faint EVA purple */
+  --scrollbar-thumb:       rgba(57, 255, 20, 0.28);   /* neon green */
+  --scrollbar-thumb-hover: rgba(57, 255, 20, 0.55);   /* brighter neon green */
+}
