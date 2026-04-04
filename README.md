@@ -140,6 +140,8 @@ $mod+Shift+t
 
 :star: EWW:
 
+• Quickapps Included: Proton Mail, Proton VPN, Steam, Discord, Firefox, Tor, VS Code, Github, and Jellyfin. 
+
 • Sidebar - You can add your own quickapps to sidebar. 
 
    ── Add them in:
