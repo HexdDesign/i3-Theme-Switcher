@@ -1,0 +1,76 @@
+/* Digital Circus */
+@define-color bg #0d0520;								/* deep purple-black */
+@define-color fg #F5E6FF;								/* pale lavender white */
+@define-color fg_dim rgba(204,153,255,0.60);			/* muted violet */
+@define-color menu_bg rgba(13,5,32,0.94);				/* deep purple-black */
+@define-color menu_border_solid rgba(0,238,255,0.60);	/* electric cyan */
+@define-color menu_shadow rgba(0,0,0,0.55);				/* dark shadow */
+
+/*Background to widgets*/
+@define-color sidebar_bg rgba(13,5,32,0.94);			/* deep purple-black */
+
+/*Widget icons and titles*/
+@define-color icon_color #FF2D9B;						/* hot magenta */
+@define-color title_color rgba(245,230,255,0.92);		/* pale lavender white */
+@define-color value_color #00EEFF;						/* electric cyan */
+
+/*Bluetooth and network button glow*/
+@define-color qa_hover_bg rgba(255,255,255,0.15);		/* warm white */
+@define-color qa_hover_glow_near rgba(255,45,155,0.55);	/* hot magenta */
+@define-color qa_hover_glow_far rgba(255,45,155,0.28);	/* hot magenta dim */
+
+/*Color of bluetooth and brightness sliders*/
+@define-color slider_trough_menu rgba(0,238,255,0.18);	/* electric cyan */
+@define-color slider_fill_menu rgba(0,238,255,0.85);	/* electric cyan */
+@define-color slider_trough rgba(0,238,255,0.20);		/* electric cyan */
+@define-color slider_fill rgba(0,238,255,0.75);			/* electric cyan */
+@define-color slider_thumb #FF2D9B;						/* hot magenta */
+@define-color slider_thumb_hover #FF66BB;				/* light magenta */
+
+/*Separator line under network and bluetooth before menu*/
+@define-color separator_start rgba(0,238,255,0.35);		/* electric cyan */
+@define-color separator_end rgba(255,45,155,0.25);		/* hot magenta */
+
+/*Menu specifics for bluetooth and network*/
+@define-color item_bg rgba(0,238,255,0.10);					/* electric cyan tint */
+@define-color item_hover_bg rgba(0,238,255,0.25);			/* electric cyan */
+@define-color item_hover_border rgba(255,45,155,0.70);		/* hot magenta */
+@define-color item_connected_bg rgba(0,238,255,0.25);		/* electric cyan */
+@define-color item_connected_border rgba(255,45,155,0.50);	/* hot magenta */
+@define-color item_connected_text #FF2D9B;
+
+/*Color of current bluetooth and network connection*/
+@define-color current_label rgba(245,230,255,0.85);			/* pale lavender white */
+
+/*Scan devices or networks button*/
+@define-color scan_btn_bg rgba(0,238,255,0.12);				/* electric cyan */
+@define-color scan_btn_border rgba(255,45,155,0.60);		/* hot magenta */
+@define-color scan_btn_text #FF2D9B;						/* hot magenta */
+@define-color scan_btn_hover_bg rgba(0,238,255,0.32);		/* electric cyan */
+@define-color scan_btn_hover_border rgba(255,45,155,0.90);	/* hot magenta */
+@define-color scan_btn_hover_glow rgba(255,45,155,0.28);	/* hot magenta glow */
+
+/*Menu specifics for bluetooth and network widgets*/
+@define-color row_status #FF2D9B;							/* hot magenta */
+@define-color bt_empty_icon rgba(255,45,155,0.50);			/* hot magenta pale */
+@define-color hint_color rgba(245,230,255,0.85);			/* pale lavender white */
+
+/*Scrollbar for network and bluetooth menu*/
+@define-color scrollbar_trough rgba(0,238,255,0.10);		/* electric cyan */
+@define-color scrollbar_thumb rgba(0,238,255,0.30);			/* electric cyan */
+@define-color scrollbar_thumb_hover rgba(0,238,255,0.55);	/* electric cyan */
+
+
+/* Aliases used in eww.css */
+@define-color menu_border @menu_border_solid;
+@define-color hover_bg @qa_hover_bg;
+@define-color glow_near @qa_hover_glow_near;
+@define-color glow_far @qa_hover_glow_far;
+@define-color item_hover @item_hover_bg;
+@define-color item_border @item_hover_border;
+@define-color item_connected @item_connected_bg;
+@define-color accent @icon_color;
+@define-color hint @hint_color;
+@define-color scroll_trough @scrollbar_trough;
+@define-color scroll_thumb @scrollbar_thumb;
+@define-color scroll_thumb_hover @scrollbar_thumb_hover;

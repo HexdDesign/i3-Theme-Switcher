@@ -1,0 +1,75 @@
+/* Evangelion */
+@define-color bg #1d1d21;									/* Eva shadow black */
+@define-color fg #e8e8e8;									/* light interface text */
+@define-color fg_dim rgba(232,232,232,0.60);				/* dim text */
+@define-color menu_bg rgba(29,29,33,0.94);					/* dark armor shadow */
+@define-color menu_border_solid rgba(86,209,85,0.60);		/* Eva neon green */
+@define-color menu_shadow rgba(0,0,0,0.55);					/* deep shadow */
+
+/*Background to widgets*/
+@define-color sidebar_bg rgba(29,29,33,0.94);				/* Eva shadow black */
+
+/*Widget icons and titles*/
+@define-color icon_color #56D155;							/* Eva neon green */
+@define-color title_color rgba(232,232,232,0.92);			/* light text */
+@define-color value_color #6E5888;							/* Eva armor purple */
+
+/*Bluetooth and network button glow*/
+@define-color qa_hover_bg rgba(255,255,255,0.08);			/* subtle hover */
+@define-color qa_hover_glow_near rgba(86,209,85,0.55);		/* Eva glow */
+@define-color qa_hover_glow_far rgba(86,209,85,0.30);		/* Eva glow fade */
+
+/*Color of bluetooth and brightness sliders*/
+@define-color slider_trough_menu rgba(110,88,136,0.18);		/* armor purple trough */
+@define-color slider_fill_menu rgba(86,209,85,0.85);		/* Eva neon green fill */
+@define-color slider_trough rgba(110,88,136,0.20);			/* armor trough */
+@define-color slider_fill rgba(86,209,85,0.75);				/* Eva glow fill */
+@define-color slider_thumb #56D155;							/* Eva glow knob */
+@define-color slider_thumb_hover #6E5888;					/* armor purple hover */
+
+/*Separator line under network and bluetooth before menu*/
+@define-color separator_start rgba(86,209,85,0.35);			/* Eva glow line */
+@define-color separator_end rgba(182,114,22,0.25);			/* Eva core orange */
+
+/*Menu specifics for bluetooth and network*/
+@define-color item_bg rgba(110,88,136,0.12);				/* armor purple panel */
+@define-color item_hover_bg rgba(86,209,85,0.30);			/* Eva highlight */
+@define-color item_hover_border rgba(182,114,22,0.70);		/* Eva core orange */
+@define-color item_connected_bg rgba(86,209,85,0.30);		/* active Eva glow */
+@define-color item_connected_border rgba(182,114,22,0.50);	/* orange core border */
+@define-color item_connected_text #FFCC88;					/* warm orange text */
+
+/*Color of current bluetooth and network connection*/
+@define-color current_label rgba(232,232,232,0.85);			/* light text */
+
+/*Scan devices or networks button*/
+@define-color scan_btn_bg rgba(86,209,85,0.15);				/* Eva glow */
+@define-color scan_btn_border rgba(182,114,22,0.60);		/* orange border */
+@define-color scan_btn_text #FFCC88;						/* warm orange */
+@define-color scan_btn_hover_bg rgba(86,209,85,0.35);		/* stronger glow */
+@define-color scan_btn_hover_border rgba(182,114,22,0.90);	/* bright orange */
+@define-color scan_btn_hover_glow rgba(182,114,22,0.30);	/* orange glow */
+
+/*Menu specifics for bluetooth and network widgets*/
+@define-color row_status #FFCC88;							/* Eva orange */
+@define-color bt_empty_icon rgba(182,114,22,0.50);			/* faded orange */
+@define-color hint_color rgba(232,232,232,0.85);			/* light hint */
+
+/*Scrollbar for network and bluetooth menu*/
+@define-color scrollbar_trough rgba(110,88,136,0.10);		/* armor purple */
+@define-color scrollbar_thumb rgba(86,209,85,0.30);			/* Eva glow */
+@define-color scrollbar_thumb_hover rgba(86,209,85,0.50);	/* stronger glow */
+
+/* Aliases your eww.css uses */
+@define-color menu_border @menu_border_solid;
+@define-color hover_bg @qa_hover_bg;
+@define-color glow_near @qa_hover_glow_near;
+@define-color glow_far @qa_hover_glow_far;
+@define-color item_hover @item_hover_bg;
+@define-color item_border @item_hover_border;
+@define-color item_connected @item_connected_bg;
+@define-color accent @icon_color;
+@define-color hint @hint_color;
+@define-color scroll_trough @scrollbar_trough;
+@define-color scroll_thumb @scrollbar_thumb;
+@define-color scroll_thumb_hover @scrollbar_thumb_hover;
