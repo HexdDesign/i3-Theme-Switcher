@@ -1,0 +1,14 @@
+/* Geany editor background — Digital Circus */
+/* Place at: ~/.config/gtk-3.0/themes/digital-circus/geany.css */
+/* Set in theme.env: GEANY_CSS="$HOME/.config/i3/themes/digital-circus/geany.css" */
+
+GtkTextView,
+textview text,
+.geany-editor {
+    background-color: #080318;			/* deep purple-black */
+    color: #F5E6FF;						/* pale lavender white */
+}
+
+textview {
+    background-color: #080318;			/* deep purple-black */
+}

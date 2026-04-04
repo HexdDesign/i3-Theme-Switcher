@@ -1,0 +1,57 @@
+/* Digital Circus GTK4 overlay (portal dialogs) */
+
+@define-color bg      #0d0520;			/* deep purple-black */
+@define-color bg_alt  #1a0840;			/* dark purple */
+@define-color fg      #F5E6FF;			/* pale lavender white */
+@define-color dim     #9966CC;			/* muted violet */
+@define-color accent  #00EEFF;			/* electric cyan */
+@define-color gold    #FF2D9B;			/* hot magenta pink */
+@define-color urgent  #FF6A00;			/* neon orange */
+
+window, dialog, .background { background-color: @bg; color: @fg; }
+headerbar, .titlebar { background-color: @bg_alt; color: @fg; }
+
+entry, textview, spinbutton, combobox entry {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 55%, transparent);
+  border-radius: 8px;
+  padding: 6px 10px;
+}
+
+button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @accent 55%, transparent);
+  border-radius: 10px;
+  padding: 6px 12px;
+}
+
+filechooser button,
+filechooser actionbar button,
+filechooser .dialog-action-area button {
+  background-color: @bg_alt;
+  color: @fg;
+  border: 1px solid color-mix(in srgb, @gold 70%, transparent);
+  border-radius: 10px;
+  padding: 6px 14px;
+}
+
+filechooser button:hover,
+filechooser actionbar button:hover,
+filechooser .dialog-action-area button:hover {
+  background-color: color-mix(in srgb, @gold 18%, @bg_alt);
+}
+
+filechooser button.suggested-action,
+filechooser actionbar button.suggested-action {
+  background-color: @gold;
+  color: @fg;
+  border-color: @gold;
+}
+
+filechooser button.destructive-action {
+  background-color: @urgent;
+  color: @fg;
+  border-color: @urgent;
+}

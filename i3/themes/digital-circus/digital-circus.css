@@ -1,0 +1,72 @@
+/* ============================================================
+   Digital Circus — eww theme variables
+   ============================================================ */
+
+:root {
+  /* ── Base ──────────────────────────────────────────────── */
+  --bg:                    #0d0520;
+  --bg-alt:                #1a0840;
+  --fg:                    #F5E6FF;
+  --fg-dim:                rgba(245, 230, 255, 0.60);
+  --accent:                #00EEFF;
+  --primary:               #FF2D9B;
+  --yellow:                #39FF14;
+  --urgent:                #FF6A00;
+
+  /* ── Menu box ──────────────────────────────────────────── */
+  --menu-bg:               rgba(13, 5, 32, 0.94);
+  --menu-border:           rgba(255, 45, 155, 0.65);
+  --menu-border-solid:     rgba(0, 238, 255, 0.60);
+  --menu-shadow:           rgba(0, 0, 0, 0.55);
+
+  /* ── Sidebar ───────────────────────────────────────────── */
+  --sidebar-bg:            rgba(13, 5, 32, 0.94);
+
+  /* ── Control header ────────────────────────────────────── */
+  --icon-color:            #FF2D9B;
+  --title-color:           rgba(245, 230, 255, 0.92);
+  --value-color:           #00EEFF;
+
+  /* ── Quick apps ────────────────────────────────────────── */
+  --qa-hover-bg:           rgba(255, 255, 255, 0.15);
+  --qa-hover-glow-near:    rgba(255, 45, 155, 0.55);
+  --qa-hover-glow-far:     rgba(255, 45, 155, 0.25);
+
+  /* ── Sliders ───────────────────────────────────────────── */
+  --slider-trough:         rgba(0, 238, 255, 0.20);
+  --slider-fill:           rgba(0, 238, 255, 0.85);
+  --slider-thumb:          #FF2D9B;
+  --slider-thumb-hover:    #FF66BB;
+
+  /* ── Separator ─────────────────────────────────────────── */
+  --separator-start:       rgba(0, 238, 255, 0.35);
+  --separator-end:         rgba(255, 45, 155, 0.25);
+
+  /* ── Wifi / BT items ───────────────────────────────────── */
+  --item-bg:               rgba(0, 238, 255, 0.10);
+  --item-hover-bg:         rgba(0, 238, 255, 0.25);
+  --item-hover-border:     rgba(255, 45, 155, 0.70);
+  --item-connected-bg:     rgba(0, 238, 255, 0.25);
+  --item-connected-border: rgba(255, 45, 155, 0.50);
+  --item-connected-text:   #FF2D9B;
+  --current-label:         rgba(245, 230, 255, 0.85);
+
+  /* ── Scan buttons ──────────────────────────────────────── */
+  --scan-btn-bg:           rgba(0, 238, 255, 0.12);
+  --scan-btn-border:       rgba(255, 45, 155, 0.60);
+  --scan-btn-text:         #FF2D9B;
+  --scan-btn-hover-bg:     rgba(0, 238, 255, 0.30);
+  --scan-btn-hover-border: rgba(255, 45, 155, 0.90);
+  --scan-btn-hover-glow:   rgba(255, 45, 155, 0.30);
+
+  /* ── Row status ────────────────────────────────────────── */
+  --row-status:            #39FF14;
+
+  /* ── BT empty state ────────────────────────────────────── */
+  --bt-empty-icon:         rgba(255, 45, 155, 0.50);
+
+  /* ── Scrollbars ────────────────────────────────────────── */
+  --scrollbar-trough:      rgba(0, 238, 255, 0.10);
+  --scrollbar-thumb:       rgba(0, 238, 255, 0.30);
+  --scrollbar-thumb-hover: rgba(0, 238, 255, 0.55);
+}
