@@ -144,7 +144,7 @@ $mod+Shift+t
 
 • Sidebar - You can add your own quickapps to sidebar. 
 
-   ── Add them in:
+   ── Add them in the global yuck file:
    ```
    ~/.config/eww/eww.yuck
    ```
