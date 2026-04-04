@@ -9,9 +9,7 @@
                             |  ✮ S: Secondary   |
                             |  ✮ A: Accent      |
                             ─────────────────────
-                                 ─────────────────────
-                                | * - if applicable   | 
-                                 ─────────────────────
+
 
             ➤ PRIMARY: background color of polybar.
             ➤ SECONDARY: background for time and weather center modules.
