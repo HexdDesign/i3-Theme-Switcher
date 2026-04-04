@@ -1,0 +1,25 @@
+/* MSI White variables for launcher.rasi */
+* {
+  bg: rgba(240, 242, 245, 0.96);
+  fg: #2C3A4A;
+  fg-dim: rgba(44, 58, 74, 0.65);
+  fg-hi: rgba(26, 37, 48, 0.98);
+
+  border: rgba(91, 191, 204, 0.60);
+
+  header: rgba(139, 157, 181, 0.18);
+  prompt: #2C3A4A;
+
+  entry-bg: rgba(255, 255, 255, 0.90);
+  placeholder: rgba(44, 58, 74, 0.38);
+
+  row: rgba(0, 0, 0, 0.030);
+  row-alt: rgba(0, 0, 0, 0.018);
+
+  sel-bg: rgba(91, 191, 204, 0.18);
+  sel-border: rgba(91, 191, 204, 0.65);
+
+  msg-bg: rgba(224, 90, 106, 0.12);
+  msg-border: rgba(224, 90, 106, 0.35);
+  msg-text: #c0404f;
+}
