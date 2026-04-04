@@ -1,0 +1,40 @@
+# STARSHIP - THEMES
+# DIGITAL CIRCUS THEME
+# https://starship.rs/config/
+
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #00EEFF"				# electric cyan
+
+[git_branch]
+symbol = '🎪 '
+style = "bold #FF2D9B"				# hot magenta pink
+
+[git_status]
+style = "#FF6A00"					# neon orange
+
+[username]
+style_user = "bold #00EEFF"			# electric cyan
+style_root = "bold #FF6A00"			# neon orange
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+
+[hostname]
+style = "#FF2D9B"					# hot magenta pink
+
+[character]
+success_symbol = "[❯](bold #FF2D9B)" # hot magenta pink
+error_symbol = "[✗](bold #FF6A00)"   # neon orange

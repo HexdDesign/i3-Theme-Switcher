@@ -1,0 +1,39 @@
+# STARSHIP - THEMES
+# MSI WHITE THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #3d6a9e"						# steel blue
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #2a7a88"						# dark teal
+
+[git_status]
+style = "#e05a6a"							# rose red
+
+[username]
+style_user = "bold #8b9db5"					# steel lavender blue
+style_root = "bold #e05a6a"					# rose red
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+
+[hostname]
+style = "#5bbfcc"							# teal cyan
+
+[character]
+success_symbol = "[❯](bold #5bbfcc)"		# teal cyan
+error_symbol = "[✗](bold red)"
