@@ -332,7 +332,7 @@ else
 fi
 
 # ---- Lock colors
-# Write the i3lock color variables in temp env file so the lock screen
+# Write the i3lock color variables to a temp env file so the lock screen
 # script can source it each time the screen is locked
 cat > /tmp/i3lock-theme.env <<LOCKENV
 LOCK_RING="${LOCK_RING:-bd93f9ff}"
@@ -497,8 +497,16 @@ if command -v firefox >/dev/null 2>&1 && pgrep -x firefox >/dev/null 2>&1; then
     celty)
       firefox --new-tab "https://color.firefox.com/?theme=XQAAAAIaAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPsqr3XFMtPpGefRVMi2PRQ3yeaX3TzodlBrW0B0t-13YNPRUCuTbqWmgH9As3uqyFXD5k_5f1_gadVCm6RzFwTGYulwDnM4IxXSWmj3Ah_-fNZkYbWEkQ53_VAQFI_EMAiPKSGT9PSacstzjCXm2FoPUPHfm6uw3vshERT8_9OX-b9zC9CoKay_-vkZl4A" >/dev/null 2>&1 || true ;;
     ena)
-      firefox --new-tab "https://color.firefox.com/?theme=XQAAAAIkAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPsqr9AxKPUMxcmoB7LW1GpMaNnbCrCktA8RrZobn_6M6RW0STWi1BSx2TJjJhbRo1oiohtYmcNG-igiHSmNdxSFW9QYVZfcX65m1gRpesoc1hHTOf_80_c2IgW9AGWG5ef4b8zy99lECwFgXb6AuITmreQieD339GV30napKhTpyLUY6jujy7kLzyOgLLdZWhzx59Tnz7Pr-PGb5DoRfLXaH4ztn_8yhvwA" >/dev/null 2>&1 || true ;;
-        
+      firefox --new-tab "https://color.firefox.com/?theme=XQAAAAIkAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPsqr9AxKPUMxcmoB7LW1GpMaNnbCrCktA8RrZobn_6M6RW0STWi1BSx2TJjJhbRo1oiohtYmcNG-igiHSmNdxSFW9QYVZfcX65m1gRpesoc1hHTOf_80_c2IgW9AGWG5ef4b8zy99lECwFgXb6AuITmreQieD339GV30napKhTpyLUY6jujy7kLzyOgLLdZWhzx59Tnz7Pr-PGb5DoRfLXaH4ztn_8yhvwA" >/dev/null 2>&1 || true ;;      
+    project-hail-mary)
+      firefox --new-tab "https://color.firefox.com/?theme=XQAAAAIYAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPr1qJSIjIs4XM2yxy5PGDukvAxjomGV--xbP0eBdyjkbOedcKOcCGDaYBiCGzc07vfOYmSaFa-zm3Rq2WeykCJmtksMGWE67DYjllFE_7JK1vUeO82sRz4ryMgcFlNLG1YAA6TyZ8qThBO_u4K_eZ4Nqw_mMUZhnuI86NDC-WAf4hB3hFX2I7Vv849A0G5Hb7TfH3zibBmYEp__y_T4AA" >/dev/null 2>&1 || true ;;
+    digital-circus)
+      firefox --new-tab "https://color.firefox.com/?theme=XQAAAAITAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPr9496kKmmfgFBHYuVo1x2rpxSRyzVQW3mlqzFGMKzW2EIwAaP3LoDY0FrUkjXKLGXgFmLPFmSCIzNU8-IYDRHOMtk-9rK4c6oGrmlhmhWiQMmzSRxPj6i_K70FLZx5FAX9VVorW-LV-Bdy06n1pdDvvdnlnkwmGn9Kl63qXGDFSCSpbVTLLYzZXokszO7Q5Rb_952MBA" >/dev/null 2>&1 || true ;;        
+    evangelion)
+      firefox --new-tab "https://color.firefox.com/?theme=XQAAAAIRAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPsQa-oj-MQ-9W1cbcr6-JOAoSyfwYxEexyMkXRXmY41M9zFrFlxmc-Zf7xYwtwQY5jzM-qWqb401N1hJSwssPUVqKVhO_Vl11il4zG1lp-1Gv6r0aPmlMHp2hHfmBKI1frQBGS5UvU6ZXkn5wCD-4MRxhPrIRThs9apL5pRgi5kFJ5BBMINX_1jFYY" >/dev/null 2>&1 || true ;;        
+    msi-white)
+      firefox --new-tab "https://color.firefox.com/?theme=XQAAAAIbAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPsqu7TqWr6m1TfMHqvlJQCFCPXMmdabxhSg4I5hF9BEQZVRGtA2fQcdol5zvm6VSBgihD5dtL75sthqFNXvIJF8B3XkFBOWKOrTdivWrSyZZepyrZrqygiej5eNT1L8nA9aRe-1bj28BwMtgMqMMFX_PVpOjRpJXednHEQpwhFwBZI81QsTN1rcYDI2b9p8BLX_xK4AAA" >/dev/null 2>&1 || true ;;        
+ 
     *)
       # No Firefox Color URL defined for this theme — do nothing
       :
