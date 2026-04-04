@@ -73,9 +73,10 @@
     (app-icon :cmd "discord"                        :icon "discord.svg")
     (app-icon :cmd "firefox"                        :icon "firefox.svg")
     (app-icon :cmd "torbrowser-launcher"            :icon "tor.svg")
+	  (app-icon :cmd "xdg-open https://github.com"    :icon "github.svg")
     (app-icon :cmd "codium"                         :icon "vscode.svg")
-    (app-icon :cmd "firefox https://github.com"     :icon "github.svg")
-    (app-icon :cmd "firefox http://localhost:8096/" :icon "jellyfin.svg")))
+
+(app-icon :cmd "firefox http://localhost:8096/" :icon "jellyfin.svg")))
 
 
 
