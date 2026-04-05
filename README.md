@@ -157,6 +157,9 @@ $mod+Shift+t
     
 ( Change name-of-theme to the theme you would like to edit ! )
 
+(Suggestion: Use SVGRepo.com to create free SVG images for added sidebar quickapps. Colors used with other quickapps are included in a note in the 'Eww' file for an easy transition!)
+
+
 :star: THEME.ENV:
 
 • The theme.env file within each:
