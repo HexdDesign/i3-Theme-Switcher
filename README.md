@@ -64,7 +64,7 @@ Switch themes on i3 with this stunning collection of different high quality them
 >[!NOTE]
 >Keybind cheat sheet can be found within general file location in this repo as a text file by the name of - Keybind Cheat Sheet. However, here are some ones to note:
 
-:star: Mod4: SUPER / WIN KEY  
+:star: Mod4: ALT 
 
 ### CUSTOM KEYBINDS:
 
