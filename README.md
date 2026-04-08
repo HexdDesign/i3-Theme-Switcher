@@ -307,6 +307,8 @@ $mod+Shift+t
 
 [Vortex-Dark-Icons](https://www.gnome-look.org/p/149343/)
 
+[Ars-Light-Icons](https://www.gnome-look.org/p/2192424)
+
 
 
 >[!IMPORTANT]
