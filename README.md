@@ -193,6 +193,7 @@ $mod+Shift+t
    - Neon-Violet
    - Nord
    - Project-Hail-Mary (Project Hail Mary 2026)
+   - Purple-Plastic (Melgeek)
    - Sakura-Hunter (Monster Hunter)
      
 ────────────────────────────
