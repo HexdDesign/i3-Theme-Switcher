@@ -1,0 +1,39 @@
+# STARSHIP - THEMES
+# PURPLE PLASTIC THEME
+# https://starship.rs/config/
+
+add_newline = false
+
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_status\
+$character
+"""
+
+[directory]
+style = "bold #8b7fff"						# light electric purple
+
+[git_branch]
+symbol = '🌱 '
+style = "bold #39ff14"						# neon green
+
+[git_status]
+style = "#ff3f6c"							# hot pink red
+
+[username]
+style_user = "bold #5b4eff"					# electric purple
+style_root = "bold #ff3f6c"					# hot pink red
+format = ' [$user]($style) '
+disabled = false
+show_always = true
+
+
+[hostname]
+style = "#00ffb3"							# neon mint
+
+[character]
+success_symbol = "[❯](bold #39ff14)"		# neon green
+error_symbol = "[✗](bold #ff3f6c)"			# hot pink red
