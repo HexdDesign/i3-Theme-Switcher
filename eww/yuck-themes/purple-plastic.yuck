@@ -1,0 +1,4 @@
+(defvar theme_name "purple-plastic")
+(defvar eww_icon_dir "/home/dizzy/.config/eww/icons/purple-plastic")
+(defvar qa_icon_size 52)
+(defvar eww_logo_path "/home/dizzy/.config/eww/icons/purple-plastic/logo.png")
