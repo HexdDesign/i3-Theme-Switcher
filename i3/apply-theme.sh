@@ -505,7 +505,9 @@ if command -v firefox >/dev/null 2>&1 && pgrep -x firefox >/dev/null 2>&1; then
     evangelion)
       firefox --new-tab "https://color.firefox.com/?theme=XQAAAAIRAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPsQa-oj-MQ-9W1cbcr6-JOAoSyfwYxEexyMkXRXmY41M9zFrFlxmc-Zf7xYwtwQY5jzM-qWqb401N1hJSwssPUVqKVhO_Vl11il4zG1lp-1Gv6r0aPmlMHp2hHfmBKI1frQBGS5UvU6ZXkn5wCD-4MRxhPrIRThs9apL5pRgi5kFJ5BBMINX_1jFYY" >/dev/null 2>&1 || true ;;        
     msi-white)
-      firefox --new-tab "https://color.firefox.com/?theme=XQAAAAIbAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPsqu7TqWr6m1TfMHqvlJQCFCPXMmdabxhSg4I5hF9BEQZVRGtA2fQcdol5zvm6VSBgihD5dtL75sthqFNXvIJF8B3XkFBOWKOrTdivWrSyZZepyrZrqygiej5eNT1L8nA9aRe-1bj28BwMtgMqMMFX_PVpOjRpJXednHEQpwhFwBZI81QsTN1rcYDI2b9p8BLX_xK4AAA" >/dev/null 2>&1 || true ;;        
+      firefox --new-tab "https://color.firefox.com/?theme=XQAAAAIgAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPsqvA9WWr6vosA-y1AqKYNrV26WpJW4bhGwHAtRYJX7N1sbHC1m13phBWY_APSxtGT2L4zGGYyfP_XOahYle2p6WfHE_DvChpgVgL0WH0HBzoctGtZhP7lMdWXuYe1I3BZSbvsgWQCmm4GKPS5CmDZE-J82jDqrDj6NSmj4ynmviqoeSt--gQ4HMChsVyZAdzPmu___vGfmAA" >/dev/null 2>&1 || true ;;        
+    purple-plastic)
+      firefox --new-tab "https://color.firefox.com/?theme=XQAAAAIeAQAAAAAAAABBqYhm849SCia2CaaEGccwS-xMDPsHgjm3D_zjUYmRMcMFtFAHjB6IJLFGaaDOrtbo58m5tWvcUPevEigwJWXwYWripNfcGpQ_XHGCRyOuaUwqKWrVrKnYmchWPgnH-G40W63HrnVNSEf3Cjj5gSk6rzYxK8ORujkC0zFSCZRvS8CIF2E8Yd5KijBOV_XCq3ohXUblmlFgAkspoXrfyhH8iVL6Vq4pP__wNnZg" >/dev/null 2>&1 || true ;;        
  
     *)
       # No Firefox Color URL defined for this theme — do nothing
