@@ -1,0 +1,72 @@
+/* ============================================================
+   Nord — eww theme variables
+   ============================================================ */
+
+:root {
+  /* ── Base ──────────────────────────────────────────────── */
+  --bg:                    #2e3440;           		 /* dark blue-gray */
+  --bg-alt:                #3b4252;           		 /* sdark neutral blue grey */
+  --fg:                    #eceff4;           		 /* off white */
+  --fg-dim:                rgba(76, 86, 106, 0.85);  /* muted nord gray text */
+  --accent:                #88c0d0;            		 /* light cyan */
+  --primary:               #5e81ac;            		 /* frost blue*/
+  --yellow:                #ebcb8b;            		 /* soft yellow */
+  --urgent:                #bf616a;           		 /* soft red */
+
+  /* ── Menu box ──────────────────────────────────────────── */
+  --menu-bg:               rgba(46, 52, 64, 0.96);    /* dark blue grey */
+  --menu-border:           rgba(136, 192, 208, 0.55); /* soft cyan */
+  --menu-border-solid:     rgba(94, 129, 172, 0.60);  /* frost blue */
+  --menu-shadow:           rgba(0, 0, 0, 0.50);       /* black drop shadow */
+
+  /* ── Sidebar ───────────────────────────────────────────── */
+  --sidebar-bg:            rgba(46, 52, 64, 0.96);    /* dark blue grey */
+
+  /* ── Control header ────────────────────────────────────── */
+  --icon-color:            #88c0d0;            		  /* frost cyan */
+  --title-color:           rgba(236, 239, 244, 0.92); /* snow white titles */
+  --value-color:           #81a1c1;            		  /* frost desaturated blue */
+
+  /* ── Quick apps ────────────────────────────────────────── */
+  --qa-hover-bg:           rgba(255, 255, 255, 0.10); /* subtle white  */
+  --qa-hover-glow-near:    rgba(136, 192, 208, 0.50); /* cyan */
+  --qa-hover-glow-far:     rgba(136, 192, 208, 0.20); /* cyan */
+
+  /* ── Sliders ───────────────────────────────────────────── */
+  --slider-trough:         rgba(94, 129, 172, 0.20);  /* soft frost blue */
+  --slider-fill:           rgba(136, 192, 208, 0.85); /* bright cyan */
+  --slider-thumb:          #ebcb8b;           		  /* yellow */
+  --slider-thumb-hover:    #f0d9a0;           		  /* lighter warm yellow */
+
+  /* ── Separator ─────────────────────────────────────────── */
+  --separator-start:       rgba(136, 192, 208, 0.35); /* cyan gradient start */
+  --separator-end:         rgba(235, 203, 139, 0.20); /* soft yellow gradient end */
+
+  /* ── Wifi / BT items ───────────────────────────────────── */
+  --item-bg:               rgba(94, 129, 172, 0.12);  /*  frost blue */
+  --item-hover-bg:         rgba(136, 192, 208, 0.25); /* cyan */
+  --item-hover-border:     rgba(235, 203, 139, 0.60); /* yellow */
+  --item-connected-bg:     rgba(136, 192, 208, 0.22); /* cyan */
+  --item-connected-border: rgba(235, 203, 139, 0.45); /* yellow */
+  --item-connected-text:   #ebcb8b;            		  /* yellow */
+  --current-label:         rgba(236, 239, 244, 0.85); /* white */
+
+  /* ── Scan buttons ──────────────────────────────────────── */
+  --scan-btn-bg:           rgba(136, 192, 208, 0.14); /* faint cyan */
+  --scan-btn-border:       rgba(235, 203, 139, 0.55); /* yellow  */
+  --scan-btn-text:         #ebcb8b;            	 	  /* yellow */
+  --scan-btn-hover-bg:     rgba(136, 192, 208, 0.30); /* cyan  */
+  --scan-btn-hover-border: rgba(235, 203, 139, 0.85); /* brighter yellow  */
+  --scan-btn-hover-glow:   rgba(235, 203, 139, 0.25); /* soft yellow */
+
+  /* ── Row status ────────────────────────────────────────── */
+  --row-status:            #ebcb8b;            		  /* yellow status indicator */
+
+  /* ── BT empty state ────────────────────────────────────── */
+  --bt-empty-icon:         rgba(235, 203, 139, 0.45); /* dim yellow */
+
+  /* ── Scrollbars ────────────────────────────────────────── */
+  --scrollbar-trough:      rgba(94, 129, 172, 0.10);  /* faint frost blue */
+  --scrollbar-thumb:       rgba(136, 192, 208, 0.28); /* cyan */
+  --scrollbar-thumb-hover: rgba(136, 192, 208, 0.50); /* brighter cyan */
+}
