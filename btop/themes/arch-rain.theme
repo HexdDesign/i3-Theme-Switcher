@@ -1,0 +1,48 @@
+# ============================================================
+# Arch Rain btop theme
+# Arch Linux Blue Rain Palette
+# Dark navy base · arch blue accents · pale rain blues
+# ============================================================
+
+# --- Base ---
+theme[main_bg]="#0d1117"        # dark navy background
+theme[main_fg]="#dce8f0"        # soft white-blue text
+
+# --- Titles & Highlights ---
+theme[title]="#1e90d4"          # arch blue titles
+theme[hi_fg]="#5bb8d4"          # cyan highlight
+theme[selected_bg]="#1c2a38"    # slate selection
+theme[selected_fg]="#dce8f0"    # bright text
+theme[inactive_fg]="#4a6070"    # muted blue-gray
+
+# --- Graphs & Meters ---
+theme[graph_text]="#adc8d8"     # pale rain blue
+theme[meter_bg]="#1c2a38"       # slate graph background
+theme[spread_fg]="#5bb8d4"      # cyan indicators
+
+# --- CPU --- (cyan → arch blue → pale rain)
+theme[cpu_box]="#1c2a38"
+theme[cpu_start]="#5bb8d4"
+theme[cpu_mid]="#1e90d4"
+theme[cpu_end]="#adc8d8"
+
+# --- Memory ---
+theme[mem_box]="#1c2a38"
+theme[mem_start]="#adc8d8"
+theme[mem_mid]="#5bb8d4"
+theme[mem_end]="#1e90d4"
+
+# --- Network --- (rain blues)
+theme[net_box]="#1c2a38"
+theme[net_start]="#dce8f0"
+theme[net_mid]="#adc8d8"
+theme[net_end]="#4a6070"
+
+# --- Processes ---
+theme[proc_box]="#1c2a38"
+theme[proc_start]="#5bb8d4"
+theme[proc_mid]="#adc8d8"
+theme[proc_end]="#1e90d4"
+
+# --- Structure ---
+theme[div_line]="#1c2a38"
