@@ -1,0 +1,73 @@
+/* ============================================================
+   Celty — eww theme variables
+   Monochrome. The Black Rider needs no color.
+   ============================================================ */
+
+:root {
+  /* ── Base ──────────────────────────────────────────────── */
+  --bg:                    #0d0d0d;
+  --bg-alt:                #1a1a1a;
+  --fg:                    #f0f0f0;
+  --fg-dim:                rgba(136, 136, 136, 0.85);
+  --accent:                #c8c8c8;
+  --primary:               #888888;
+  --yellow:                #dddddd;
+  --urgent:                #ffffff;
+
+  /* ── Menu box ──────────────────────────────────────────── */
+  --menu-bg:               rgba(13, 13, 13, 0.97);
+  --menu-border:           rgba(200, 200, 200, 0.45);
+  --menu-border-solid:     rgba(136, 136, 136, 0.55);
+  --menu-shadow:           rgba(0, 0, 0, 0.75);
+
+  /* ── Sidebar ───────────────────────────────────────────── */
+  --sidebar-bg:            rgba(13, 13, 13, 0.97);
+
+  /* ── Control header ────────────────────────────────────── */
+  --icon-color:            #c8c8c8;
+  --title-color:           rgba(240, 240, 240, 0.92);
+  --value-color:           #888888;
+
+  /* ── Quick apps ────────────────────────────────────────── */
+  --qa-hover-bg:           rgba(255, 255, 255, 0.08);
+  --qa-hover-glow-near:    rgba(200, 200, 200, 0.40);
+  --qa-hover-glow-far:     rgba(200, 200, 200, 0.15);
+
+  /* ── Sliders ───────────────────────────────────────────── */
+  --slider-trough:         rgba(85, 85, 85, 0.25);
+  --slider-fill:           rgba(200, 200, 200, 0.80);
+  --slider-thumb:          #f0f0f0;
+  --slider-thumb-hover:    #ffffff;
+
+  /* ── Separator ─────────────────────────────────────────── */
+  --separator-start:       rgba(200, 200, 200, 0.30);
+  --separator-end:         rgba(136, 136, 136, 0.15);
+
+  /* ── Wifi / BT items ───────────────────────────────────── */
+  --item-bg:               rgba(85, 85, 85, 0.12);
+  --item-hover-bg:         rgba(200, 200, 200, 0.20);
+  --item-hover-border:     rgba(240, 240, 240, 0.50);
+  --item-connected-bg:     rgba(200, 200, 200, 0.18);
+  --item-connected-border: rgba(240, 240, 240, 0.40);
+  --item-connected-text:   #f0f0f0;
+  --current-label:         rgba(240, 240, 240, 0.85);
+
+  /* ── Scan buttons ──────────────────────────────────────── */
+  --scan-btn-bg:           rgba(200, 200, 200, 0.12);
+  --scan-btn-border:       rgba(240, 240, 240, 0.45);
+  --scan-btn-text:         #f0f0f0;
+  --scan-btn-hover-bg:     rgba(200, 200, 200, 0.28);
+  --scan-btn-hover-border: rgba(255, 255, 255, 0.80);
+  --scan-btn-hover-glow:   rgba(255, 255, 255, 0.20);
+
+  /* ── Row status ────────────────────────────────────────── */
+  --row-status:            #c8c8c8;
+
+  /* ── BT empty state ────────────────────────────────────── */
+  --bt-empty-icon:         rgba(136, 136, 136, 0.40);
+
+  /* ── Scrollbars ────────────────────────────────────────── */
+  --scrollbar-trough:      rgba(85, 85, 85, 0.10);
+  --scrollbar-thumb:       rgba(200, 200, 200, 0.25);
+  --scrollbar-thumb-hover: rgba(200, 200, 200, 0.50);
+}
