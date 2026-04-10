@@ -1,0 +1,72 @@
+/* ============================================================
+   Neon Violet — eww theme variables
+   ============================================================ */
+
+:root {
+  /* ── Base ──────────────────────────────────────────────── */
+  --bg:                    #201028;
+  --bg-alt:                #341745;
+  --fg:                    #f8f2ff;
+  --fg-dim:                rgba(169, 141, 184, 0.85);
+  --accent:                #e741bb;
+  --primary:               #7d3cbe;
+  --yellow:                #edb4dd;
+  --urgent:                #c43799;
+
+  /* ── Menu box ──────────────────────────────────────────── */
+  --menu-bg:               rgba(32, 16, 40, 0.96);
+  --menu-border:           rgba(231, 65, 187, 0.55);
+  --menu-border-solid:     rgba(125, 60, 190, 0.60);
+  --menu-shadow:           rgba(0, 0, 0, 0.50);
+
+  /* ── Sidebar ───────────────────────────────────────────── */
+  --sidebar-bg:            rgba(32, 16, 40, 0.96);
+
+  /* ── Control header ────────────────────────────────────── */
+  --icon-color:            #e741bb;
+  --title-color:           rgba(248, 242, 255, 0.92);
+  --value-color:           #7d3cbe;
+
+  /* ── Quick apps ────────────────────────────────────────── */
+  --qa-hover-bg:           rgba(255, 255, 255, 0.10);
+  --qa-hover-glow-near:    rgba(231, 65, 187, 0.50);
+  --qa-hover-glow-far:     rgba(125, 60, 190, 0.22);
+
+  /* ── Sliders ───────────────────────────────────────────── */
+  --slider-trough:         rgba(125, 60, 190, 0.20);
+  --slider-fill:           rgba(231, 65, 187, 0.85);
+  --slider-thumb:          #edb4dd;
+  --slider-thumb-hover:    #f3c7e7;
+
+  /* ── Separator ─────────────────────────────────────────── */
+  --separator-start:       rgba(231, 65, 187, 0.35);
+  --separator-end:         rgba(237, 180, 221, 0.22);
+
+  /* ── Wifi / BT items ───────────────────────────────────── */
+  --item-bg:               rgba(125, 60, 190, 0.12);
+  --item-hover-bg:         rgba(231, 65, 187, 0.25);
+  --item-hover-border:     rgba(237, 180, 221, 0.70);
+  --item-connected-bg:     rgba(231, 65, 187, 0.22);
+  --item-connected-border: rgba(237, 180, 221, 0.50);
+  --item-connected-text:   #edb4dd;
+  --current-label:         rgba(248, 242, 255, 0.85);
+
+  /* ── Scan buttons ──────────────────────────────────────── */
+  --scan-btn-bg:           rgba(231, 65, 187, 0.14);
+  --scan-btn-border:       rgba(237, 180, 221, 0.55);
+  --scan-btn-text:         #edb4dd;
+  --scan-btn-hover-bg:     rgba(231, 65, 187, 0.30);
+  --scan-btn-hover-border: rgba(237, 180, 221, 0.85);
+  --scan-btn-hover-glow:   rgba(237, 180, 221, 0.25);
+
+  /* ── Row status ────────────────────────────────────────── */
+  --row-status:            #edb4dd;
+
+  /* ── BT empty state ────────────────────────────────────── */
+  --bt-empty-icon:         rgba(237, 180, 221, 0.50);
+
+  /* ── Scrollbars ────────────────────────────────────────── */
+  --scrollbar-trough:      rgba(125, 60, 190, 0.10);
+  --scrollbar-thumb:       rgba(231, 65, 187, 0.28);
+  --scrollbar-thumb-hover: rgba(231, 65, 187, 0.50);
+}
