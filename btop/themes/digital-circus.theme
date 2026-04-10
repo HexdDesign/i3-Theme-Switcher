@@ -1,0 +1,47 @@
+# ============================================================
+# Digital Circus btop theme
+# Inspired by The Amazing Digital Circus
+# ============================================================
+
+# --- Base ---
+theme[main_bg]="#0d0520"        # deep purple-black
+theme[main_fg]="#3A23FA"        # primary blue
+
+# --- Titles & Highlights ---
+theme[title]="#E7244E"          # red
+theme[hi_fg]="#00EEFF"          # electric cyan
+theme[selected_bg]="#1a0840"    # dark purple
+theme[selected_fg]="#FF2D9B"    # hot magenta pink
+theme[inactive_fg]="#4a2a6a"    # muted deep violet
+
+# --- Graphs & Meters ---
+theme[graph_text]="#CC99FF"     # soft violet
+theme[meter_bg]="#1a0840"       # dark purple
+theme[spread_fg]="#9966CC"      # muted violet
+
+# --- CPU --- 
+theme[cpu_box]="#1a0840"        # dark purple
+theme[cpu_start]="#00EEFF"      # electric cyan
+theme[cpu_mid]="#FF2D9B"        # hot magenta
+theme[cpu_end]="#EB7202"        # neon orange
+
+# --- Memory ---
+theme[mem_box]="#1a0840"        # dark purple
+theme[mem_start]="#93FB03"      # acid green
+theme[mem_mid]="#9966CC"        # muted violet
+theme[mem_end]="#FF2D9B"        # hot magenta
+
+# --- Network ---
+theme[net_box]="#1a0840"        # dark purple
+theme[net_start]="#00EEFF"      # electric cyan
+theme[net_mid]="#CC99FF"        # soft violet
+theme[net_end]="#9966CC"        # muted violet
+
+# --- Processes ---
+theme[proc_box]="#1a0840"       # dark purple
+theme[proc_start]="#FF2D9B"     # hot magenta
+theme[proc_mid]="#CC99FF"       # soft violet
+theme[proc_end]="#00EEFF"       # electric cyan
+
+# --- Structure ---
+theme[div_line]="#2a1050"       # slightly lighter than bg for subtle borders
