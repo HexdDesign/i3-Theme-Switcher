@@ -1,0 +1,72 @@
+/* ============================================================
+   Devilman — eww theme variables
+   ============================================================ */
+
+:root {
+  /* ── Base ──────────────────────────────────────────────── */
+  --bg:                    #0b0000;
+  --bg-alt:                #140000;
+  --fg:                    #f5f5f5;
+  --fg-dim:                rgba(183, 183, 183, 0.70);
+  --accent:                #ff1a1a;
+  --primary:               #b00000;
+  --yellow:                #ffffff;
+  --urgent:                #ff1a1a;
+
+  /* ── Menu box ──────────────────────────────────────────── */
+  --menu-bg:               rgba(11, 0, 0, 0.97);
+  --menu-border:           rgba(255, 26, 26, 0.55);
+  --menu-border-solid:     rgba(176, 0, 0, 0.70);
+  --menu-shadow:           rgba(0, 0, 0, 0.75);
+
+  /* ── Sidebar ───────────────────────────────────────────── */
+  --sidebar-bg:            rgba(11, 0, 0, 0.97);
+
+  /* ── Control header ────────────────────────────────────── */
+  --icon-color:            #ff1a1a;
+  --title-color:           rgba(245, 245, 245, 0.94);
+  --value-color:           #b00000;
+
+  /* ── Quick apps ────────────────────────────────────────── */
+  --qa-hover-bg:           rgba(255, 255, 255, 0.08);
+  --qa-hover-glow-near:    rgba(255, 26, 26, 0.55);
+  --qa-hover-glow-far:     rgba(176, 0, 0, 0.22);
+
+  /* ── Sliders ───────────────────────────────────────────── */
+  --slider-trough:         rgba(176, 0, 0, 0.22);
+  --slider-fill:           rgba(255, 26, 26, 0.88);
+  --slider-thumb:          #ffffff;
+  --slider-thumb-hover:    #ffffff;
+
+  /* ── Separator ─────────────────────────────────────────── */
+  --separator-start:       rgba(255, 26, 26, 0.38);
+  --separator-end:         rgba(255, 255, 255, 0.18);
+
+  /* ── Wifi / BT items ───────────────────────────────────── */
+  --item-bg:               rgba(176, 0, 0, 0.12);
+  --item-hover-bg:         rgba(255, 26, 26, 0.20);
+  --item-hover-border:     rgba(255, 255, 255, 0.35);
+  --item-connected-bg:     rgba(255, 26, 26, 0.18);
+  --item-connected-border: rgba(255, 255, 255, 0.28);
+  --item-connected-text:   #ffffff;
+  --current-label:         rgba(245, 245, 245, 0.86);
+
+  /* ── Scan buttons ──────────────────────────────────────── */
+  --scan-btn-bg:           rgba(255, 26, 26, 0.12);
+  --scan-btn-border:       rgba(255, 255, 255, 0.30);
+  --scan-btn-text:         #ffffff;
+  --scan-btn-hover-bg:     rgba(255, 26, 26, 0.24);
+  --scan-btn-hover-border: rgba(255, 255, 255, 0.55);
+  --scan-btn-hover-glow:   rgba(255, 26, 26, 0.20);
+
+  /* ── Row status ────────────────────────────────────────── */
+  --row-status:            #ffffff;
+
+  /* ── BT empty state ────────────────────────────────────── */
+  --bt-empty-icon:         rgba(245, 245, 245, 0.45);
+
+  /* ── Scrollbars ────────────────────────────────────────── */
+  --scrollbar-trough:      rgba(176, 0, 0, 0.10);
+  --scrollbar-thumb:       rgba(255, 26, 26, 0.28);
+  --scrollbar-thumb-hover: rgba(255, 26, 26, 0.52);
+}
