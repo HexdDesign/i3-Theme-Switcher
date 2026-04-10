@@ -44,6 +44,7 @@ Switch themes on i3 with this stunning collection of different high quality them
    - i3lock-color
    - Firefox
    - Calcurse
+   - Btop
  
 ────────────────────────────
 
