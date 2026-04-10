@@ -464,6 +464,33 @@ unset _my_tty _pid _argv0 _tty _signaled
 ln -sf "$THEME_ENV" "$I3_THEMES/current.env"
 echo "OK: current.env -> $THEME_ENV"
 
+# ---- Btop theme switch (robust)
+# Each theme can define BTOP_THEME in theme.env
+BTOP_THEMES="$HOME/.config/btop/themes"
+BTOP_CURRENT="$BTOP_THEMES/current.theme"
+#BTOP_THEME_FILE="$BTOP_THEMES/${BTOP_THEME:-$THEME}.theme"
+BTOP_THEME_FILE="$HOME/.config/btop/themes/$BTOP_THEME.theme"
+
+ 
+if [[ -f "$BTOP_THEME_FILE" ]]; then
+	ln -sf "$BTOP_THEME_FILE" "$BTOP_CURRENT"
+    echo "OK: btop theme -> $BTOP_THEME_FILE"
+ 
+    # Reload running btop instances if they were started with --theme current
+BTOP_PIDS=$(pgrep -x btop || true)
+
+if [[ -n "$BTOP_PIDS" ]]; then
+    for pid in $BTOP_PIDS; do
+        kill -USR1 "$pid" 2>/dev/null || true
+        echo "OK: sent SIGUSR1 to btop pid=$pid"
+    done
+else
+    echo "INFO: no running btop instances found"
+fi
+else
+    warn "btop theme not found: $BTOP_THEME_FILE"
+fi
+
 # ---- Firefox Color theme sync
 # If Firefox is running, open the matching Firefox Color theme URL in a new tab.
 # Each named theme has a pre-built Firefox Color URL hardcoded below.
@@ -515,6 +542,7 @@ if command -v firefox >/dev/null 2>&1 && pgrep -x firefox >/dev/null 2>&1; then
       ;;
   esac
 fi
+
 
 # ---- Geany colorscheme
 # Only restarts Geany if there are no unsaved buffers.
