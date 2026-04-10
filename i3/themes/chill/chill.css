@@ -1,0 +1,70 @@
+/* ============================================================
+   Chill — eww theme variables (GTK @define-color format)
+   ============================================================ */
+
+/* ── Base ──────────────────────────────────────────────── */
+@define-color bg                    #0c0f24;
+@define-color bg_alt                #19243a;
+@define-color fg                    #e7ecf5;
+@define-color fg_dim                rgba(154, 165, 184, 0.85);
+@define-color accent                #bb865e;
+@define-color primary               #78b7c8;
+@define-color yellow                #daa16c;
+@define-color urgent                #b86a6a;
+
+/* ── Menu box ──────────────────────────────────────────── */
+@define-color menu_bg               rgba(12, 15, 36, 0.96);
+@define-color menu_border           rgba(218, 161, 108, 0.65);
+@define-color menu_border_solid     rgba(187, 134, 94, 0.60);
+@define-color menu_shadow           rgba(0, 0, 0, 0.55);
+
+/* ── Sidebar ───────────────────────────────────────────── */
+@define-color sidebar_bg            rgba(12, 15, 36, 0.96);
+
+/* ── Control header ────────────────────────────────────── */
+@define-color icon_color            #daa16c;
+@define-color title_color           rgba(231, 236, 245, 0.92);
+@define-color value_color           #bb865e;
+
+/* ── Quick apps ────────────────────────────────────────── */
+@define-color qa_hover_bg rgba(218, 161, 108, 0.14);
+@define-color qa_hover_glow_near rgba(218, 161, 108, 0.55);
+@define-color qa_hover_glow_far  rgba(187, 134, 94, 0.25);
+
+/* ── Sliders ───────────────────────────────────────────── */
+@define-color slider_trough         rgba(187, 134, 94, 0.18);
+@define-color slider_fill           rgba(187, 134, 94, 0.85);
+@define-color slider_thumb          #daa16c;
+@define-color slider_thumb_hover    #f0c68f;
+
+/* ── Separator ─────────────────────────────────────────── */
+@define-color separator_start       rgba(187, 134, 94, 0.35);
+@define-color separator_end         rgba(218, 161, 108, 0.25);
+
+/* ── Wifi / BT items ───────────────────────────────────── */
+@define-color item_bg               rgba(35, 54, 71, 0.10);
+@define-color item_hover_bg         rgba(187, 134, 94, 0.25);
+@define-color item_hover_border     rgba(218, 161, 108, 0.70);
+@define-color item_connected_bg     rgba(187, 134, 94, 0.25);
+@define-color item_connected_border rgba(218, 161, 108, 0.50);
+@define-color item_connected_text   #daa16c;
+@define-color current_label         rgba(231, 236, 245, 0.85);
+
+/* ── Scan buttons ──────────────────────────────────────── */
+@define-color scan_btn_bg           rgba(187, 134, 94, 0.15);
+@define-color scan_btn_border       rgba(218, 161, 108, 0.60);
+@define-color scan_btn_text         #daa16c;
+@define-color scan_btn_hover_bg     rgba(187, 134, 94, 0.35);
+@define-color scan_btn_hover_border rgba(218, 161, 108, 0.90);
+@define-color scan_btn_hover_glow   rgba(218, 161, 108, 0.30);
+
+/* ── Row status ────────────────────────────────────────── */
+@define-color row_status            #daa16c;
+
+/* ── BT empty state ────────────────────────────────────── */
+@define-color bt_empty_icon         rgba(218, 161, 108, 0.50);
+
+/* ── Scrollbars ────────────────────────────────────────── */
+@define-color scrollbar_trough      rgba(35, 54, 71, 0.10);
+@define-color scrollbar_thumb       rgba(187, 134, 94, 0.30);
+@define-color scrollbar_thumb_hover rgba(187, 134, 94, 0.55);
