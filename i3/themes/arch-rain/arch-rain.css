@@ -1,0 +1,72 @@
+/* ============================================================
+   Arch Rain — eww theme variables
+   ============================================================ */
+
+:root {
+  /* ── Base ──────────────────────────────────────────────── */
+  --bg:                    #0d1117;
+  --bg-alt:                #161c26;
+  --fg:                    #dce8f0;
+  --fg-dim:                rgba(74, 96, 112, 0.85);
+  --accent:                #5bb8d4;
+  --primary:               #1e90d4;
+  --yellow:                #d4881e;
+  --urgent:                #c0392b;
+
+  /* ── Menu box ──────────────────────────────────────────── */
+  --menu-bg:               rgba(13, 17, 23, 0.96);
+  --menu-border:           rgba(30, 144, 212, 0.55);
+  --menu-border-solid:     rgba(91, 184, 212, 0.60);
+  --menu-shadow:           rgba(0, 0, 0, 0.65);
+
+  /* ── Sidebar ───────────────────────────────────────────── */
+  --sidebar-bg:            rgba(13, 17, 23, 0.96);
+
+  /* ── Control header ────────────────────────────────────── */
+  --icon-color:            #5bb8d4;
+  --title-color:           rgba(220, 232, 240, 0.92);
+  --value-color:           #1e90d4;
+
+  /* ── Quick apps ────────────────────────────────────────── */
+  --qa-hover-bg:           rgba(255, 255, 255, 0.08);
+  --qa-hover-glow-near:    rgba(30, 144, 212, 0.55);
+  --qa-hover-glow-far:     rgba(30, 144, 212, 0.20);
+
+  /* ── Sliders ───────────────────────────────────────────── */
+  --slider-trough:         rgba(30, 144, 212, 0.18);
+  --slider-fill:           rgba(91, 184, 212, 0.85);
+  --slider-thumb:          #d4881e;
+  --slider-thumb-hover:    #e0a040;
+
+  /* ── Separator ─────────────────────────────────────────── */
+  --separator-start:       rgba(30, 144, 212, 0.40);
+  --separator-end:         rgba(212, 136, 30, 0.20);
+
+  /* ── Wifi / BT items ───────────────────────────────────── */
+  --item-bg:               rgba(30, 144, 212, 0.10);
+  --item-hover-bg:         rgba(91, 184, 212, 0.22);
+  --item-hover-border:     rgba(212, 136, 30, 0.60);
+  --item-connected-bg:     rgba(91, 184, 212, 0.20);
+  --item-connected-border: rgba(212, 136, 30, 0.45);
+  --item-connected-text:   #d4881e;
+  --current-label:         rgba(220, 232, 240, 0.85);
+
+  /* ── Scan buttons ──────────────────────────────────────── */
+  --scan-btn-bg:           rgba(91, 184, 212, 0.12);
+  --scan-btn-border:       rgba(212, 136, 30, 0.55);
+  --scan-btn-text:         #d4881e;
+  --scan-btn-hover-bg:     rgba(91, 184, 212, 0.28);
+  --scan-btn-hover-border: rgba(212, 136, 30, 0.85);
+  --scan-btn-hover-glow:   rgba(212, 136, 30, 0.28);
+
+  /* ── Row status ────────────────────────────────────────── */
+  --row-status:            #d4881e;
+
+  /* ── BT empty state ────────────────────────────────────── */
+  --bt-empty-icon:         rgba(212, 136, 30, 0.45);
+
+  /* ── Scrollbars ────────────────────────────────────────── */
+  --scrollbar-trough:      rgba(30, 144, 212, 0.10);
+  --scrollbar-thumb:       rgba(91, 184, 212, 0.28);
+  --scrollbar-thumb-hover: rgba(91, 184, 212, 0.55);
+}
