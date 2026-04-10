@@ -1,0 +1,70 @@
+/* ============================================================
+   Dracula 
+   ============================================================ */
+
+/* ── Base ──────────────────────────────────────────────── */
+@define-color bg                    #282a36;
+@define-color bg_alt                #44475a;
+@define-color fg                    #f8f8f2;
+@define-color fg_dim                rgba(98, 114, 164, 0.85);
+@define-color accent                #bd93f9;
+@define-color primary               #8be9fd;
+@define-color yellow                #f1fa8c;
+@define-color urgent                #ff5555;
+
+/* ── Menu box ──────────────────────────────────────────── */
+@define-color menu_bg               rgba(40, 42, 54, 0.96);
+@define-color menu_border           rgba(255, 121, 198, 0.65);
+@define-color menu_border_solid     rgba(189, 147, 249, 0.60);
+@define-color menu_shadow           rgba(0, 0, 0, 0.55);
+
+/* ── Sidebar ───────────────────────────────────────────── */
+@define-color sidebar_bg            rgba(40, 42, 54, 0.96);
+
+/* ── Control header ────────────────────────────────────── */
+@define-color icon_color            #ff79c6;
+@define-color title_color           rgba(248, 248, 242, 0.92);
+@define-color value_color           #bd93f9;
+
+/* ── Quick apps ────────────────────────────────────────── */
+@define-color qa_hover_bg rgba(255, 121, 198, 0.14);
+@define-color qa_hover_glow_near rgba(255, 121, 198, 0.55);
+@define-color qa_hover_glow_far  rgba(189, 147, 249, 0.25);
+
+/* ── Sliders ───────────────────────────────────────────── */
+@define-color slider_trough         rgba(189, 147, 249, 0.18);
+@define-color slider_fill           rgba(189, 147, 249, 0.85);
+@define-color slider_thumb          #ff79c6;
+@define-color slider_thumb_hover    #ff92df;
+
+/* ── Separator ─────────────────────────────────────────── */
+@define-color separator_start       rgba(189, 147, 249, 0.35);
+@define-color separator_end         rgba(255, 121, 198, 0.25);
+
+/* ── Wifi / BT items ───────────────────────────────────── */
+@define-color item_bg               rgba(189, 147, 249, 0.10);
+@define-color item_hover_bg         rgba(189, 147, 249, 0.25);
+@define-color item_hover_border     rgba(255, 121, 198, 0.70);
+@define-color item_connected_bg     rgba(189, 147, 249, 0.25);
+@define-color item_connected_border rgba(255, 121, 198, 0.50);
+@define-color item_connected_text   #ff79c6;
+@define-color current_label         rgba(248, 248, 242, 0.85);
+
+/* ── Scan buttons ──────────────────────────────────────── */
+@define-color scan_btn_bg           rgba(189, 147, 249, 0.15);
+@define-color scan_btn_border       rgba(255, 121, 198, 0.60);
+@define-color scan_btn_text         #ff79c6;
+@define-color scan_btn_hover_bg     rgba(189, 147, 249, 0.35);
+@define-color scan_btn_hover_border rgba(255, 121, 198, 0.90);
+@define-color scan_btn_hover_glow   rgba(255, 121, 198, 0.30);
+
+/* ── Row status ────────────────────────────────────────── */
+@define-color row_status            #ff79c6;
+
+/* ── BT empty state ────────────────────────────────────── */
+@define-color bt_empty_icon         rgba(255, 121, 198, 0.50);
+
+/* ── Scrollbars ────────────────────────────────────────── */
+@define-color scrollbar_trough      rgba(189, 147, 249, 0.10);
+@define-color scrollbar_thumb       rgba(189, 147, 249, 0.30);
+@define-color scrollbar_thumb_hover rgba(189, 147, 249, 0.55);
