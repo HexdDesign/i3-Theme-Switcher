@@ -1,0 +1,45 @@
+# ============================================
+# EVANGELION Unit-01 — NERV Terminal (Refined)
+# ============================================
+
+theme[main_bg]="#050507"          # deeper black (void-like)
+theme[main_fg]="#6aff00"          # toxic green (less soft than before)
+
+theme[title]="#a100ff"            # EVA-01 purple (stronger identity)
+theme[hi_fg]="#ff9a00"            # warning amber (UI highlight)
+
+theme[selected_bg]="#1b0030"      # deep purple selection
+theme[selected_fg]="#39ff14"
+
+theme[inactive_fg]="#1f3a1a"      # dim military green
+
+theme[graph_text]="#0a0a0d"
+theme[meter_bg]="#0a0a0d"
+
+theme[spread_fg]="#ff9a00"
+
+# MAGI identity mapping
+
+# CPU (MELCHIOR - logic)
+theme[cpu_start]="#39ff14"
+theme[cpu_mid]="#b7ff00"
+theme[cpu_end]="#ffff00"
+
+# Memory (BALTHASAR - emotion)
+theme[mem_start]="#6a00ff"
+theme[mem_mid]="#a64dff"
+theme[mem_end]="#ff99ff"
+
+# Network (CASPER - instinct)
+theme[net_start]="#ff0033"
+theme[net_mid]="#ff3366"
+theme[net_end]="#ff6699"
+
+# Processes — match CPU for consistency
+theme[proc_box]="#140022"
+theme[proc_start]="#39ff14"
+theme[proc_mid]="#ff9a00"
+theme[proc_end]="#ff1a1a"
+
+# Divider lines — subtle purple glow
+theme[div_line]="#220044"
