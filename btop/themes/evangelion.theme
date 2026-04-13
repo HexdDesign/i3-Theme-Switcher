@@ -1,21 +1,15 @@
 # ============================================
 # EVANGELION Unit-01 — NERV Terminal (Refined)
 # ============================================
-
-theme[main_bg]="#050507"          # deeper black (void-like)
-theme[main_fg]="#6aff00"          # toxic green (less soft than before)
-
-theme[title]="#a100ff"            # EVA-01 purple (stronger identity)
-theme[hi_fg]="#ff9a00"            # warning amber (UI highlight)
-
-theme[selected_bg]="#1b0030"      # deep purple selection
+theme[main_bg]="#050507"
+theme[main_fg]="#6aff00"
+theme[title]="#a100ff"
+theme[hi_fg]="#ff9a00"
+theme[selected_bg]="#1b0030"
 theme[selected_fg]="#39ff14"
-
-theme[inactive_fg]="#1f3a1a"      # dim military green
-
+theme[inactive_fg]="#1f3a1a"
 theme[graph_text]="#0a0a0d"
 theme[meter_bg]="#0a0a0d"
-
 theme[spread_fg]="#ff9a00"
 
 # MAGI identity mapping
@@ -30,10 +24,32 @@ theme[mem_start]="#6a00ff"
 theme[mem_mid]="#a64dff"
 theme[mem_end]="#ff99ff"
 
+# --- Memory detail ---
+theme[used_start]="#6a00ff"
+theme[used_mid]="#a64dff"
+theme[used_end]="#cc80ff"
+theme[available_start]="#3d0099"
+theme[available_mid]="#7722cc"
+theme[available_end]="#aa55ee"
+theme[cached_start]="#2a006b"
+theme[cached_mid]="#5500aa"
+theme[cached_end]="#8833cc"
+theme[free_start]="#1b0030"
+theme[free_mid]="#3d0077"
+theme[free_end]="#6600aa"
+
 # Network (CASPER - instinct)
 theme[net_start]="#ff0033"
 theme[net_mid]="#ff3366"
 theme[net_end]="#ff6699"
+
+# --- Network graphs ---
+theme[download_start]="#cc0022"
+theme[download_mid]="#ff0033"
+theme[download_end]="#ff3366"
+theme[upload_start]="#ff4400"
+theme[upload_mid]="#ff6600"
+theme[upload_end]="#ff9900"
 
 # Processes — match CPU for consistency
 theme[proc_box]="#140022"
@@ -43,3 +59,12 @@ theme[proc_end]="#ff1a1a"
 
 # Divider lines — subtle purple glow
 theme[div_line]="#220044"
+
+# --- Temperature ---
+theme[temp_start]="#39ff14"
+theme[temp_mid]="#ff9a00"
+theme[temp_end]="#ff1a1a"
+ 
+# --- Misc ---
+theme[proc_pause_bg]="#1b0030"
+theme[proc_misc]="#ff9a00"
