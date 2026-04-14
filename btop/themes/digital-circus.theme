@@ -1,47 +1,79 @@
 # ============================================================
 # Digital Circus btop theme
-# Inspired by The Amazing Digital Circus
+# Inspired by The Amazing Digital Circus - GLITCH & Gooseworx
+# Deep purple-black base · hot magenta · electric cyan · neon accents
 # ============================================================
 
 # --- Base ---
-theme[main_bg]="#0d0520"        # deep purple-black
-theme[main_fg]="#3A23FA"        # primary blue
+theme[main_bg]="#0d0520"
+theme[main_fg]="#3A23FA"
 
 # --- Titles & Highlights ---
-theme[title]="#E7244E"          # red
-theme[hi_fg]="#00EEFF"          # electric cyan
-theme[selected_bg]="#1a0840"    # dark purple
-theme[selected_fg]="#FF2D9B"    # hot magenta pink
-theme[inactive_fg]="#4a2a6a"    # muted deep violet
+theme[title]="#E7244E"
+theme[hi_fg]="#00EEFF"
+theme[selected_bg]="#1a0840"
+theme[selected_fg]="#FF2D9B"
+theme[inactive_fg]="#4a2a6a"
 
 # --- Graphs & Meters ---
-theme[graph_text]="#CC99FF"     # soft violet
-theme[meter_bg]="#1a0840"       # dark purple
-theme[spread_fg]="#9966CC"      # muted violet
+theme[graph_text]="#CC99FF"
+theme[meter_bg]="#1a0840"
+theme[spread_fg]="#9966CC"
 
-# --- CPU --- 
-theme[cpu_box]="#1a0840"        # dark purple
-theme[cpu_start]="#00EEFF"      # electric cyan
-theme[cpu_mid]="#FF2D9B"        # hot magenta
-theme[cpu_end]="#EB7202"        # neon orange
+# --- CPU ---
+theme[cpu_box]="#1a0840"
+theme[cpu_start]="#00EEFF"
+theme[cpu_mid]="#FF2D9B"
+theme[cpu_end]="#EB7202"
 
 # --- Memory ---
-theme[mem_box]="#1a0840"        # dark purple
-theme[mem_start]="#93FB03"      # acid green
-theme[mem_mid]="#9966CC"        # muted violet
-theme[mem_end]="#FF2D9B"        # hot magenta
+theme[mem_box]="#1a0840"
+theme[mem_start]="#93FB03"
+theme[mem_mid]="#9966CC"
+theme[mem_end]="#FF2D9B"
+
+# --- Memory detail ---
+theme[used_start]="#FF2D9B"
+theme[used_mid]="#CC99FF"
+theme[used_end]="#00EEFF"
+theme[available_start]="#00EEFF"
+theme[available_mid]="#9966CC"
+theme[available_end]="#FF2D9B"
+theme[cached_start]="#93FB03"
+theme[cached_mid]="#9966CC"
+theme[cached_end]="#CC99FF"
+theme[free_start]="#93FB03"
+theme[free_mid]="#00EEFF"
+theme[free_end]="#CC99FF"
 
 # --- Network ---
-theme[net_box]="#1a0840"        # dark purple
-theme[net_start]="#00EEFF"      # electric cyan
-theme[net_mid]="#CC99FF"        # soft violet
-theme[net_end]="#9966CC"        # muted violet
+theme[net_box]="#1a0840"
+theme[net_start]="#00EEFF"
+theme[net_mid]="#CC99FF"
+theme[net_end]="#9966CC"
+
+# --- Network graphs ---
+theme[download_start]="#00EEFF"
+theme[download_mid]="#CC99FF"
+theme[download_end]="#9966CC"
+theme[upload_start]="#FF2D9B"
+theme[upload_mid]="#CC99FF"
+theme[upload_end]="#9966CC"
 
 # --- Processes ---
-theme[proc_box]="#1a0840"       # dark purple
-theme[proc_start]="#FF2D9B"     # hot magenta
-theme[proc_mid]="#CC99FF"       # soft violet
-theme[proc_end]="#00EEFF"       # electric cyan
+theme[proc_box]="#1a0840"
+theme[proc_start]="#FF2D9B"
+theme[proc_mid]="#CC99FF"
+theme[proc_end]="#00EEFF"
 
 # --- Structure ---
-theme[div_line]="#2a1050"       # slightly lighter than bg for subtle borders
+theme[div_line]="#2a1050"
+
+# --- Temperature ---
+theme[temp_start]="#00EEFF"
+theme[temp_mid]="#FF2D9B"
+theme[temp_end]="#EB7202"
+
+# --- Misc ---
+theme[proc_pause_bg]="#1a0840"
+theme[proc_misc]="#CC99FF"
