@@ -1,0 +1,79 @@
+# ============================================================
+# N7 Day
+# ------------------------------------------------------------
+# Violet and Magenta N7 Mass Effect Theme
+# ============================================================
+
+# --- Base ---
+theme[main_bg]="#0d0a10"
+theme[main_fg]="#f0dde0"
+
+# --- Titles / Highlights ---
+theme[title]="#c41e3a"
+theme[hi_fg]="#ff6090"
+theme[selected_bg]="#3a1428"
+theme[selected_fg]="#f0dde0"
+theme[inactive_fg]="#7a4a5e"
+
+# --- Graphs ---
+theme[graph_text]="#d4cfe0"
+theme[meter_bg]="#100810"
+theme[spread_fg]="#ff6090"
+
+# --- CPU ---
+theme[cpu_box]="#c41e3a"
+theme[cpu_start]="#ff6090"
+theme[cpu_mid]="#c41e3a"
+theme[cpu_end]="#e8820a"
+
+# --- Memory ---
+theme[mem_box]="#c41e3a"
+theme[mem_start]="#d4cfe0"
+theme[mem_mid]="#ff6090"
+theme[mem_end]="#c41e3a"
+
+# --- Memory detail ---
+theme[used_start]="#c41e3a"
+theme[used_mid]="#ff6090"
+theme[used_end]="#f0dde0"
+theme[available_start]="#d4cfe0"
+theme[available_mid]="#ff6090"
+theme[available_end]="#3a1428"
+theme[cached_start]="#7a4a5e"
+theme[cached_mid]="#c41e3a"
+theme[cached_end]="#ff6090"
+theme[free_start]="#3a1428"
+theme[free_mid]="#7a4a5e"
+theme[free_end]="#d4cfe0"
+
+# --- Network ---
+theme[net_box]="#5a1a2a"
+theme[net_start]="#ff6090"
+theme[net_mid]="#c41e3a"
+theme[net_end]="#e8820a"
+
+# --- Network graphs ---
+theme[download_start]="#ff6090"
+theme[download_mid]="#c41e3a"
+theme[download_end]="#e8820a"
+theme[upload_start]="#d4cfe0"
+theme[upload_mid]="#ff6090"
+theme[upload_end]="#7a4a5e"
+
+# --- Processes ---
+theme[proc_box]="#c41e3a"
+theme[proc_start]="#d4cfe0"
+theme[proc_mid]="#ff6090"
+theme[proc_end]="#c41e3a"
+
+# --- UI Structure ---
+theme[div_line]="#3a1428"
+
+# --- Temperature ---
+theme[temp_start]="#d4cfe0"
+theme[temp_mid]="#ff6090"
+theme[temp_end]="#e8820a"
+
+# --- Misc ---
+theme[proc_pause_bg]="#3a1428"
+theme[proc_misc]="#d4cfe0"
