@@ -1,0 +1,78 @@
+# ============================================================
+# Dracula
+# ------------------------------------------------------------
+# Pink, Purple, and Grey
+# ============================================================
+# --- Base ---
+theme[main_bg]="#282a36"
+theme[main_fg]="#f8f8f2"
+
+# --- Titles / Highlights ---
+theme[title]="#bd93f9"
+theme[hi_fg]="#ff79c6"
+theme[selected_bg]="#44475a"
+theme[selected_fg]="#f8f8f2"
+theme[inactive_fg]="#6272a4"
+
+# --- Graphs ---
+theme[graph_text]="#f8f8f2"
+theme[meter_bg]="#21222c"
+theme[spread_fg]="#8be9fd"
+
+# --- CPU ---
+theme[cpu_box]="#bd93f9"
+theme[cpu_start]="#8be9fd"
+theme[cpu_mid]="#bd93f9"
+theme[cpu_end]="#ff79c6"
+
+# --- Memory ---
+theme[mem_box]="#ff79c6"
+theme[mem_start]="#ff79c6"
+theme[mem_mid]="#bd93f9"
+theme[mem_end]="#8be9fd"
+
+# --- Memory detail ---
+theme[used_start]="#ff79c6"
+theme[used_mid]="#bd93f9"
+theme[used_end]="#8be9fd"
+theme[available_start]="#8be9fd"
+theme[available_mid]="#50fa7b"
+theme[available_end]="#f8f8f2"
+theme[cached_start]="#6272a4"
+theme[cached_mid]="#bd93f9"
+theme[cached_end]="#ff79c6"
+theme[free_start]="#21222c"
+theme[free_mid]="#44475a"
+theme[free_end]="#6272a4"
+
+# --- Network ---
+theme[net_box]="#8be9fd"
+theme[net_start]="#8be9fd"
+theme[net_mid]="#50fa7b"
+theme[net_end]="#bd93f9"
+
+# --- Network graphs ---
+theme[download_start]="#8be9fd"
+theme[download_mid]="#50fa7b"
+theme[download_end]="#bd93f9"
+theme[upload_start]="#ff79c6"
+theme[upload_mid]="#bd93f9"
+theme[upload_end]="#6272a4"
+
+# --- Processes ---
+theme[proc_box]="#bd93f9"
+theme[proc_start]="#ff79c6"
+theme[proc_mid]="#bd93f9"
+theme[proc_end]="#8be9fd"
+
+# --- UI Structure ---
+theme[div_line]="#44475a"
+
+# --- Temperature ---
+theme[temp_start]="#8be9fd"
+theme[temp_mid]="#50fa7b"
+theme[temp_end]="#ff79c6"
+
+# --- Misc ---
+theme[proc_pause_bg]="#44475a"
+theme[proc_misc]="#6272a4"
