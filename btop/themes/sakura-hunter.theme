@@ -1,0 +1,79 @@
+# ============================================================
+# Sakura Hunter
+# ------------------------------------------------------------
+# Monster Hunter: Rise - Sakura Theme
+# ============================================================
+
+# --- Base ---
+theme[main_bg]="#1a0f1a"
+theme[main_fg]="#f0e6ec"
+
+# --- Titles / Highlights ---
+theme[title]="#e8a0c0"
+theme[hi_fg]="#5a8ab0"
+theme[selected_bg]="#3d2a3d"
+theme[selected_fg]="#f0e6ec"
+theme[inactive_fg]="#a07890"
+
+# --- Graphs ---
+theme[graph_text]="#c8a0b4"
+theme[meter_bg]="#2a1e2a"
+theme[spread_fg]="#e8a0c0"
+
+# --- CPU ---
+theme[cpu_box]="#e8a0c0"
+theme[cpu_start]="#5a8ab0"
+theme[cpu_mid]="#e8a0c0"
+theme[cpu_end]="#d4a855"
+
+# --- Memory ---
+theme[mem_box]="#e8a0c0"
+theme[mem_start]="#c8a0b4"
+theme[mem_mid]="#e8a0c0"
+theme[mem_end]="#5a8ab0"
+
+# --- Memory detail ---
+theme[used_start]="#e8a0c0"
+theme[used_mid]="#c8a0b4"
+theme[used_end]="#5a8ab0"
+theme[available_start]="#5a8ab0"
+theme[available_mid]="#c8a0b4"
+theme[available_end]="#f0e6ec"
+theme[cached_start]="#a07890"
+theme[cached_mid]="#c8a0b4"
+theme[cached_end]="#e8a0c0"
+theme[free_start]="#3d2a3d"
+theme[free_mid]="#a07890"
+theme[free_end]="#c8a0b4"
+
+# --- Network ---
+theme[net_box]="#5a8ab0"
+theme[net_start]="#5a8ab0"
+theme[net_mid]="#e8a0c0"
+theme[net_end]="#d4a855"
+
+# --- Network graphs ---
+theme[download_start]="#5a8ab0"
+theme[download_mid]="#e8a0c0"
+theme[download_end]="#d4a855"
+theme[upload_start]="#f0e6ec"
+theme[upload_mid]="#c8a0b4"
+theme[upload_end]="#a07890"
+
+# --- Processes ---
+theme[proc_box]="#e8a0c0"
+theme[proc_start]="#c8a0b4"
+theme[proc_mid]="#e8a0c0"
+theme[proc_end]="#5a8ab0"
+
+# --- UI Structure ---
+theme[div_line]="#3d2a3d"
+
+# --- Temperature ---
+theme[temp_start]="#5a8ab0"
+theme[temp_mid]="#e8a0c0"
+theme[temp_end]="#d4a855"
+
+# --- Misc ---
+theme[proc_pause_bg]="#2a1e2a"
+theme[proc_misc]="#c8a0b4"
