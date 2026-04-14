@@ -5,22 +5,22 @@
 # ============================================================
 
 # --- Base ---
-theme[main_bg]="#0d1117"        # dark navy background
-theme[main_fg]="#dce8f0"        # soft white-blue text
+theme[main_bg]="#0d1117"
+theme[main_fg]="#dce8f0"
 
 # --- Titles & Highlights ---
-theme[title]="#1e90d4"          # arch blue titles
-theme[hi_fg]="#5bb8d4"          # cyan highlight
-theme[selected_bg]="#1c2a38"    # slate selection
-theme[selected_fg]="#dce8f0"    # bright text
-theme[inactive_fg]="#4a6070"    # muted blue-gray
+theme[title]="#1e90d4"
+theme[hi_fg]="#5bb8d4"
+theme[selected_bg]="#1c2a38"
+theme[selected_fg]="#dce8f0"
+theme[inactive_fg]="#4a6070"
 
 # --- Graphs & Meters ---
-theme[graph_text]="#adc8d8"     # pale rain blue
-theme[meter_bg]="#1c2a38"       # slate graph background
-theme[spread_fg]="#5bb8d4"      # cyan indicators
+theme[graph_text]="#adc8d8"
+theme[meter_bg]="#1c2a38"
+theme[spread_fg]="#5bb8d4"
 
-# --- CPU --- (cyan → arch blue → pale rain)
+# --- CPU ---
 theme[cpu_box]="#1c2a38"
 theme[cpu_start]="#5bb8d4"
 theme[cpu_mid]="#1e90d4"
@@ -32,11 +32,33 @@ theme[mem_start]="#adc8d8"
 theme[mem_mid]="#5bb8d4"
 theme[mem_end]="#1e90d4"
 
-# --- Network --- (rain blues)
+# --- Memory detail ---
+theme[used_start]="#1e90d4"
+theme[used_mid]="#5bb8d4"
+theme[used_end]="#adc8d8"
+theme[available_start]="#adc8d8"
+theme[available_mid]="#5bb8d4"
+theme[available_end]="#dce8f0"
+theme[cached_start]="#4a6070"
+theme[cached_mid]="#5bb8d4"
+theme[cached_end]="#adc8d8"
+theme[free_start]="#adc8d8"
+theme[free_mid]="#dce8f0"
+theme[free_end]="#5bb8d4"
+
+# --- Network ---
 theme[net_box]="#1c2a38"
 theme[net_start]="#dce8f0"
 theme[net_mid]="#adc8d8"
 theme[net_end]="#4a6070"
+
+# --- Network graphs ---
+theme[download_start]="#dce8f0"
+theme[download_mid]="#5bb8d4"
+theme[download_end]="#1e90d4"
+theme[upload_start]="#adc8d8"
+theme[upload_mid]="#5bb8d4"
+theme[upload_end]="#4a6070"
 
 # --- Processes ---
 theme[proc_box]="#1c2a38"
@@ -46,3 +68,13 @@ theme[proc_end]="#1e90d4"
 
 # --- Structure ---
 theme[div_line]="#1c2a38"
+
+# --- Temperature ---
+theme[temp_start]="#dce8f0"
+theme[temp_mid]="#1e90d4"
+theme[temp_end]="#4a6070"
+
+# --- Misc ---
+theme[proc_pause_bg]="#1c2a38"
+theme[proc_misc]="#adc8d8"
+
