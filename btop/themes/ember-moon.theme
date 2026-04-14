@@ -1,0 +1,79 @@
+# ============================================================
+# Ember Moon btop theme
+# Black, Orange, and Pink Katana
+# Near-black base · neon pink · ember red · gold · cool blue-grey text
+# ============================================================
+
+# --- Base ---
+theme[main_bg]="#141417"
+theme[main_fg]="#C9CED6"
+
+# --- Titles & Highlights ---
+theme[title]="#FF4D88"
+theme[hi_fg]="#F4B942"
+theme[selected_bg]="#1C1F26"
+theme[selected_fg]="#C9CED6"
+theme[inactive_fg]="#3a3d44"
+
+# --- Graphs & Meters ---
+theme[graph_text]="#7E8794"
+theme[meter_bg]="#1C1F26"
+theme[spread_fg]="#FF7AA2"
+
+# --- CPU ---
+theme[cpu_box]="#1C1F26"
+theme[cpu_start]="#F4B942"
+theme[cpu_mid]="#FF4D88"
+theme[cpu_end]="#E10600"
+
+# --- Memory ---
+theme[mem_box]="#1C1F26"
+theme[mem_start]="#FF7AA2"
+theme[mem_mid]="#FF4D88"
+theme[mem_end]="#7E8794"
+
+# --- Memory detail ---
+theme[used_start]="#FF4D88"
+theme[used_mid]="#FF7AA2"
+theme[used_end]="#E10600"
+theme[available_start]="#7E8794"
+theme[available_mid]="#C9CED6"
+theme[available_end]="#C9CED6"
+theme[cached_start]="#3a3d44"
+theme[cached_mid]="#7E8794"
+theme[cached_end]="#FF7AA2"
+theme[free_start]="#1C1F26"
+theme[free_mid]="#3a3d44"
+theme[free_end]="#7E8794"
+
+# --- Network ---
+theme[net_box]="#1C1F26"
+theme[net_start]="#C9CED6"
+theme[net_mid]="#7E8794"
+theme[net_end]="#FF7AA2"
+
+# --- Network graphs ---
+theme[download_start]="#C9CED6"
+theme[download_mid]="#7E8794"
+theme[download_end]="#FF7AA2"
+theme[upload_start]="#F4B942"
+theme[upload_mid]="#FF4D88"
+theme[upload_end]="#E10600"
+
+# --- Processes ---
+theme[proc_box]="#1C1F26"
+theme[proc_start]="#F4B942"
+theme[proc_mid]="#FF7AA2"
+theme[proc_end]="#E10600"
+
+# --- Structure ---
+theme[div_line]="#25282f"
+
+# --- Temperature ---
+theme[temp_start]="#7E8794"
+theme[temp_mid]="#F4B942"
+theme[temp_end]="#E10600"
+
+# --- Misc ---
+theme[proc_pause_bg]="#1C1F26"
+theme[proc_misc]="#7E8794"
