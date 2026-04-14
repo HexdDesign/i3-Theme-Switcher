@@ -1,0 +1,77 @@
+# ============================================================
+# Chill Theme
+# ============================================================
+
+# --- Base ---
+theme[main_bg]="#0c0f24"
+theme[main_fg]="#e7ecf5"
+
+# --- Titles & Highlights ---
+theme[title]="#bb865e"
+theme[hi_fg]="#daa16c"
+theme[selected_bg]="#19243a"
+theme[selected_fg]="#e7ecf5"
+theme[inactive_fg]="#233647"
+
+# --- Graphs & Meters ---
+theme[graph_text]="#9aa5b8"
+theme[meter_bg]="#19243a"
+theme[spread_fg]="#6fa38e"
+
+# --- CPU ---
+theme[cpu_box]="#19243a"
+theme[cpu_start]="#6fa38e"
+theme[cpu_mid]="#bb865e"
+theme[cpu_end]="#b86a6a"
+
+# --- Memory ---
+theme[mem_box]="#19243a"
+theme[mem_start]="#6fa38e"
+theme[mem_mid]="#9aa5b8"
+theme[mem_end]="#daa16c"
+
+# --- Memory detail ---
+theme[used_start]="#daa16c"
+theme[used_mid]="#bb865e"
+theme[used_end]="#b86a6a"
+theme[available_start]="#6fa38e"
+theme[available_mid]="#9aa5b8"
+theme[available_end]="#e7ecf5"
+theme[cached_start]="#233647"
+theme[cached_mid]="#9aa5b8"
+theme[cached_end]="#6fa38e"
+theme[free_start]="#19243a"
+theme[free_mid]="#233647"
+theme[free_end]="#9aa5b8"
+
+# --- Network ---
+theme[net_box]="#19243a"
+theme[net_start]="#e7ecf5"
+theme[net_mid]="#9aa5b8"
+theme[net_end]="#233647"
+
+# --- Network graphs ---
+theme[download_start]="#e7ecf5"
+theme[download_mid]="#9aa5b8"
+theme[download_end]="#233647"
+theme[upload_start]="#daa16c"
+theme[upload_mid]="#bb865e"
+theme[upload_end]="#6fa38e"
+
+# --- Processes ---
+theme[proc_box]="#19243a"
+theme[proc_start]="#bb865e"
+theme[proc_mid]="#9aa5b8"
+theme[proc_end]="#b86a6a"
+
+# --- Structure ---
+theme[div_line]="#1e2840"
+
+# --- Temperature ---
+theme[temp_start]="#6fa38e"
+theme[temp_mid]="#daa16c"
+theme[temp_end]="#b86a6a"
+
+# --- Misc ---
+theme[proc_pause_bg]="#19243a"
+theme[proc_misc]="#9aa5b8"
