@@ -1,0 +1,83 @@
+# ============================================================
+# Purple Plastic btop theme
+# Electric Purple + Neon Green
+# Deep purple-black base · electric purple · neon green · neon mint
+# ============================================================
+
+# --- Base ---
+theme[main_bg]="#1a1533"
+theme[main_fg]="#e8e0ff"
+
+# --- Titles & Highlights ---
+theme[title]="#39ff14"
+theme[hi_fg]="#5b4eff"
+theme[selected_bg]="#2d2650"
+theme[selected_fg]="#39ff14"
+theme[inactive_fg]="#3a3060"
+
+# --- Graphs & Meters ---
+theme[graph_text]="#c4b5fd"
+theme[meter_bg]="#0f0d1e"
+theme[spread_fg]="#7b6fcf"
+
+# --- CPU --- (neon green → electric purple → hot pink)
+theme[cpu_box]="#0f0d1e"
+theme[cpu_start]="#39ff14"
+theme[cpu_mid]="#5b4eff"
+theme[cpu_end]="#ff3f6c"
+
+# --- Memory ---
+theme[mem_box]="#0f0d1e"
+theme[mem_start]="#00ffb3"
+theme[mem_mid]="#5b4eff"
+theme[mem_end]="#7b6fcf"
+
+# --- Memory detail (clean hierarchy + neon layering) ---
+theme[used_start]="#00ffb3"     # active usage = mint energy
+theme[used_mid]="#5b4eff"       # blends into system purple
+theme[used_end]="#ff3f6c"       # pressure/alert spike
+
+theme[available_start]="#3a3060" # dim base
+theme[available_mid]="#5b4eff"   # usable pool
+theme[available_end]="#7b6fcf"   # softer cap
+
+theme[cached_start]="#7b6fcf"    # muted
+theme[cached_mid]="#c4b5fd"      # light readable
+theme[cached_end]="#00ffb3"      # subtle neon flicker
+
+theme[free_start]="#0f0d1e"      # almost invisible
+theme[free_mid]="#3a3060"        # low presence
+theme[free_end]="#5b4eff"        # slight lift for visibility
+
+# --- Network ---
+theme[net_box]="#0f0d1e"
+theme[net_start]="#00ffb3"
+theme[net_mid]="#7b6fcf"
+theme[net_end]="#5b4eff"
+
+# --- Network graphs (clear channel separation) ---
+theme[download_start]="#39ff14"  # fast / incoming = neon green
+theme[download_mid]="#00ffb3"
+theme[download_end]="#7b6fcf"
+
+theme[upload_start]="#5b4eff"    # outgoing = purple channel
+theme[upload_mid]="#7b6fcf"
+theme[upload_end]="#ff3f6c"      # spike = hot pink
+
+# --- Processes ---
+theme[proc_box]="#0f0d1e"
+theme[proc_start]="#39ff14"
+theme[proc_mid]="#c4b5fd"
+theme[proc_end]="#ff9f1c"
+
+# --- Structure ---
+theme[div_line]="#2d2650"
+
+# --- Temperature (green → purple → danger pink) ---
+theme[temp_start]="#39ff14"     # cool
+theme[temp_mid]="#5b4eff"       # warm
+theme[temp_end]="#ff3f6c"       # hot
+
+# --- Misc ---
+theme[proc_pause_bg]="#2d2650"  # consistent with selection
+theme[proc_misc]="#7b6fcf"      # neutral readable purple
