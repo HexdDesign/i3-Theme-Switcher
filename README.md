@@ -39,9 +39,12 @@ Switch themes on i3 with this stunning collection of different high quality them
 | Weather API     |                    |
 | Geany           |                    |
 
+***
+
 >[!TIP]
 >All of the files in this repo are to be loaded under your ~/.config/ folder!
 
+***
 
 ## —— ⊹ i3 KEYBINDS ⊹ ——
 
@@ -85,11 +88,12 @@ $mod+m
 $mod+Shift+t
 ```
 
+***
 
 >[!TIP]
 >File location cheat sheet can also be found in the general location in this repo as a text file by the name of - File Location.
 
-────────────────────────────
+***
 
 
 :seedling: Some more important notes about this repo:
@@ -164,8 +168,7 @@ $mod+Shift+t
    - control dunst notification colors
 
 
-
-────────────────────────────
+***
 
 ### CURRENT THEMES
    - Arch-Rain
@@ -188,7 +191,7 @@ $mod+Shift+t
    - Purple-Plastic (Melgeek)
    - Sakura-Hunter (Monster Hunter)
      
-────────────────────────────
+***
 
 
 
