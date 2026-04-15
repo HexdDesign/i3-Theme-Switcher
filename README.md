@@ -9,7 +9,7 @@
 Switch themes on i3 with this stunning collection of different high quality themes to choose from. :sparkles:
 
 
-### ꩜ Dots by Dizzy ₊˚ʚ ᗢ₊˚✧ ﾟ.
+### ꩜ 
 
 
 
