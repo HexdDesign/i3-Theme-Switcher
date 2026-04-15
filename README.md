@@ -96,7 +96,7 @@ $mod+Shift+t
 ***
 
 
-:seedling:
+:seedling: 
 
 <details> 
    
@@ -173,6 +173,8 @@ $mod+Shift+t
    - control dunst notification colors
 
 </details>
+
+
 ***
 
 ### CURRENT THEMES
