@@ -42,7 +42,7 @@
 ***
 
 >[!TIP]
->All of the files in this repo are to be loaded under your ~/.config/ folder!
+>All of the files in this repo are to be loaded under your ~/.config/ !
 
 ***
 
