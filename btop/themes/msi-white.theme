@@ -1,0 +1,83 @@
+# ============================================================
+# MSI White btop theme
+# Light Grey, Teal, and Lavender Blue
+# Clean light base · teal cyan accents · steel blue · rose red alerts
+# ============================================================
+
+# --- Base ---
+theme[main_bg]="#f0f2f5"
+theme[main_fg]="#2c3a4a"
+
+# --- Titles & Highlights ---
+theme[title]="#5bbfcc"
+theme[hi_fg]="#8b9db5"
+theme[selected_bg]="#d8e4ed"
+theme[selected_fg]="#2c3a4a"
+theme[inactive_fg]="#b0bec8"
+
+# --- Graphs & Meters ---
+theme[graph_text]="#4a5f73"
+theme[meter_bg]="#e4e8ed"
+theme[spread_fg]="#7a8fa3"
+
+# --- CPU --- (teal → steel blue → rose)
+theme[cpu_box]="#e4e8ed"
+theme[cpu_start]="#5bbfcc"
+theme[cpu_mid]="#8b9db5"
+theme[cpu_end]="#e05a6a"
+
+# --- Memory ---
+theme[mem_box]="#e4e8ed"
+theme[mem_start]="#7ebfb5"
+theme[mem_mid]="#5bbfcc"
+theme[mem_end]="#8b9db5"
+
+# --- Memory detail (soft layering, no harsh contrast) ---
+theme[used_start]="#5bbfcc"     # active usage
+theme[used_mid]="#8b9db5"
+theme[used_end]="#e05a6a"       # pressure/alert
+
+theme[available_start]="#b0bec8" # subtle base
+theme[available_mid]="#7a8fa3"
+theme[available_end]="#5bbfcc"   # accessible pool highlight
+
+theme[cached_start]="#c8d4de"    # very soft grey-blue
+theme[cached_mid]="#d8e4ed"
+theme[cached_end]="#7ebfb5"      # slight teal tint
+
+theme[free_start]="#f0f2f5"      # blends into background
+theme[free_mid]="#e4e8ed"
+theme[free_end]="#c8d4de"        # faint edge visibility
+
+# --- Network ---
+theme[net_box]="#e4e8ed"
+theme[net_start]="#5bbfcc"
+theme[net_mid]="#7a8fa3"
+theme[net_end]="#4a5f73"
+
+# --- Network graphs (clear but calm separation) ---
+theme[download_start]="#5bbfcc"  # teal = incoming
+theme[download_mid]="#7ebfb5"
+theme[download_end]="#7a8fa3"
+
+theme[upload_start]="#8b9db5"    # steel blue = outgoing
+theme[upload_mid]="#7a8fa3"
+theme[upload_end]="#e05a6a"      # spike warning
+
+# --- Processes ---
+theme[proc_box]="#e4e8ed"
+theme[proc_start]="#5bbfcc"
+theme[proc_mid]="#8b9db5"
+theme[proc_end]="#e05a6a"
+
+# --- Structure ---
+theme[div_line]="#c8d4de"
+
+# --- Temperature (consistent system ramp) ---
+theme[temp_start]="#5bbfcc"     # cool
+theme[temp_mid]="#8b9db5"       # warm
+theme[temp_end]="#e05a6a"       # hot
+
+# --- Misc ---
+theme[proc_pause_bg]="#d8e4ed"  # matches selection bg
+theme[proc_misc]="#7a8fa3"      # neutral readable
