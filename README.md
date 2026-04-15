@@ -42,7 +42,7 @@
 
 ***
 
-##EXAMPLE OF THEMES:
+## EXAMPLE OF THEMES:
 
 
 ***
