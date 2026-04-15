@@ -1,0 +1,83 @@
+# ============================================================
+# Neon Violet btop theme
+# Neon Violet with Pink Accents
+# Dark violet base · vivid violet · neon pink · magenta alerts
+# ============================================================
+
+# --- Base ---
+theme[main_bg]="#201028"        # dark violet
+theme[main_fg]="#f8f2ff"        # near white
+
+# --- Titles & Highlights ---
+theme[title]="#7d3cbe"          # vivid violet
+theme[hi_fg]="#e741bb"          # neon pink
+theme[selected_bg]="#341745"    # deep purple
+theme[selected_fg]="#f8f2ff"    # near white
+theme[inactive_fg]="#4a2860"    # dim violet
+
+# --- Graphs & Meters ---
+theme[graph_text]="#edb4dd"     # pale pink
+theme[meter_bg]="#2a0f2e"       # near black violet
+theme[spread_fg]="#a98db8"      # muted purple
+
+# --- CPU --- (violet → neon pink → magenta)
+theme[cpu_box]="#2a0f2e"
+theme[cpu_start]="#7d3cbe"
+theme[cpu_mid]="#e741bb"
+theme[cpu_end]="#c43799"
+
+# --- Memory ---
+theme[mem_box]="#2a0f2e"
+theme[mem_start]="#602da4"
+theme[mem_mid]="#7d3cbe"
+theme[mem_end]="#a98db8"
+
+# --- Memory detail (layered + readable separation) ---
+theme[used_start]="#7d3cbe"     # ties to main memory color
+theme[used_mid]="#e741bb"       # highlights heavy usage
+theme[used_end]="#c43799"       # alert edge
+
+theme[available_start]="#4a2860" # dim violet (background feel)
+theme[available_mid]="#602da4"   # deep violet
+theme[available_end]="#7d3cbe"   # brighter edge
+
+theme[cached_start]="#a98db8"    # muted purple
+theme[cached_mid]="#edb4dd"      # pale pink
+theme[cached_end]="#e741bb"      # neon accent
+
+theme[free_start]="#2a0f2e"      # almost background
+theme[free_mid]="#4a2860"        # soft violet
+theme[free_end]="#602da4"        # visible but subdued
+
+# --- Network ---
+theme[net_box]="#2a0f2e"
+theme[net_start]="#e741bb"
+theme[net_mid]="#a98db8"
+theme[net_end]="#602da4"
+
+# --- Network graphs (clear down/up distinction) ---
+theme[download_start]="#e741bb"  # bright + attention grabbing
+theme[download_mid]="#edb4dd"
+theme[download_end]="#a98db8"
+
+theme[upload_start]="#602da4"    # cooler/darker channel
+theme[upload_mid]="#7d3cbe"
+theme[upload_end]="#e741bb"
+
+# --- Processes ---
+theme[proc_box]="#2a0f2e"
+theme[proc_start]="#7d3cbe"
+theme[proc_mid]="#edb4dd"
+theme[proc_end]="#c43799"
+
+# --- Structure ---
+theme[div_line]="#341745"
+
+# --- Temperature (matches your “alert ramp” system) ---
+theme[temp_start]="#7d3cbe"     # normal = violet
+theme[temp_mid]="#e741bb"       # warm = neon pink
+theme[temp_end]="#c43799"       # hot = magenta alert
+
+# --- Misc ---
+theme[proc_pause_bg]="#341745"  # same as selection bg for consistency
+theme[proc_misc]="#a98db8"      # neutral readable purple
