@@ -97,7 +97,10 @@ $mod+Shift+t
 
 
 :seedling:
-<details>
+
+<details> 
+   
+<summary>Some more important notes about this repo:</summary>
 ###Some more important notes about this repo:
 
 
