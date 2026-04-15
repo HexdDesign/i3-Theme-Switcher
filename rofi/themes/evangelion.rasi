@@ -18,7 +18,7 @@
   row: rgba(110, 88, 136, 0.04);
   row-alt: rgba(110, 88, 136, 0.02);
 
-  sel-bg: rgba(110, 88, 136, 0.30);    /* Eva glow */
+  sel-bg: rgba(110, 88, 136, 0.60);    /* Eva glow */
   sel-border: rgba(182, 114, 22, 0.70); /* orange core */
 
   msg-bg: rgba(182, 114, 22, 0.15);
