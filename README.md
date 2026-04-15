@@ -42,6 +42,11 @@
 
 ***
 
+##EXAMPLE OF THEMES:
+
+
+***
+
 ![Scroll](https://github.com/HexdDesign/i3-Theme-Switcher/blob/47b3debbaae8b17af42cd6c9d4dddb1a1e03e6b7/theme%20images/themescroll.gif)
 
 
