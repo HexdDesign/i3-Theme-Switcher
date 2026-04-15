@@ -1,0 +1,83 @@
+# ============================================================
+# Crimson btop theme
+# Crimson and Red
+# Near-black violet base · crimson red · ember gold · silver accents
+# ============================================================
+
+# --- Base ---
+theme[main_bg]="#0d0a0e"        # near black
+theme[main_fg]="#d4cfe0"        # light silver violet
+
+# --- Titles & Highlights ---
+theme[title]="#e8192c"          # crimson red
+theme[hi_fg]="#e8820a"          # ember gold
+theme[selected_bg]="#3a0a10"    # dark red
+theme[selected_fg]="#d4cfe0"    # silver white
+theme[inactive_fg]="#3a2a3e"    # dim dark violet
+
+# --- Graphs & Meters ---
+theme[graph_text]="#a09aac"     # pale silver
+theme[meter_bg]="#110d14"       # dark violet
+theme[spread_fg]="#6a5a70"      # muted silver violet
+
+# --- CPU --- (crimson → ember gold → orange, like coals heating up)
+theme[cpu_box]="#110d14"        # dark violet
+theme[cpu_start]="#e8192c"      # crimson red
+theme[cpu_mid]="#e8820a"        # ember gold
+theme[cpu_end]="#5a1a2a"        # dark maroon (pinned high)
+
+# --- Memory ---
+theme[mem_box]="#110d14"        # dark violet
+theme[mem_start]="#5a1a2a"      # dark maroon
+theme[mem_mid]="#e8192c"        # crimson red
+theme[mem_end]="#a09aac"        # pale silver
+
+# --- Memory detail ---
+theme[used_start]="#5a1a2a"      # dark maroon
+theme[used_mid]="#e8192c"        # crimson red
+theme[used_end]="#e8820a"        # ember gold
+
+theme[available_start]="#3a2a3e" # dim violet
+theme[available_mid]="#6a5a70"   # muted silver violet
+theme[available_end]="#a09aac"   # pale silver
+
+theme[cached_start]="#2a1a30"    # deep violet
+theme[cached_mid]="#6a5a70"      # muted silver violet
+theme[cached_end]="#d4cfe0"      # light silver violet
+
+theme[free_start]="#1e1020"      # near bg highlight
+theme[free_mid]="#3a2a3e"        # dim violet
+theme[free_end]="#6a5a70"        # muted silver violet
+
+# --- Network --- (silver to crimson, cool to hot)
+theme[net_box]="#110d14"        # dark violet
+theme[net_start]="#d4cfe0"      # silver white
+theme[net_mid]="#6a5a70"        # muted silver violet
+theme[net_end]="#e8192c"        # crimson red
+
+# --- Network graphs ---
+theme[download_start]="#d4cfe0"  # silver white (idle)
+theme[download_mid]="#6a5a70"    # muted violet
+theme[download_end]="#e8192c"    # crimson red (high activity)
+
+theme[upload_start]="#a09aac"    # pale silver
+theme[upload_mid]="#e8820a"      # ember gold
+theme[upload_end]="#e8192c"      # crimson red
+
+# --- Processes ---
+theme[proc_box]="#110d14"       # dark violet
+theme[proc_start]="#e8192c"     # crimson red
+theme[proc_mid]="#a09aac"       # pale silver
+theme[proc_end]="#e8820a"       # ember gold (danger ceiling)
+
+# --- Structure ---
+theme[div_line]="#1e1020"       # subtle border, slightly lighter than bg
+
+# --- Temperature ---
+theme[temp_start]="#a09aac"      # cool silver
+theme[temp_mid]="#e8820a"        # warm ember
+theme[temp_end]="#e8192c"        # hot crimson
+
+# --- Misc ---
+theme[proc_pause_bg]="#3a0a10"   # same as selected_bg (paused state)
+theme[proc_misc]="#6a5a70"       # muted violet-gray
