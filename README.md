@@ -24,7 +24,7 @@
 | Required        | Optional           | 
 | --------------- |:------------------:| 
 | i3 WM           | Dunst              | 
-| Pacman          | Piccom             |
+| Pacman          | Picom              |
 | Polybar         | Feh                |
 | Rofi            | Nerd Fonts         | 
 | Eww             | Starship           |
