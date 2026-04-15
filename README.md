@@ -42,7 +42,7 @@
 
 ***
 
-![Themes](./theme images/themescroll.gif)
+<img src="./theme%images/themescroll.gif" width="300" height="auto" />
 
 
 ***
