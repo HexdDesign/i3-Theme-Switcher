@@ -96,7 +96,9 @@ $mod+Shift+t
 ***
 
 
-:seedling: Some more important notes about this repo:
+:seedling:
+<details>
+###Some more important notes about this repo:
 
 
 - Do not physically add files such as: current.conf, current.env, etc. symlink files. The theme switcher script will handle it.
@@ -167,7 +169,7 @@ $mod+Shift+t
    - control i3-lock-color colors
    - control dunst notification colors
 
-
+</details>
 ***
 
 ### CURRENT THEMES
