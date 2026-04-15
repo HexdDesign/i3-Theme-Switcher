@@ -16,39 +16,23 @@ Switch themes on i3 with this stunning collection of different high quality them
 >[!WARNING]
 > Keep in mind that these dotfiles are coded for these options. ── Anything can be removed or replaced, in theory. The 'optional' section is just easier. Keep in mind I am also using SystemD and ZSH. 
 
-────────────────────────────
-
-### REQUIRED
-   - i3
-   - Pacman
-   - Polybar
-   - Rofi
-   - Eww
-   - GTK 3.0
-   - GTK 4.0
-   - Thunar
-   - Kitty
-   - Neofetch
-   - PulseAudio
-   - Nmcli
-   - Playerctl
-   - Weather API
-   - Geany
-     
-────────────────────────────
- 
-### OPTIONAL
-   - Dunst
-   - Picom
-   - Feh
-   - Nerd Fonts
-   - Starship
-   - i3lock-color
-   - Firefox
-   - Calcurse
-   - Btop
- 
-────────────────────────────
+| Required        | Optional           | 
+| --------------- |:------------------:| 
+| i3 WM           | Dunst              | 
+| Pacman          | Piccom             |
+| Polybar         | Feh                |
+| Rofi            | Nerd Fonts         | 
+| Eww             | Starship           |
+| GTK 3.0         | i3lock-color       |
+| GTK 4.0         | Firefox            | 
+| Thunar          | Calcurse           |
+| Kitty           | Btop               |
+| Neofetch        |                    | 
+| Pulseaudio      |                    |
+| Nmcli           |                    |
+| Playerctl       |                    | 
+| Weather API     |                    |
+| Geany           |                    |
 
 >[!TIP]
 >All of the files in this repo are to be loaded under your ~/.config/ folder!
