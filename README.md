@@ -1,5 +1,4 @@
-![Banner](themeimages/dotsbydizzybanner.png)
-
+![Banner](https://github.com/HexdDesign/i3-Theme-Switcher/blob/34618838b0f5ac5d7917c7c821ed8e68efbbd146/theme%20images/dotsbydizzybanner.png "Dots by Dizzy")
 
 # README ━━━
 
