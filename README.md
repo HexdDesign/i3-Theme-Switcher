@@ -1,4 +1,4 @@
-![banner](dotsbydizzybanner.png)
+![Banner](theme images/dotsbydizzybanner.png)
 
 
 # README ━━━
