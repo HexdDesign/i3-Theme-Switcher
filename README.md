@@ -42,7 +42,7 @@
 
 ***
 
-![Themes](theme images/themescroll.gif)
+![Themes](./theme images/themescroll.gif)
 
 
 ***
