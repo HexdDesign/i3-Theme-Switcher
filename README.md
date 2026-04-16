@@ -112,7 +112,7 @@ $mod+Shift+t
 
 <details> 
    
-<summary>Some more important notes about this repo:</summary>
+<summary>Click for some more important notes about this repo:</summary>
 ###Some more important notes about this repo:
 
 
