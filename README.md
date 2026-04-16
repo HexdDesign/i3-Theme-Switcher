@@ -319,6 +319,8 @@ $mod+Shift+t
 
 [GITHUB REPO: STARSHIP - Customizable Prompt](https://github.com/starship/starship)
 
+[GITHUB REPO: BTOP - Resource Monitor](https://github.com/aristocratos/btop))
+
 <br>
 
 :zap: 〢OTHER
