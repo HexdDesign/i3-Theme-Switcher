@@ -22,7 +22,7 @@
 ### Dependencies 
 
 | Required        | Optional           | 
-| --------------- |:------------------:| 
+|:---------------:|:------------------:| 
 | i3 WM           | Dunst              | 
 | Pacman          | Picom              |
 | Polybar         | Feh                |
@@ -189,6 +189,9 @@ $mod+Shift+t
    - control links to other files
    - control i3-lock-color colors
    - control dunst notification colors
+     
+<br>
+<br>
 
 </details>
 
