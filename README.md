@@ -115,8 +115,9 @@ $mod+Shift+t
    
 <summary>Click for some more important notes about this repo:</summary>
 <br>
+<br>
 :warning: Do not physically add files such as: current.conf, current.env, etc. symlink files. The theme switcher script will handle it.
-
+<br>
 <br>
 <br>
 
@@ -175,6 +176,7 @@ $mod+Shift+t
 
 (Suggestion: Use SVGRepo.com to create free SVG images for added sidebar quickapps. Colors used with other quickapps are included in a note in the 'Eww' file for an easy transition!)
 
+<br>
 <br>
 
 :star: THEME.ENV:
