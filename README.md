@@ -110,9 +110,12 @@ $mod+Shift+t
 
 :seedling: 
 
+
 <details> 
    
 <summary>Click for some more important notes about this repo:</summary>
+
+
 :seedling: Some more important notes about this repo:
 
 
