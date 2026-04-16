@@ -146,7 +146,7 @@ $mod+Shift+t
 <br>
 <br>
 
-:star: ROFI:
+:star: **ROFI:**
 
 • app-launcher.rasi - This .rasi file is global for the application launcher.
  
@@ -157,7 +157,7 @@ $mod+Shift+t
 <br>
 <br>
 
-:star: POLYBAR:
+:star: **POLYBAR:**
 
 • BE CAREFUL as the EWW widgets are hard coded to desktop locations.
    
@@ -182,7 +182,7 @@ $mod+Shift+t
 <br>
 <br>
 
-:star: EWW:
+:star: **EWW:**
 
 • Quickapps Included: Proton Mail, Proton VPN, Steam, Discord, Firefox, Tor, VS Code, Github, and Jellyfin. 
 
@@ -210,7 +210,7 @@ $mod+Shift+t
 <br>
 <br>
 
-:star: THEME.ENV:
+:star: **THEME.ENV:**
 
 • The theme.env file within each:
    ```
@@ -267,6 +267,7 @@ $mod+Shift+t
 <br>
 :boom:
 <br>
+
 <details> 
    
 <summary>Click for Official Documentaions:</summary>
