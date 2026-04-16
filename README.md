@@ -266,6 +266,9 @@ $mod+Shift+t
 >Please - review official documentions for accurate integrations and dependencies! Documentation file included in general location in this repo by the name of: Documentation.
 
 <br>
+<details> 
+   
+<summary>Click for Official Documentaions:</summary>
 
 :zap: 〢ARCH LINUX WIKI
 
@@ -372,6 +375,8 @@ $mod+Shift+t
 
 [Ars-Light-Icons](https://www.gnome-look.org/p/2192424)
 
+<br>
+</details>
 <br>
 
 >[!IMPORTANT]
