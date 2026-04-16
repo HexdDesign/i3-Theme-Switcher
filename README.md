@@ -157,7 +157,7 @@ $mod+Shift+t
    ~/.config/polybar/scripts/weather.env
    ```
 
-( :cyclone: Suggestion: Use OpenWeatherMap.org for free weather APIs ! )
+:cyclone: **Suggestion:** Use OpenWeatherMap.org for free weather APIs ! 
 
 
 • Polybar in this theme switcher has both a bottom and top bar. Comment out the top or bottom bar and adjust modules to your own discretion. 
@@ -191,7 +191,7 @@ $mod+Shift+t
     
 ( Change name-of-theme to the theme you would like to edit ! )
 
-(:cyclone: Suggestion: Use SVGRepo.com to create free SVG images for added sidebar quickapps. Colors used with other quickapps are included in a note in the 'Eww' file for an easy transition!)
+:cyclone: **Suggestion:** Use SVGRepo.com to create free SVG images for added sidebar quickapps. Colors used with other quickapps are included in a note in the 'Eww' file for an easy transition!
 
 <br>
 <br>
