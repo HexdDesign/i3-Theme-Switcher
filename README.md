@@ -11,7 +11,8 @@
 
 ***
 
-
+<br>
+<br>
 
 >[!WARNING]
 > Keep in mind that these dotfiles are coded for these options. ── Anything can be removed or replaced, in theory. The 'optional' section is just easier. Also, I am using systemd and zsh.
