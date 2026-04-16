@@ -159,6 +159,12 @@ $mod+Shift+t
 
 ( Suggestion: Use OpenWeatherMap.org for free weather APIs ! )
 
+
+• Polybar in this theme switcher has both a bottom and top bar. Comment out the top or bottom bar and adjust modules to your own discretion. 
+
+• As stated above, Eww widgets are hard coded to window locations and will look odd if moved without adjusting their position.
+
+
 <br>
 <br>
 
