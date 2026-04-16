@@ -255,7 +255,6 @@ $mod+Shift+t
 
 <br>
 <br>
-
 ────────────────────────────
 
 ## OFFICIAL DOCUMENTATIONS ・・・・・
@@ -265,6 +264,8 @@ $mod+Shift+t
 >[!IMPORTANT]
 >Please - review official documentions for accurate integrations and dependencies! Documentation file included in general location in this repo by the name of: Documentation.
 
+<br>
+:boom:
 <br>
 <details> 
    
@@ -378,9 +379,9 @@ $mod+Shift+t
 <br>
 </details>
 <br>
+<br>
 
->[!IMPORTANT]
-> Check out the 'theme images' folder in the general section of this repo for a more detailed visual example of the i3 themes! 
+:zap: Check out the 'theme images' folder in the general section of this repo for a more detailed visual example of the i3 themes! 
 
 
 
