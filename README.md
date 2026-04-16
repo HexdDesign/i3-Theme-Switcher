@@ -334,6 +334,9 @@ $mod+Shift+t
     ᯓ➤ OR: Another way to generate a weather API ✶
 
 
+[SVG REPO: FREE OPEN-LICENSED SVG VECTOR AND ICONS](https://www.svgrepo.com/)
+
+
 [NERD FONTS](https://www.nerdfonts.com/)
 
 
