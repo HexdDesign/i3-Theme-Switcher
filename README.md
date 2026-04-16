@@ -116,8 +116,9 @@ $mod+Shift+t
 <summary>Click for some more important notes about this repo:</summary>
 <br>
 :warning: Do not physically add files such as: current.conf, current.env, etc. symlink files. The theme switcher script will handle it.
-<br>
 
+<br>
+<br>
 
 :star: ROFI:
 
@@ -127,6 +128,7 @@ $mod+Shift+t
 
 • app-themes/(name-of-theme) - This is the file to change icon theme
 
+<br>
 <br>
 
 :star: POLYBAR:
@@ -145,6 +147,7 @@ $mod+Shift+t
 
 ( Suggestion: Use OpenWeatherMap.org for free weather APIs ! )
 
+<br>
 <br>
 
 :star: EWW:
