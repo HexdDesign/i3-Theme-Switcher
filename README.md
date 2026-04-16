@@ -79,10 +79,18 @@
    
 - [Click to see i3's official site for more information about keybindings](https://i3wm.org/docs/userguide.html#_default_keybindings)
 
+<br>
+<br>
+
 >[!NOTE]
 >Keybind cheat sheet can be found within general file location in this repo as a text file by the name of - Keybind Cheat Sheet. However, here are some ones to note:
 
+<br>
+<br>
+
 :star: Mod4: ALT 
+
+<br>
 
 ### CUSTOM KEYBINDS:
 
@@ -113,8 +121,14 @@ $mod+Shift+t
 
 ***
 
+<br>
+<br>
+
 >[!TIP]
 >File location cheat sheet can also be found in the general location in this repo as a text file by the name of - File Location.
+
+<br>
+<br>
 
 ***
 
@@ -162,7 +176,7 @@ $mod+Shift+t
 
 • Polybar in this theme switcher has both a bottom and top bar. Comment out the top or bottom bar and adjust modules to your own discretion. 
 
-• As stated above, Eww widgets are hard coded to window locations and will look odd if moved without adjusting their position.
+• As stated below, Eww widgets are hard coded to window locations and will look odd if moved without adjusting their position.
 
 
 <br>
@@ -208,10 +222,11 @@ $mod+Shift+t
    - control dunst notification colors
      
 <br>
-<br>
-
+     
 </details>
 
+<br>
+<br>
 
 ***
 
@@ -238,14 +253,19 @@ $mod+Shift+t
      
 ***
 
-
+<br>
+<br>
 
 ────────────────────────────
 
 ## OFFICIAL DOCUMENTATIONS ・・・・・
 
+<br>
+
 >[!IMPORTANT]
->Please - review official documentions for accurate integrations and dependencies! Documentation file included in general location in this repo by the name of - Documentation.
+>Please - review official documentions for accurate integrations and dependencies! Documentation file included in general location in this repo by the name of: Documentation.
+
+<br>
 
 :zap: 〢ARCH LINUX WIKI
 
@@ -281,7 +301,7 @@ $mod+Shift+t
 
 [ARCH LINUX WIKI: PICOM - Standalone Compositor for Xorg](https://wiki.archlinux.org/title/Picom)
 
-
+<br>
 
 :zap: 〢GITHUB
 
@@ -299,7 +319,7 @@ $mod+Shift+t
 
 [GITHUB REPO: STARSHIP - Customizable Prompt](https://github.com/starship/starship)
 
-
+<br>
 
 :zap: 〢OTHER
 
@@ -318,7 +338,7 @@ $mod+Shift+t
 
 [GTK ICONS: Gnome-Look](https://www.gnome-look.org/)
 
-
+<br>
 
 :sparkles: 〢GTK ICONS
 
@@ -350,7 +370,7 @@ $mod+Shift+t
 
 [Ars-Light-Icons](https://www.gnome-look.org/p/2192424)
 
-
+<br>
 
 >[!IMPORTANT]
 > Check out the 'theme images' folder in the general section of this repo for a more detailed visual example of the i3 themes! 
