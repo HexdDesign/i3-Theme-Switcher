@@ -237,6 +237,24 @@ Click for some more important notes about this repo:
    - control dunst notification colors
      
 <br>
+<br>
+
+:star: **BTOP:**
+
+• Btop can be called in Kitty terminal by inputting the command:
+
+   ```
+  btop
+   ```
+
+<br>
+
+💫 Some Btop Examples: 
+
+![Scroll](https://github.com/HexdDesign/i3-Theme-Switcher/blob/e005a3979a31695f81932f38837ea3865673dd0e/theme%20images/Btopscroll.gif)
+
+
+
 
 <br>
 <br>
