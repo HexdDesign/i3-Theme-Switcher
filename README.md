@@ -153,6 +153,8 @@ Click for some more important notes about this repo:
 
 • app-themes/(name-of-theme) - This is the file to change icon theme
 
+💫 Some Rofi App Launcher: exampls of themed Rofi app launchers
+
 ![Scroll](https://github.com/HexdDesign/i3-Theme-Switcher/blob/625bb07edf201adf81af2080114a9430661395d7/theme%20images/Rofiswitch.gif)
 
 <br>
