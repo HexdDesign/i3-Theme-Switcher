@@ -137,9 +137,7 @@ $mod+Shift+t
 :seedling: 
 
 
-<details> 
-   
-<summary>Click for some more important notes about this repo:</summary>
+Click for some more important notes about this repo:
 <br>
 <br>
 :warning: Do not physically add files such as: current.conf, current.env, etc. symlink files. The theme switcher script will handle it.
@@ -223,8 +221,6 @@ $mod+Shift+t
    - control dunst notification colors
      
 <br>
-     
-</details>
 
 <br>
 <br>
