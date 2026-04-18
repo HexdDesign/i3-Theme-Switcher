@@ -210,6 +210,7 @@ Click for some more important notes about this repo:
     
 ( Change name-of-theme to the theme you would like to edit ! )
 
+<br>
 
 💫 Some Eww Sidebar Examples: to show themed sidebars with themed logo images and color matching quickapp SVGs.
 
