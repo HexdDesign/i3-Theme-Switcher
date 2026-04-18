@@ -192,7 +192,7 @@ Click for some more important notes about this repo:
    ~/.config/eww/eww.yuck
    ```
 
-   ── Then, be sure to create SVG icons accordingly and add them in:
+   ── Then, be sure to create SVG icons and logo image accordingly and add them in:
    ```
     ~/.config/eww/icons/(name-of-theme)
    ```
@@ -203,6 +203,9 @@ Click for some more important notes about this repo:
    ```
     
 ( Change name-of-theme to the theme you would like to edit ! )
+
+  ── Eww widgets also include: Bluetooth scanner, Network scanner, Brightness control, and Volume control.
+
 
 :cyclone: **Suggestion:** Use SVGRepo.com to create free SVG images for added sidebar quickapps. Colors used with other quickapps are included in a note in the 'Eww' file for an easy transition!
 
