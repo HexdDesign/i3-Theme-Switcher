@@ -204,6 +204,12 @@ Click for some more important notes about this repo:
     
 ( Change name-of-theme to the theme you would like to edit ! )
 
+
+💫 Some Eww Sidebar Examples: to show themed sidebars with themed logo images and color matching quickapp SVGs.
+
+![Scroll](https://github.com/HexdDesign/i3-Theme-Switcher/blob/e382623c7cad6e2cd1da14260f7708a7bd67f7bb/theme%20images/ewwsidebar.gif)
+
+
   ── Eww widgets also include: Bluetooth scanner, Network scanner, Brightness control, and Volume control.
 
 
